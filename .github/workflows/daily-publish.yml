@@ -1,0 +1,93 @@
+name: Publish & keep the Act up to date
+
+# No fixed schedule for the initial bulk load — start it yourself:
+# Actions tab -> "Publish & keep the Act up to date" -> Run workflow.
+# Once the site is fully loaded, switch on the schedule below (uncomment it) so the
+# daily amendment check runs by itself; the bulk-load jobs will simply find nothing
+# left to do and exit in a few seconds.
+on:
+  workflow_dispatch:
+    inputs:
+      retry_failed:
+        description: "Put previously failed sections/study-guides back in the queue?"
+        type: boolean
+        default: false
+      reseed:
+        description: "Rebuild the queue from the official PDF (first run, or to force a refresh)?"
+        type: boolean
+        default: false
+  # schedule:
+  #   - cron: "30 2 * * *"   # 08:00 IST daily amendment check, once bulk loading is done
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: publish-provisions
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      AI_PROVIDER: ${{ vars.AI_PROVIDER || 'gemini' }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      GEMINI_STUDY_MODEL: ${{ vars.GEMINI_STUDY_MODEL || 'gemini-2.5-pro' }}
+      GEMINI_COMMENTARY_MODEL: ${{ vars.GEMINI_COMMENTARY_MODEL || 'gemini-2.5-pro' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      RETRY_FAILED: ${{ inputs.retry_failed && '1' || '0' }}
+      TIME_BUDGET_MIN: "150"
+      COMMIT_EVERY: "10"
+      SLEEP_MS: ${{ vars.SLEEP_MS || '400' }}
+      CONCURRENCY: ${{ vars.STUDY_CONCURRENCY || '4' }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          npm install
+
+      - name: 1. Load the Act (first run) or check for amendments (later runs)
+        id: amend
+        run: |
+          if [ ! -d content/source ] || [ "${{ inputs.reseed }}" = "true" ]; then
+            node scripts/seed-queue.mjs
+          else
+            node scripts/check-amendments.mjs
+          fi
+          git config user.name "itax-automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/
+          git diff --cached --quiet || (git commit -m "content: Act data / amendment check $(date -u +%F)" && git push)
+
+      - name: 2. Write study guides (commentary, example, MCQs, mnemonics)
+        env:
+          TIME_BUDGET_MIN: "150"
+        run: node scripts/run-study-batch.mjs
+
+      - name: 3. Site build check
+        run: npm run build
+
+      - name: 4. Continue in a fresh run if there is more to do
+        if: steps.amend.outcome == 'success'
+        run: |
+          if node scripts/anything-left.mjs; then
+            gh workflow run daily-publish.yml
+          else
+            echo "Nothing left to do."
+          fi
