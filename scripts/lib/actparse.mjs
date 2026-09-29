@@ -16,7 +16,10 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     .split("\n")
     .map((l) => l.replace(/\s+$/, "").trim())
     .filter((l) => l !== "" && !/^\d+$/.test(l));
-  const start = lines.findIndex((l) => /^CHAPTER I$/.test(l));
+  let start = -1;
+  for (let i = 0; i < lines.length; i++) if (/^CHAPTER I$/.test(lines[i])) start = i;
+  // Some trusted reproductions (e.g. ICAI) include a section-mapping table before the bare Act.
+  // Use the last Chapter I so mapping-table rows cannot be mistaken for statutory sections.
   if (start < 0) throw new Error('Could not find "CHAPTER I" in the text — is this the Act?');
 
   let expected = 1, endIdx = lines.length;
