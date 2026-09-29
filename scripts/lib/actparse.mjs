@@ -77,8 +77,11 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     if (n !== expected) continue;
     let body = m[2].trim();
     if (!body && i + 1 < lines.length) body = lines[i + 1].trim();
-    const bodyOk = /^(?:\(|[A-Z“‘]|\d)/.test(body);
-    if (!bodyOk || n > lastSection) continue;
+    const nextLine = (lines[i + 1] || "").trim();
+    const bodyLooksLikeHeading = /^(?:\(1\)|[A-Z“‘]|\d)/.test(body);
+    const hasSubsectionStart = /^\(1\)/.test(body) || /^\(1\)/.test(nextLine);
+    const looksLikeTableRow = /;/.test(body) && !/^\(1\)/.test(body);
+    if (!bodyLooksLikeHeading || !hasSubsectionStart || looksLikeTableRow || n > lastSection) continue;
 
     let title = `Section ${n}`;
     const headingLike = (value) => {
