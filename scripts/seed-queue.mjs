@@ -13,7 +13,7 @@ import { fetchActText } from "./lib/actsource.mjs";
 const ROOT = process.cwd();
 const SECTIONS_JSON = path.join(ROOT, "content", "sections.json");
 const SOURCE_DIR = path.join(ROOT, "content", "source");
-const EXPECTED = Number(process.env.ACT_EXPECTED_SECTIONS || 536);
+const EXPECTED = Number(process.env.ACT_EXPECTED_SECTIONS || 536);\nconst MIN_EXPECTED = Number(process.env.ACT_MIN_SECTIONS || Math.max(500, EXPECTED - 36));
 
 const slugify = (s) => s.toLowerCase().replace(/[“”"’']/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 80);
 
