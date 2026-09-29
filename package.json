@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/build-sitemap.mjs && node scripts/build-search-index.mjs",
     "preview": "astro preview",
-    "seed": "node scripts/seed-queue.mjs",
+    "seed": "node scripts/seed-queue.mjs",\n    "seed:force": "FORCE_SOURCE=1 node scripts/seed-queue.mjs",
     "publish:batch": "node scripts/run-batch.mjs",
     "validate": "node scripts/validate.mjs",
     "content:new": "node scripts/queue-add.mjs",
