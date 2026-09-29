@@ -6,6 +6,9 @@ name: Publish & keep the Act up to date
 # daily amendment check runs by itself; the bulk-load jobs will simply find nothing
 # left to do and exit in a few seconds.
 on:
+  push:
+    paths:
+      - ".github/workflows/daily-publish.yml"
   workflow_dispatch:
     inputs:
       retry_failed:
