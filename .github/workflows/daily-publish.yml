@@ -73,8 +73,9 @@ jobs:
         id: amend
         run: |
           SOURCE_COUNT=$(find content/source -maxdepth 1 -type f -name "itax2025-s*.txt" 2>/dev/null | wc -l)
-          if [ "${{ inputs.reseed }}" = "true" ] || [ "$SOURCE_COUNT" -lt 500 ]; then
+          if [ "${{ inputs.reseed }}" = "true" ] || [ "$SOURCE_COUNT" -lt 500 ] || [ -f content/.force-reseed ]; then
             FORCE_SOURCE=1 node scripts/seed-queue.mjs
+  rm -f content/.force-reseed
   rm -f content/.force-reseed
           else
             node scripts/check-amendments.mjs
