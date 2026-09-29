@@ -80,19 +80,21 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     const bodyOk = /^(?:\(|[A-Z“‘]|\d)/.test(body);
     if (!bodyOk || n > lastSection) continue;
 
-    const prevTrim = (lines[i - 1] || "").trim();
     let title = `Section ${n}`;
-    const inlineTitle = body
-      .replace(/^\[[^\]]+\]\s*/, "")
-      .replace(/\s*—\s*$/, "")
-      .trim();
-    if (inlineTitle && inlineTitle.length < 220 && /[A-Za-z]/.test(inlineTitle) &&
-        !/^\(/.test(inlineTitle) && !/^Table$/i.test(inlineTitle)) {
-      title = inlineTitle.replace(/\.$/, "").trim();
-    } else if (prevTrim && prevTrim.length < 220 && /[A-Za-z]/.test(prevTrim) &&
-        !/^CHAPTER\s+/i.test(prevTrim) && !/^SCHEDULE\s+/i.test(prevTrim) &&
-        !/^\d+\.$/.test(prevTrim) && !/^PART\s+/i.test(prevTrim)) {
-      title = prevTrim.replace(/\.$/, "").trim();
+    const headingLike = (value) => {
+      const x = value.trim();
+      if (!x || x.length > 180 || !/[A-Za-z]/.test(x)) return false;
+      if (/^\\(?[a-zA-Z0-9]|^Table\\b|^Sl\\.\\s*No\\b|^A\\s+B\\s+C\\b/i.test(x)) return false;
+      if (/[₹%]=/.test(x)) return false;
+      if (/^(and|or|where|if|unless|in case|the amount|any amount|more than|less than|upto|up to)\\b/i.test(x)) return false;
+      return true;
+    };
+    for (let j = i - 1; j >= Math.max(start, i - 8); j--) {
+      const candidate = lines[j].replace(/\\.$/, "").trim();
+      if (headingLike(candidate)) {
+        title = candidate;
+        break;
+      }
     }
 
     found.push({ n, title, idx: i, bodyBoundary: headStart !== null ? Math.min(headStart, i) : i,
