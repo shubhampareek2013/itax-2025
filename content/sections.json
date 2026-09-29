@@ -1,0 +1,61 @@
+{
+  "_comment": "Deterministic publishing queue. The daily workflow picks the FIRST item with status 'pending', in array order. Never re-orders or randomly selects. Add new items with `npm run content:new` or by hand, always at the end of the array, always with status 'pending'.",
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "itax2025-s004",
+      "act": "Income-tax Act, 2025",
+      "section": "4",
+      "title": "Charge of Income-tax",
+      "chapter": "Chapter II — Basis of charge",
+      "category": "Tax Administration",
+      "status": "published",
+      "slug": "charge-of-income-tax",
+      "published_date": "2026-09-27",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.incometaxindia.gov.in/documents/d/guest/income_tax_act_2025_as_amended_by_fa_act_2026-pdf",
+        "https://www.incometaxindia.gov.in/documents/d/guest/press-release-income-tax-act-2025-comes-into-force-from-01-april-2026-pdf"
+      ]
+    },
+    {
+      "id": "itax2025-s003",
+      "act": "Income-tax Act, 2025",
+      "section": "3",
+      "title": "Definition of \"Tax Year\"",
+      "chapter": "Chapter I — Preliminary",
+      "category": "Tax Administration",
+      "status": "pending",
+      "slug": "definition-of-tax-year",
+      "published_date": null,
+      "last_verified": null,
+      "sources": []
+    },
+    {
+      "id": "itax2025-s002",
+      "act": "Income-tax Act, 2025",
+      "section": "2",
+      "title": "Definitions",
+      "chapter": "Chapter I — Preliminary",
+      "category": "Tax Administration",
+      "status": "pending",
+      "slug": "definitions",
+      "published_date": null,
+      "last_verified": null,
+      "sources": []
+    },
+    {
+      "id": "itax2025-s006",
+      "act": "Income-tax Act, 2025",
+      "section": "6",
+      "title": "Residence in India",
+      "chapter": "Chapter II — Basis of charge",
+      "category": "Tax Administration",
+      "status": "pending",
+      "slug": "residence-in-india",
+      "published_date": null,
+      "last_verified": null,
+      "sources": []
+    }
+  ]
+}

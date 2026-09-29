@@ -1,0 +1,26 @@
+{
+  "_comment": "Verified 1961 -> 2025 mappings only. Add an entry only after checking the official Act text or an Income Tax Department source. Statuses: same substance | modified | renumbered | new provision | removed | uncertain",
+  "terms": [
+    {
+      "old": "Previous year",
+      "new": "Tax year",
+      "status": "modified",
+      "note": "The 2025 Act uses a single 'tax year' concept in place of the previous year / assessment year pair."
+    },
+    {
+      "old": "Assessment year",
+      "new": "Tax year",
+      "status": "modified",
+      "note": "Merged into the single 'tax year' concept; no separate assessment year in the 2025 Act."
+    }
+  ],
+  "sections": [
+    {
+      "old": "Section 4 (1961 Act)",
+      "new": "Section 4 (2025 Act)",
+      "status": "modified",
+      "note": "Charging section. Restructured from two sub-sections and a proviso into five sub-sections in simpler language; the underlying charge is unchanged.",
+      "article": "charge-of-income-tax"
+    }
+  ]
+}
