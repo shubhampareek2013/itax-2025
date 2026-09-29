@@ -32,11 +32,20 @@ export async function fetchActText() {
     ({ bytes, origin } = await tryPdf(PDF_URL, "official website"));
   } catch (officialError) {
     try {
+      const tmp = path.join(os.tmpdir(), "act2025-official.pdf");
+      execFileSync("curl", ["-fL", "--retry", "3", "--retry-delay", "2", "-A", "Mozilla/5.0", "-H", "Accept: application/pdf,*/*", "-o", tmp, PDF_URL], { stdio: "ignore" });
+      const b = fs.readFileSync(tmp);
+      if (b.subarray(0, 4).toString() !== "%PDF") throw new Error("curl response was not a PDF");
+      bytes = b; origin = "official website (curl fallback)";
+    } catch (curlError) {
+    try {
+    try {
       ({ bytes, origin } = await tryPdf(FALLBACK_PDF_URL, "ICAI reproduced Act (fallback; official PDF unavailable)"));
     } catch (fallbackError) {
       const local = path.join(process.cwd(), "content", "act", "act-2025.pdf");
       if (fs.existsSync(local)) { bytes = fs.readFileSync(local); origin = "content/act/act-2025.pdf (local fallback — must pass full-section validation)"; }
-      else throw new Error(`Could not download the official Act PDF (${officialError.message}) or the validated fallback (${fallbackError.message}).`);
+      else throw new Error(`Could not download the official Act PDF (${officialError.message}; curl: ${curlError.message}) or the validated fallback (${fallbackError.message}).`);
+    }
     }
   }
   const pdf = path.join(os.tmpdir(), "act2025.pdf"), txt = path.join(os.tmpdir(), "act2025.txt");
