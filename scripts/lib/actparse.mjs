@@ -82,7 +82,14 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
 
     const prevTrim = (lines[i - 1] || "").trim();
     let title = `Section ${n}`;
-    if (prevTrim && prevTrim.length < 220 && /[A-Za-z]/.test(prevTrim) &&
+    const inlineTitle = body
+      .replace(/^\[[^\]]+\]\s*/, "")
+      .replace(/\s*—\s*$/, "")
+      .trim();
+    if (inlineTitle && inlineTitle.length < 220 && /[A-Za-z]/.test(inlineTitle) &&
+        !/^\(/.test(inlineTitle) && !/^Table$/i.test(inlineTitle)) {
+      title = inlineTitle.replace(/\.$/, "").trim();
+    } else if (prevTrim && prevTrim.length < 220 && /[A-Za-z]/.test(prevTrim) &&
         !/^CHAPTER\s+/i.test(prevTrim) && !/^SCHEDULE\s+/i.test(prevTrim) &&
         !/^\d+\.$/.test(prevTrim) && !/^PART\s+/i.test(prevTrim)) {
       title = prevTrim.replace(/\.$/, "").trim();
