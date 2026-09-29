@@ -1,0 +1,18 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getPublishedItems } from "../../lib/content.mjs";
+const items = getPublishedItems().sort((a, b) => (b.published_date || "").localeCompare(a.published_date || ""));
+---
+<Layout title="Latest updates" canonicalPath="/latest-updates">
+  <div class="wrap">
+    <div class="page-head" style="padding-top:24px"><div class="eyebrow">Updates</div><h1 style="margin-top:8px">Latest updates</h1><p>Every newly published provision, newest first. Also available as an <a href="/rss.xml">RSS feed</a>.</p></div>
+    <div class="grid" style="gap:12px">
+      {items.map((i) => (
+        <a class="card" href={`/income-tax-act-2025/section/${i.slug}`} style="display:flex;justify-content:space-between;gap:16px;align-items:center">
+          <div><span class="tag law">Section {i.section}</span><h3 style="font-size:19px;margin:6px 0 2px">{i.title}</h3><span class="muted" style="font-size:14px">{i.chapter}</span></div>
+          <span class="muted" style="font-size:14px;white-space:nowrap">{i.published_date}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

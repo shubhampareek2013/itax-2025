@@ -1,0 +1,74 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { loadQueue, hasSource, loadStudy } from "../../lib/content.mjs";
+const items = loadQueue().items.sort((a, b) => Number(a.section) - Number(b.section));
+const topics = [...new Set(items.map((i) => i.category))];
+const chapterCount = new Set(items.map((i) => i.chapter)).size;
+const pub = items.filter((i) => hasSource(i.id) || i.status === "published").length;
+---
+<Layout title="Income-tax Act, 2025 — Sections Explained" canonicalPath="/income-tax-act-2025">
+  <style>
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 22px; }
+    .row h3 { font-size: 18px; font-weight: 600; margin: 4px 0 2px; }
+    .row p { margin: 0; font-size: 14px; color: var(--text-2); }
+    .row.soon { opacity: .55; }
+    .row.hide { display: none; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 18px; }
+    #q { width: 100%; padding: 15px 20px; font: inherit; font-size: 18px; border-radius: 14px; border: 1px solid var(--line); background: var(--card); color: var(--text); outline: 0; }
+    #q:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+    .list { display: grid; gap: 10px; }
+  </style>
+  <div class="wrap">
+    <div class="page-head" style="padding-top:24px">
+      <div class="eyebrow">Act No. 30 of 2025 · in force 1 April 2026</div>
+      <h1 style="margin-top:8px">Sections explained</h1>
+      <p>{pub} sections online. Every section of the Act is queued in its official order — no gaps, no duplicates.</p>
+    </div>
+    <input id="q" type="search" placeholder="Filter by section number, title or topic…" />
+    <div class="filters">
+      <button class="chip on" data-topic="">All</button>
+      {topics.map((t) => <button class="chip" data-topic={t}>{t}</button>)}
+      <button class="chip" data-status="published">Available only</button>
+    </div>
+    <div class="list" id="list">
+      {items.map((i) => {
+        const live = hasSource(i.id) || i.status === "published";
+        const guide = live && !!loadStudy(i.id);
+        const inner = (
+          <>
+            <div>
+              <span class="tag law">Section {i.section}</span>
+              <h3>{i.title}</h3>
+              <p>{i.chapter} · {i.category}</p>
+            </div>
+            <span class="muted" style="font-size:14px;white-space:nowrap">{live ? (guide ? "Study guide →" : "Read →") : "Coming soon"}</span>
+          </>
+        );
+        return live
+          ? <a class="card row" href={`/income-tax-act-2025/section/${i.slug}`} data-t={i.category} data-live="1" data-k={`${i.section} ${i.title} ${i.category} ${i.chapter}`.toLowerCase()}>{inner}</a>
+          : <div class="card row soon" data-t={i.category} data-k={`${i.section} ${i.title} ${i.category} ${i.chapter}`.toLowerCase()}>{inner}</div>;
+      })}
+    </div>
+  </div>
+  <script is:inline>
+    var rows = [].slice.call(document.querySelectorAll("#list .row")), q = document.getElementById("q");
+    var topic = "", onlyLive = false;
+    function apply() {
+      var s = q.value.trim().toLowerCase();
+      rows.forEach(function (r) {
+        var ok = (!topic || r.dataset.t === topic) && (!onlyLive || r.dataset.live) && (!s || r.dataset.k.indexOf(s) > -1);
+        r.classList.toggle("hide", !ok);
+      });
+    }
+    document.querySelectorAll(".filters .chip").forEach(function (c) {
+      c.addEventListener("click", function () {
+        if (c.dataset.status) { onlyLive = !onlyLive; c.classList.toggle("on", onlyLive); }
+        else { topic = c.dataset.topic; document.querySelectorAll(".filters .chip[data-topic]").forEach(function (x) { x.classList.toggle("on", x === c); }); }
+        apply();
+      });
+    });
+    q.addEventListener("input", apply);
+    var p = new URLSearchParams(location.search).get("topic");
+    if (p) { topic = p; document.querySelectorAll(".filters .chip[data-topic]").forEach(function (x) { x.classList.toggle("on", x.dataset.topic === p); }); apply(); }
+  </script>
+</Layout>

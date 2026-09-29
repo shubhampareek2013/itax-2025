@@ -1,0 +1,87 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { loadAmendments, loadStatus, loadQueue, loadSource, hasSource } from "../../lib/content.mjs";
+import { extractFootnotes } from "../../lib/footnotes.mjs";
+import { esc, renderHunks } from "../../lib/render.mjs";
+import { marked } from "marked";
+
+const amendments = loadAmendments();
+const status = loadStatus();
+const queue = loadQueue();
+const bySection = new Map(queue.items.map((i) => [i.id, i]));
+const dates = [...new Set(amendments.map((a) => a.date_detected))];
+
+// Amendments already built into the baseline text (e.g. by the Finance Act, 2026)
+const baseline = [];
+for (const it of queue.items) {
+  if (!hasSource(it.id)) continue;
+  const notes = extractFootnotes(loadSource(it.id));
+  if (notes.length) baseline.push({ it, notes });
+}
+baseline.sort((a, b) => Number(a.it.section) - Number(b.it.section));
+---
+<Layout title="Amendments — Income-tax Act, 2025" description="Changes to the Income-tax Act, 2025 detected by the daily check of the official text, highlighted word by word with commentary." canonicalPath="/amendments">
+  <style is:global>
+        .hunk { font-size: 15px; line-height: 1.7; padding: 14px 16px; border-radius: 14px; background: var(--bg-2); margin: 10px 0; }
+    .hunk del { background: rgba(255,59,48,.14); color: #c4271c; text-decoration: line-through; padding: 0 2px; border-radius: 3px; }
+    .hunk ins { background: rgba(52,199,89,.18); color: #1a7f37; text-decoration: none; padding: 0 2px; border-radius: 3px; font-weight: 500; }
+    .hunk .gap { color: var(--text-2); }
+    :root[data-theme="dark"] .hunk del { color: #ff8a80; } :root[data-theme="dark"] .hunk ins { color: #6be08a; }
+    .legend { font-size: 13px; color: var(--text-2); } .legend del { background: rgba(255,59,48,.14); padding: 0 4px; border-radius: 3px; } .legend ins { background: rgba(52,199,89,.18); padding: 0 4px; border-radius: 3px; text-decoration: none; }
+    .am { margin-bottom: 18px; } .am h3 { font-size: 21px; margin: 8px 0 4px; }
+    .commentary { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 4px; } .commentary p, .commentary li { font-size: 16px; }
+    .datehead { font-size: 22px; font-weight: 700; margin: 34px 0 12px; }
+    .statusbar { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+    details.b { border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; margin-bottom: 10px; background: var(--card); }
+    details.b summary { cursor: pointer; font-weight: 600; }
+    details.b li { font-size: 15px; margin: 6px 0; }
+  </style>
+  <div class="wrap narrow" style="max-width:860px">
+    <div class="page-head" style="padding-top:24px">
+      <div class="eyebrow">Amendments</div>
+      <h1 style="margin-top:8px">What has changed</h1>
+      <p>Every day the official Act is compared with the stored version. Any change in wording is shown here, word by word, with commentary.</p>
+      <div class="statusbar">
+        {status ? (<>
+          <span class="chip">Last checked {status.last_checked}</span>
+          <span class="chip">{status.last_changed ? `Last change ${status.last_changed}` : "No change since baseline"}</span>
+          <span class="chip">Baseline {status.baseline_date}</span>
+        </>) : <span class="chip">Daily check starts once the Act data is loaded</span>}
+      </div>
+      <p class="legend" style="margin-top:16px"><del>removed</del> &nbsp;<ins>added</ins></p>
+    </div>
+
+    <h2 style="font-size:28px;margin:10px 0 6px">Detected changes</h2>
+    {amendments.length === 0 && <div class="card"><b>No amendments detected yet.</b><p class="muted" style="margin:6px 0 0">The baseline is the official text as amended by the Finance Act, 2026. When the Income Tax Department publishes an updated version, the differences appear here.</p></div>}
+    {dates.map((d) => (
+      <>
+        <div class="datehead">{d}</div>
+        {amendments.filter((a) => a.date_detected === d).map((a) => {
+          const it = bySection.get(a.section_id);
+          return (
+            <div class="card am">
+              <span class="tag guid">{a.kind}</span>
+              <h3>Section {a.section} — {a.title}</h3>
+              <div class="muted" style="font-size:14px">{a.chapter} · +{a.added_words} / −{a.removed_words} words{it ? <> · <a href={`/income-tax-act-2025/section/${it.slug}`}>Read the section →</a></> : null}</div>
+              <Fragment set:html={renderHunks(a.hunks)} />
+              {a.commentary
+                ? <div class="commentary"><Fragment set:html={marked.parse(a.commentary)} /></div>
+                : <p class="muted" style="font-size:14px">{a.commentary_status === "withheld" ? a.commentary_note : "Commentary is being prepared."}</p>}
+            </div>
+          );
+        })}
+      </>
+    ))}
+
+    <h2 style="font-size:28px;margin:54px 0 6px">Already built into the baseline text</h2>
+    <p class="muted">Amendments by the Finance Act, 2026 that the official consolidated text already includes, as printed in its footnotes. {baseline.length} section(s).</p>
+    {baseline.length === 0 && <div class="card">Available once the Act data has been loaded.</div>}
+    {baseline.map(({ it, notes }) => (
+      <details class="b">
+        <summary>Section {it.section} — {it.title} <span class="muted" style="font-weight:400">({notes.length})</span></summary>
+        <ul>{notes.map((n) => <li><b>{n.kind[0].toUpperCase() + n.kind.slice(1)}</b>{n.wef ? ` w.e.f. ${n.wef}` : ""} — {n.text}</li>)}</ul>
+        <a href={`/income-tax-act-2025/section/${it.slug}`}>Open section →</a>
+      </details>
+    ))}
+  </div>
+</Layout>

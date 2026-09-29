@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+// Every calculator is a plain deterministic JS module under /src/lib/calculators/.
+// AI is never used for the arithmetic. Rates/slabs are wired in only after verification
+// against the Finance Act in force — see src/lib/calculators/README.md.
+const calculators = [
+  ["Income tax — old vs new regime", "Compare both regimes side by side."],
+  ["Capital gains", "Short and long term, with indexation rules where applicable."],
+  ["TDS", "Deduction at source by nature of payment."],
+  ["HRA", "House-rent allowance exemption."],
+  ["Deductions", "Chapter VI-A style deductions under the 2025 Act."],
+  ["Advance tax", "Instalment dates and amounts."]
+];
+---
+<Layout title="Tax calculators" canonicalPath="/tax-calculators">
+  <div class="wrap">
+    <div class="page-head" style="padding-top:24px">
+      <div class="eyebrow">Calculators</div>
+      <h1 style="margin-top:8px">Tax calculators</h1>
+      <p>Plain deterministic code — never AI — does the arithmetic. Each calculator goes live only after its rates and limits are checked against the Finance Act in force.</p>
+    </div>
+    <div class="grid g3">
+      {calculators.map(([n, d]) => (
+        <div class="card"><span class="tag ai">Verifying rates</span><h3 style="font-size:20px;margin:12px 0 6px">{n}</h3><p class="muted" style="margin:0;font-size:15px">{d}</p></div>
+      ))}
+    </div>
+  </div>
+</Layout>

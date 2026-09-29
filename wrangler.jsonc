@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "itax-2025",
+  "compatibility_date": "2026-01-01",
+  // This is a static Astro site — no Worker code, just files. Wrangler serves
+  // everything in `dist/` (created by `npm run build`) directly as static assets.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

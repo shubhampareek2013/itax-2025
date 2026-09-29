@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+<Layout title="Search" canonicalPath="/search">
+  <div class="wrap">
+    <div class="page-head" style="padding-top:24px"><h1>Search</h1><p>Find any section, term or topic.</p></div>
+    <button class="btn" data-open-search>Open search</button>
+    <p class="muted" style="margin-top:18px">Tip: press <span class="kbd">Ctrl</span> + <span class="kbd">K</span> (or <span class="kbd">⌘ K</span>, or <span class="kbd">/</span>) on any page.</p>
+  </div>
+  <script is:inline>
+    addEventListener("load", function () {
+      var q = new URLSearchParams(location.search).get("q");
+      var b = document.querySelector("[data-open-search]"); if (b) b.click();
+      if (q) setTimeout(function () { var i = document.getElementById("pal-input"); i.value = q; i.dispatchEvent(new Event("input")); }, 250);
+    });
+  </script>
+</Layout>
