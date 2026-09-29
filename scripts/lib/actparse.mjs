@@ -2,7 +2,7 @@
 // Deterministic — no AI. Section titles, numbers, chapters and the statutory text
 // all come straight from the official document.
 
-const isChapterLine = (l) => /^CHAPTER\s+[IVXLC]+(-[A-Z])?$/.test(l);
+const isChapterLine = (l) => /^CHAPTER\s+[IVXLC]+(?:\s*[-–—]\s*.*)?$/.test(l);
 const isPartLine = (l) => /^[A-Z]{1,2}\.\s?[—–-]/.test(l);
 const isUpperLine = (l) => /^[A-Z0-9 ,’'&()\-—–:]+$/.test(l) && /[A-Z]/.test(l);
 const FOOT = /^\d+[a-z]?\.\s+(Substituted|Omitted|Inserted|Amended|Added|Words|Item|Items|Renumbered|Re-numbered|Ins\.|Subs\.)/i;
@@ -17,7 +17,7 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     .map((l) => l.replace(/\s+$/, "").trim())
     .filter((l) => l !== "" && !/^\d+$/.test(l));
   let start = -1;
-  for (let i = 0; i < lines.length; i++) if (/^CHAPTER I$/.test(lines[i])) start = i;
+  for (let i = 0; i < lines.length; i++) if (/^CHAPTER\s+I(?:\s*[-–—]\s*.*)?$/.test(lines[i])) start = i;
   // Some trusted reproductions (e.g. ICAI) include a section-mapping table before the bare Act.
   // Use the last Chapter I so mapping-table rows cannot be mistaken for statutory sections.
   if (start < 0) throw new Error('Could not find "CHAPTER I" in the text — is this the Act?');
