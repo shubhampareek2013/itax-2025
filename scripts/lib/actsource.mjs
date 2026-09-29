@@ -34,6 +34,6 @@ export async function fetchActText() {
   }
   const pdf = path.join(os.tmpdir(), "act2025.pdf"), txt = path.join(os.tmpdir(), "act2025.txt");
   fs.writeFileSync(pdf, bytes);
-  execFileSync("pdftotext", ["-enc", "UTF-8", pdf, txt]);
+  execFileSync("pdftotext", ["-layout", "-nopgbrk", "-enc", "UTF-8", pdf, txt]);
   return { text: fs.readFileSync(txt, "utf-8"), sha256: sha(bytes), origin };
 }
