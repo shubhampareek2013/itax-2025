@@ -60,13 +60,14 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
-          npm install
+          npm ci
 
       - name: 1. Load the Act (first run) or check for amendments (later runs)
         id: amend
         run: |
-          if [ ! -d content/source ] || [ "${{ inputs.reseed }}" = "true" ]; then
-            node scripts/seed-queue.mjs
+          SOURCE_COUNT=$(find content/source -maxdepth 1 -type f -name "itax2025-s*.txt" 2>/dev/null | wc -l)
+          if [ "${{ inputs.reseed }}" = "true" ] || [ "$SOURCE_COUNT" -lt 500 ]; then
+            FORCE_SOURCE=1 node scripts/seed-queue.mjs
           else
             node scripts/check-amendments.mjs
           fi
@@ -87,7 +88,7 @@ jobs:
         if: steps.amend.outcome == 'success'
         run: |
           if node scripts/anything-left.mjs; then
-            gh workflow run daily-publish.yml
+            gh workflow run daily-publish.yml -f retry_failed=false -f reseed=false
           else
             echo "Nothing left to do."
           fi

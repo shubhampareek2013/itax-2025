@@ -13,7 +13,7 @@ import { fetchActText } from "./lib/actsource.mjs";
 const ROOT = process.cwd();
 const SECTIONS_JSON = path.join(ROOT, "content", "sections.json");
 const SOURCE_DIR = path.join(ROOT, "content", "source");
-const EXPECTED = Number(process.env.ACT_EXPECTED_SECTIONS || 536);
+const EXPECTED = Number(process.env.ACT_EXPECTED_SECTIONS || 536);\nconst MIN_EXPECTED = Number(process.env.ACT_MIN_SECTIONS || Math.max(500, EXPECTED - 36));
 
 const slugify = (s) => s.toLowerCase().replace(/[“”"’']/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 80);
 
@@ -23,7 +23,7 @@ console.log(`Source: ${origin}`);
 const { sections, missing, lastFound } = parseAct(text, { lastSection: EXPECTED });
 console.log(`Parsed ${sections.length} sections (last found: ${lastFound}).`);
 if (missing.length) console.warn(`WARNING: could not locate section(s): ${missing.join(", ")}`);
-if (sections.length === 0) {
+if (sections.length < MIN_EXPECTED || lastFound < MIN_EXPECTED) {\n  console.error(`Parsed only ${sections.length} sections (last found: ${lastFound}); refusing to replace the queue because this looks like a partial/broken PDF extraction. Expected about ${EXPECTED}.`);\n  process.exit(1);\n}\nif (sections.length !== EXPECTED) console.warn(`Parsed ${sections.length} sections instead of expected ${EXPECTED}; continuing because the result passed the safety threshold.`);\nif (sections.length === 0) {
   console.error(`No Act sections were found in the source text. Not touching the queue.`);
   process.exit(1);
 }
