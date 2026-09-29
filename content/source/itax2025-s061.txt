@@ -1,0 +1,162 @@
+61. (1) The provisions of sections 26 to 54, to the extent contrary to this
+section, shall not apply to the manner of computation of profits and gains of the
+specified business in sub-section (2).
+(2) The profits and gains of any specified business as mentioned in column
+B of the Table below, carried on by a specified assessee as mentioned in column
+C of the said Table during a tax year, shall be computed in the manner specified
+in column D thereof, and shall be deemed to be the profits and gains of such
+business of such assessee chargeable to tax for the said tax year under the head
+“Profits and gains of business or profession”.
+Direct Taxes Committee                                                            116
+CH. IV D.- PROFITS AND GAINS OF BUSINESS OR PROFESSION                [Sec 26-66]
+Table
+Sl No.       Specified business       Specified            Profits and gains of
+assessee          business or profession
+A                   B                   C                       D
+1.     Business of operation of Non- resident.       7.5% of (A+B),
+ships, other than cruise                  where,––
+ships referred to in Serial                   A = sum on account of
+number 2.                                 carriage    of passengers,
+livestock, mail or goods
+shipped at any port in India,
+whether paid or payable, in
+or outside India, to the
+assessee or any other person
+on his behalf (including
+demurrage, handling or other
+similar charges);
+B = sum on account of
+carriage    of passengers,
+livestock, mail or goods
+shipped at any port outside
+India, whether received or
+deemed to be received in
+India, by the assessee or any
+other person on his behalf
+(including         demurrage,
+handling or other similar
+charges).
+2.     Business of operation of Non-resident. 20% of (A+B),
+cruise ships (subject to                  where,––
+the conditions as may be                     A = sum on account of
+prescribed44).                            carriage of passengers, paid
+or payable to the assessee or
+any other person on his
+behalf;
+B = sum on account of
+carriage     of    passengers
+received or deemed to be
+received by the assessee or
+any other person on his
+behalf.
+3.    Business of operation       Non-resident.   5% of (A+B),
+of aircraft.                              where,––
+A = sum on account of
+carriage    of passengers,
+livestock, mail or goods from
+44 Rule 44, Income Tax Rules, 2026.
+Direct Taxes Committee                                                       117
+Income-tax Act, 2025                                               [Sec 26-66]
+Sl No.     Specified business     Specified            Profits and gains of
+assessee           business or profession
+A               B                 C                         D
+any place in India, paid or
+payable (in or outside India)
+to the assessee or any other
+person on his behalf;
+B = sum on account of
+carriage    of passengers,
+livestock, mail or goods from
+any place outside India,
+received or deemed to be
+received in India, by the
+assessee or any other person
+on his behalf.
+4.    Business      of     civil Foreign     10% of the amount towards
+construction or erection company.      such civil construction,
+or       testing       or              erection,      testing,     or
+commissioning, of plant                commissioning, paid or
+or     machinery,       in             payable, to the assessee or to
+connection      with     a             any other person on his
+turnkey power project,                 behalf, whether in or outside
+approved by the Central                India.
+Government.
+5.    Business of providing Non- resident.   10% of (A+B),
+services or facilities                 where,––
+(including supply of                      A = sum on account of
+plant and machinery on                 business     of     providing
+hire) for prospecting,                 services and facilities in
+extraction or production               connection with, or supply of
+of mineral oils.                       plant and machinery on hire
+used, or to be used, in the
+prospecting for, or extraction
+or production of mineral oils
+in India, paid or payable (in
+or outside India), to the
+assessee or any other person
+on his behalf;
+B = sum on account of
+business     of     providing
+services and facilities in
+connection with, or supply of
+plant and machinery on hire
+used, or to be used, in the
+prospecting for, or extraction
+or production of mineral oils
+outside India, received or
+Direct Taxes Committee                                                      118
+CH. IV D.- PROFITS AND GAINS OF BUSINESS OR PROFESSION                  [Sec 26-66]
+Sl No.        Specified business       Specified             Profits and gains of
+assessee            business or profession
+A                  B                   C                         D
+deemed to be received in
+India, by the assessee or any
+other person on his behalf.
+6.      Business of providing Non-                    25% of (A+B),
+services or technology in resident.         where,––
+India, for the purposes of                     A = the amount paid or
+setting up an electronics                   payable to the non-resident
+manufacturing facility or                   assessee or to any person on
+in connection with                          his behalf on account of
+manufacturing           or                  providing      services     or
+producing       electronic                  technology;
+goods, article or thing in                     B = the amount received
+India to a resident                         or deemed to be received by
+company.                                    the non-resident assessee or
+on behalf of non-resident
+assessee on account of
+providing      services     or
+technology.
+(3) For the purposes of sub-section (2) (Table: Sl. Nos. 4 and 5) the
+specified assessee may claim that the profits actually earned from the specified
+business are lower than the business profits computed under sub-section (2), if,–
+(a) he keeps and maintains such books of account and other documents
+as required under section 62; and
+(b) gets his accounts audited and furnish a report of such audit as
+required under section 63.
+(4) Any loss, allowance or deduction allowable under the provisions of this
+Act shall not be allowed against the income computed in the manner specified in
+sub-section (2).
+(5) The written down value of any asset used for the purposes of specified
+business or profession shall be computed, as if the assessee mentioned in column
+C of the Table in sub-section (2) had claimed and was actually allowed
+depreciation thereon for each of the relevant tax years.
+(6) For the purposes of sub-section (2) (Table: Sl. No. 5) the provisions of
+this section shall not apply where the provisions of section 54 or 59 or 207 or 527
+apply for the purposes of computing profits and gains or any other income referred
+to in the said sections.
+(7) For the purposes of sub-section (2) (Table: Sl. No. 5), “plant” includes
+ships, aircrafts, vehicles, drilling units, scientific apparatuses and equipments used
+for the purposes of the specified business.
+(8) For the purposes of sub-section (2) (Table: Sl. No. 6), resident company
+shall satisfy the following:—
+Direct Taxes Committee                                                           119
+Income-tax Act, 2025                                                     [Sec 26-66]
+(a) it is establishing or operating electronics manufacturing facility or
+a connected facility for manufacturing or producing electronic goods, article
+or thing in India, under a scheme notified by the Central Government in the
+Ministry of Electronics and Information Technology; and
+(b) it satisfies the conditions as may be prescribed45 in this behalf.
+(9) The provisions of sections 59 and 207 shall not apply to amounts referred
+to in sub-section (2) (Table: Sl. No. 6).
+Maintenance of books of account.46

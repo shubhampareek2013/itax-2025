@@ -1,0 +1,30 @@
+408. (1) All the assessees who are liable to pay advance tax, other than the
+assessee referred to in sub-section (2), shall pay the same on the current income
+calculated in the manner laid down in section 405 in four instalments during each
+financial year and the due date of each instalment and the amount of such instalment
+shall be as specified in the Table below.
+Table
+Sl. No.       Due date of                        Amount payable
+instalment
+A               B                                    C
+1.      On or before the Not less than 15% of such advance tax.
+15th June.
+2.      On or before the Not less than 45% of such advance tax, as reduced
+15th September. by the amount, if any, paid in the earlier instalment.
+3.      On or before        Not less than 75% of such advance tax, as reduced
+the 15th            by the amount or amounts, if any, paid in the earlier
+December.           instalment or instalments.
+4.       On or before       The whole amount of such advance tax, as reduced
+the 15th March. by the amount or amounts, if any, paid in the earlier
+instalment or instalments.
+(2) An assessee, who declares profits and gains as per the provisions of
+section 58(2) (Table: Sl. No. 1 or 3), shall pay the whole amount of advance tax on
+the current income, calculated in the manner laid down in section 405 during each
+financial year, on or before the 15th March.
+51 Rule 223, Form No. 152, Income Tax Rules, 2026.
+Direct Taxes Committee                                                           554
+CH. XIX - COLLECTION AND RECOVERY OF TAX                               [Sec 390-430]
+(3) Any amount paid by way of advance tax on or before the 31st March, shall
+be treated as advance tax paid during the financial year ending on that day for all
+the purposes of this Act.
+When assessee is deemed to be in default.

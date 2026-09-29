@@ -1,0 +1,4 @@
+462. If any person, who is required to furnish information under section
+397(3)(d), fails to furnish such information, or furnishes inaccurate information,
+the Assessing Officer may impose a penalty of ₹100000 on such person.
+Penalty for furnishing incorrect information in reports or certificates.

@@ -1,0 +1,14 @@
+218. Where the total income of an assessee includes income of the nature
+referred to in section 147(3), the aggregate of income-tax payable by the
+assessee shall be the aggregate of income-tax computed on the income specified
+in column B of the Table below at the rate specified in the corresponding entry in
+column C of the said Table:
+TABLE
+Sl.                        Income                                       Rate of income-
+No.                                                                       tax payable
+A                             B                                               C
+1. Income referred to in section 147(3)                                       15%
+2. Total income as reduced by income referred to in Sl.                 Rates in force.]
+No. (1).
+Conversion of an Indian branch of foreign company into subsidiary Indian
+company.

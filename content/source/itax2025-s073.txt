@@ -1,0 +1,203 @@
+73. (1) In the case of a capital asset specified in column B of the Table below,
+the cost of acquisition of the asset shall be deemed to be the cost as mentioned in
+column C of the said Table.
+Table
+Sl. No.           Description of the capital asset                  Cost of acquisition
+A                                 B                                       C
+1.         If the capital asset became the property of         The cost for which the
+the assessee––                                          previous owner of the
+(a) under a gift or will; or                  property acquired it, as
+(b) by succession, inheritance or             increased by the cost of
+devolution; or                                      any        improvement
+(c) on any distribution of assets on
+incurred or borne by the
+the liquidation of a company; or
+(d) under a transfer to a revocable           previous owner or the
+or an irrevocable trust; or                         assessee.
+(e) being a Hindu undivided
+family, by the mode referred to in section
+99(3) after the 31st December, 1969; or
+(f) under any such transfer as is
+referred to in section 70(1)(a), (c), (d),
+(e), (g), (h), (i), (j), (l), (m), (n), (o), (t),
+(u), (v), (w), (zd), (ze) or (zf).
+2.         Capital asset, being a share or shares in an            The       cost       of
+amalgamated company which is an Indian                  acquisition to him of the
+company that became the property of the                 share or the shares in the
+assessee in consideration of a transfer                 amalgamating company.
+referred to in section 70(1)(f).
+3.         Capital asset being a share or debenture of             That part of the cost of
+a company, which became the property of the             debenture, debenture-
+assessee in consideration of a transfer                 stock, bond or deposit
+referred to in section 70(1)(z) or (za).                certificate in relation to
+which such asset is
+acquired by the assessee.
+4.        Capital asset, being specified security or               Fair market value
+sweat equity shares, referred to in section             taken into account for the
+17(1)(d).                                               purposes of the said
+clause.
+5.         Capital asset, being rights of a partner                The        cost       of
+referred to in section 42 of the Limited                acquisition to him of the
+Liability Partnership Act, 2008 (6 of 2009),            share or shares in the
+which became the property of the assessee on            company immediately
+conversion as referred to in section                    before its conversion.
+70(1)(ze).
+Direct Taxes Committee                                                                   148
+CH. IV E.- CAPITAL GAINS                                                [Sec 67-91]
+Sl. No.         Description of the capital asset             Cost of acquisition
+A                            B                                      C
+6.       Capital asset, being share or shares of a        The price of the said
+company acquired by a non-resident assessee     share       or      shares
+on redemption of Global Depository              prevailing      on     any
+Receipts referred to in section 209(1)          recognized           stock
+(Table: Sl. No. 2) held by such assessee.       exchange on the date on
+which a request for
+redemption was made.
+7.         Capital asset, being a unit of a business       The        cost       of
+trust, which became the property of the         acquisition to him of the
+assessee in consideration of a transfer as      share referred to in the
+referred to in section 70(1)(zi).               said clause.
+8.         Capital asset, being a unit or units in a       The        cost       of
+consolidated scheme of a mutual fund, which     acquisition to him of the
+became the property of the assessee in          unit or units in the
+consideration of a transfer referred to in      consolidating scheme of
+section 70(1)(zj).                              the mutual fund.
+9.         Capital asset, being equity share of a          That part of the cost of
+company, which became the property of the       the preference shares in
+assessee in consideration of a transfer         relation to which such
+referred to in section 70(1)(zb).               asset is acquired.
+10.        Capital asset, being a unit or units in a       The        cost       of
+consolidated plan of a mutual fund scheme,      acquisition to him of the
+which became the property of the assessee in    unit or units in the
+consideration of a transfer referred to in      consolidating plan of the
+section 70(1)(zk).                              scheme of the mutual
+fund.
+11.        Capital asset being a unit or units in the      Computed as per the
+segregated portfolio.                           following formula:––
+X =AxB,
+C
+where,––
+X = cost of
+acquisition of the unit or
+units in segregated
+portfolio;
+A = cost of
+acquisition of unit or
+units in the total
+portfolio;
+B = Net Asset
+Value of the asset
+Direct Taxes Committee                                                           149
+Income-tax Act, 2025                                                    [Sec 67-91]
+Sl. No.         Description of the capital asset              Cost of acquisition
+A                           B                                       C
+transferred    to     the
+segregated portfolio; and
+C = Net Asset
+Value of the total
+portfolio immediately
+before segregation of
+portfolios.
+12.        Capital asset being original units held by       The       cost       of
+the unit holder in the main portfolio.           acquisition of such
+original units as reduced
+by the amount as so
+arrived at under serial
+number 11.
+13.        Capital asset, being shares as referred to in    The       cost       of
+section 70(1)(zl) which became the property acquisition to it of the
+of the assessee.                                 interest in the joint
+venture referred to in the
+said clause.
+14.        Shares in the resulting company as a             Computed as per the
+result of demerger.                              following formula:––
+X =AxB,
+C
+where,––
+X = cost         of
+acquisition of shares in
+the resulting company;
+A = cost of
+acquisition of shares
+in demerged company;
+B = net book
+value      of    assets
+transferred           in
+demerger; and
+C = net worth
+of demerged company
+immediately      before
+demerger.
+15.        Original shares held by the shareholder in       The cost of acquisition
+the demerged company.                            of such original shares as
+Direct Taxes Committee                                                            150
+CH. IV E.- CAPITAL GAINS                                                   [Sec 67-91]
+Sl. No.         Description of the capital asset                 Cost of acquisition
+A                           B                                          C
+reduced by the amount so
+arrived at under serial
+number 14.
+16.        Capital asset deemed to be chargeable to            Cost for which such
+tax according to the provisions of section          asset was acquired by the
+71(1).                                              transferee company.
+17.        Capital asset being property, where the             The value taken
+capital gain arises from the transfer of such       into account under
+property the value of which has been subject        section 92(2)(m).
+to income-tax under section 92(2)(m).
+18.        Capital asset declared under the Income             The fair market value
+Declaration Scheme, 2016, where the tax,            of the asset taken into
+surcharge and penalty have been paid as per         account for the purposes
+the provisions of such Scheme on the fair           of the said Scheme.
+market value as on the date of the
+commencement of that Scheme.
+19.        Specified capital asset referred to in clause       The stamp duty value
+(c) of the Explanation to section 10(37A)           as on the last day of the
+of the Income-tax Act, 1961 (43 of 1961),           second tax year after the
+which has been transferred after the expiry of      end of the tax year in
+two years from the end of the tax year in           which the possession of
+which the possession of such asset was              the said specified capital
+handed over to the assessee.                        asset was handed over to
+the assessee.
+20.        Capital asset, being share in the project, in       The amount deemed
+the form of land or building, or both, under        as    full    value     of
+section 67(14), not being a capital asset           consideration       under
+referred to in section 67(16).                      section 67(14).
+21.        Capital asset, being the asset held by a            The fair market value
+trust or an institution in respect of which         of the asset considered
+accreted income has been computed and tax           for computation of
+paid thereon as per section 352.                    accreted income as on
+specified date as per
+section 352(2).
+22.        Capital asset referred to in section 26(2)(j).      The fair market value
+for section 26(2)(j).
+23.        Capital asset, being an Electronic Gold             The cost of gold for
+Receipt issued by a Vault Manager, which            the person in whose
+became the property of the person as                name Electronic Gold
+consideration of a transfer, as referred to in      Receipt is issued.
+section 70(1)(y).
+Direct Taxes Committee                                                              151
+Income-tax Act, 2025                                                      [Sec 67-91]
+Sl. No.         Description of the capital asset        Cost of acquisition
+A                           B                                 C
+24.        Capital asset being gold released against   The cost of the
+an Electronic Gold Receipt, which became Electronic Gold Receipt
+the property of the person as consideration for such person.
+for a transfer as referred to in section
+70(1)(y).
+(2) For the purposes of the Table in sub-section (1), in respect of the entries
+against––
+(a) serial number 1, “previous owner of the property” for any capital
+asset owned by an assessee, means the last previous owner of the capital asset
+who acquired it by a mode of acquisition other than that referred to in column
+B thereof;
+(b) serial numbers 11 and 12, “main portfolio”, “segregated portfolio”
+and “total portfolio” shall have the same meanings as respectively assigned
+to them in the Circular No. SEBI/HO/IMD/DF2/CIR/P/2018/160, dated the
+28th December, 2018, issued by the Securities and Exchange Board of India;
+(c) serial numbers 14 and 15, “net worth” means the total of the paid-up
+share capital and general reserves as appearing in the books of account of the
+demerged company immediately before the demerger;
+(d) serial numbers 2, 14 and 15, the provisions as contained therein,
+shall, as far as may be, also apply in relation to business reorganisation of a
+co-operative bank as referred to in section 64.
+Special provision for computation of capital gains in case of depreciable assets.

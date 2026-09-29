@@ -1,0 +1,85 @@
+337. The specified income of a registered non-profit organisation shall mean
+the income as specified in column B of the Table below and shall be taxable in the
+year provided in the column C thereof:––
+Table
+Sl. No.                Specified income                          Tax year
+A                            B                                     C
+1.         Any anonymous donation received               Tax year in which
+by a registered non-profit organisation other such anonymous donation
+than a registered non-profit organisation is received.
+created or established,—
+(i) wholly for religious purposes, or
+(ii) wholly for charitable and religious
+purposes       (excluding      anonymous
+donation made with a specific direction
+that such donation is for any university or
+other educational institution or any
+hospital; or other medical institution run
+by      such     registered     non-profit
+organisation),
+excluding the anonymous donations up to
+₹ 100000 or 5% of the total donations
+received by it during the tax year, whichever
+is higher.
+2.         Any portion of income applied by it,           Tax year in which
+directly or indirectly, for the benefit of any such application is made.
+related person, computed in the manner, as
+may be prescribed.13
+3.         Any portion of income applied by it            Tax year in which such
+outside India in contravention to the           application of income is
+provisions of section 338(a).                   made.
+13 Rule 183, Income Tax Rules, 2026.
+Direct Taxes Committee                                                           459
+Income–tax Act, 2025                                                   [Sec 302-355]
+Sl. No.                Specified income                            Tax year
+A                             B                                      C
+4.         Any investment or deposit made in                Tax year in which
+contravention to the provisions of               such investment or
+section 350 out of any income,                   deposit is made.
+accumulated        income,    deemed
+accumulated income, corpus, deemed
+corpus, or any other fund.
+5.         Any deemed corpus donation in respect       Tax year in which
+of which any of the conditions specified in such violation is made.
+the section 340 is violated.
+6.         Any     portion      of    accumulated   Tax year in which it is
+income, if it is applied to purposes so applied.
+other than charitable or religious
+purposes for which it is accumulated or set
+apart.
+7.          Any portion of accumulated income, if       Tax year in which it
+it ceases to be accumulated or set apart for ceases   to    be   so
+application to such purposes as specified accumulated or set apart.
+under section 342(1).
+8.          Any portion of accumulated income, if     Last of the tax years
+it is not applied as per the provisions of for which income was so
+section 341(1) to (4) for which it is accumulated or set apart.
+accumulated or set apart within the period
+for which it was accumulated or set apart
+as specified in section 342(1).
+9.          Any portion of accumulated income, if           Tax year in which it is
+it is credited or paid to any other registered   so credited or paid.
+non-profit organisation.
+10.        Any income applied to purposes other      Tax year in which it is
+than charitable or religious purposes for so applied.
+which it is registered.
+11.        Any income determined by the                     Tax year to which
+Assessing Officer under section 344 in           such income relates.
+excess of income shown in the books of
+account of such business undertaking.
+Direct Taxes Committee                                                             460
+CH. XVII - SPECIAL PROVISIONS RELATING TO CERTAIN PERSONS            [Sec 302-355]
+Sl. No.                Specified income                         Tax year
+A                            B                                    C
+12.        Fair market value of any asset, where it   Tax year immediately
+is not held in forms or modes specified in following the expiry of
+paragraph 1(1) to (30) of Schedule XVI limitation           period
+even after the expiry of one year from the mentioned in Column B.
+end of the tax year in which such asset is
+acquired.
+13.        Any deemed application under                 Tax year specified in
+section 341(5) not actually applied by the section 341(6) by which
+registered non-profit organization for its such      application   is
+objects in India within the period specified required to be made.
+in section 341(6).
+Income not to be included in regular income.

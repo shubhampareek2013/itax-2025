@@ -1,0 +1,210 @@
+352. (1) Every specified person shall, in addition to the income-tax chargeable
+in respect of his total income, be liable to pay additional income-tax on accreted
+income at the maximum marginal rate in any of the cases specified in column B(i)
+and (ii) of the Table in sub-section (4).
+(2) The accreted income referred to in sub-section (1) shall be computed using
+the following formula:––
+A = B-C
+where,––
+A = Accreted income;
+B = Aggregate fair market value of the total assets of the specified
+person, as on the date specified, in column C of the Table in
+sub-section (4), computed in accordance with such method of valuation,
+as may be prescribed;25
+C = Total liability of such specified person, as on the date specified
+in column C of the said Table, computed in accordance with such
+method of valuation, as may be prescribed.26
+(3) The accreted income, computed as per the provisions of sub-section (2)
+shall be reduced by such amount of accreted income as is attributable to specified
+assets, and liabilities, if any, related to such assets.
+(4) The specified person and the principal officer or trustee of such specified
+person shall be liable to pay the tax on accreted income to the credit of the Central
+Government within fourteen days from the due date specified in column D of the
+Table below.
+25 Rule 189(1), Income Tax Rules, 2026.
+26 Rule 189(3), Income Tax Rules, 2026.
+Direct Taxes Committee                                                           469
+Income–tax Act, 2025                                                [Sec 302-355]
+Table
+Sl.                   Case                     Specified date     Due date for
+No.                                                               the payment
+of tax on
+accreted
+income
+A                       B                             C                 D
+(i)                     (ii)
+1.    The     registration   The specified The date of the Date of receipt
+granted to the         person       has order cancelling of the order in
+specified    person    preferred     an the registration. any        appeal,
+under any specified    appeal against                     confirming the
+provision has been     the order of                       cancellation of
+cancelled         or   cancellation.                      the registration,
+withdrawn.                                                by the specified
+person.
+2.    The     registration    The specified The date of the The date on
+granted to the         person has not order cancelling which             the
+specified    person    preferred     an the registration. period for filing
+under any specified    appeal against                      appeal under
+provision has been     such order of                       Section      362
+cancelled         or   cancellation.                       against       the
+withdrawn.                                                 order
+cancelling the
+registration
+expires.
+3.        (a) The            The specified The date of The end of
+Specified person       person has not adoption         or such tax year.
+has adopted or         applied       for modification of
+undertaken             fresh             any object.
+modification of its    registration
+objects during any     under        any
+tax year; and          specified
+(b)        such     provision      in
+modified objects       such tax year.
+do not conform to
+the conditions of
+registration.
+Direct Taxes Committee                                                         470
+CH. XVII - SPECIAL PROVISIONS RELATING TO CERTAIN PERSONS         [Sec 302-355]
+A                      B                           C                 D
+(i)                  (ii)
+4.      (a) The           The specified        The date of The date of
+specified person hasperson       has    adoption     or receipt of the
+adopted           orapplied       for   modification of order in any
+undertaken          fresh registra-     any object.     appeal,
+modification of its tion under any                      confirming the
+objects during any  specified                           cancellation of
+tax year; and       provision      in                   the registration
+(b) such         such tax year                       by the specified
+modified objects    and where such                      person.
+do not conform to   application has
+the conditions of   been rejected
+registration.       and appeal has
+been preferred
+against     such
+order          of
+rejection.
+5.   (a) The specified The specified           The date of The date on
+person has adopted person          has    adoption     or which         the
+or        undertaken applied        for   modification of period for filing
+modification of its fresh registra-       any object.     appeal under
+objects during any tion under any                         section      362
+tax year; and         specified                           against       the
+provision in the                    order
+(b) Such
+cancelling the
+modified objects do said tax year
+registration
+not conform to the and where such
+expires.
+conditions        of application has
+registration.         been rejected
+and no appeal
+has been pre-
+ferred against
+such order of
+rejection.
+6.    The       specified    The period          The last date The end of
+person fails to make specified in the      for making an such tax year.
+an application as per respective           application for
+the provisions of–– clause or sub-         registration.
+Direct Taxes Committee                                                       471
+Income–tax Act, 2025                                                    [Sec 302-355]
+A                         B                             C                   D
+(i)                      (ii)
+(a) sub-clause        clauses     or
+(i) or (ii) or (iii) of   Table, as the
+the first proviso to      case may be,
+section 10 (23C) of       expires in the
+the        Income-tax     tax year in
+Act, 1961 (43 of          which the said
+1961); or                 application is
+(b) sub-clause         to be made.
+(i) or (ii) or (iii) of
+section 12(1) (ac)
+of the Income-tax
+Act, 1961 (43 of
+1961); or
+(c) as specified
+in section 332(3)
+(Table: Sl. No. 3, 4,
+5 or 7).
+7. Where a specified                            The date of such The end of
+person         converts                     conversion.      such tax year.
+itself into a form
+which is not eligible
+for       grant      of
+registration during
+any tax year.
+27[8. The specified person                        The date of        The date of
+has merged with any                         merger             merger.
+other—
+(a) entity other than
+a registered non-
+profit
+organisation; or
+(b) registered non-
+profit
+organisation
+having objects
+same or similar
+to it but the said
+27 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+Direct Taxes Committee                                                              472
+CH. XVII - SPECIAL PROVISIONS RELATING TO CERTAIN PERSONS             [Sec 302-355]
+A                        B                             C                  D
+(i)                     (ii)
+merger does not
+fulfil such condi-
+tions, as may be
+prescribed; or
+(c) registered non-
+profit organisa-
+tion that does
+not have same or
+]
+similar objects.
+9.       The       specified                    The date of        The date on
+person has failed to                       dissolution.      which       such
+transfer         upon                                        period        of
+dissolution, all its                                         twelve months
+assets to any other                                          expires.
+registered non-profit
+organisation within
+twelve months from
+the end of the month
+in      which      the
+dissolution      takes
+place.
+(5) The payment of tax on the accreted income by the specified person under
+this section shall be deemed as the final payment of tax in respect of the said income
+and no further credit therefor shall be claimed by, or any deduction be allowed to,
+the specified person or any other person in respect of the amount of tax so paid under
+any other provision of this Act.
+(6) Where the specified person, or the principal officer or trustee of such
+specified person, fails to pay the whole or any part of the tax on the accreted income
+within the time allowed under sub-section (4), such specified person, principal
+officer or trustee shall be liable to pay simple interest, computed as per the following
+formula:––
+I = 1% of (T*P)
+where,––
+I = interest;
+T = tax on accreted income; and
+P = number of months beginning on the date immediately after the
+last date on which such tax was payable and ending with the date on
+which the tax is actually paid including part thereof.
+Direct Taxes Committee                                                            473
+Income–tax Act, 2025                                                    [Sec 302-355]
+(7) All the provisions of this Act shall apply for the collection and recovery of
+income-tax in respect of the amount of tax payable by the specified person, principal
+officer or trustee and the following persons shall be deemed to be assessee in default:––
+(a) the specified person and principal officer or the trustee of such
+specified person;
+(b) the person to whom any asset forming part of the computation of
+accreted income under sub-section (2) has been transferred, where the tax on
+accreted income is payable under the cases specified in sub-section (4)
+(Table: Sl. No. 9).
+(8) Subject to the provisions of sub-section (7), the liability of the person
+referred to in clause (b) of the said sub-section shall be limited to the extent to which
+the asset received by him is capable of meeting the liability.
+Other violations

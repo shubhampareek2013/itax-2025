@@ -1,0 +1,221 @@
+286. (1) No order in respect of proceedings mentioned in column B of the
+Table below shall be made after expiry of the period specified in the
+corresponding entry in column D of the said Table and such period shall be
+calculated from the date as mentioned in column C thereof.
+Direct Taxes Committee                                                             403
+Income-tax Act, 2025                                           [Sec 268-301]
+Table
+Sl.            Nature of            Date from which time      Time limit
+No.         Proceedings or         limit for completion is       for
+orders                to be calculated       completion
+A                  B                         C                   D
+1.       Assessment         order    End of the financial     One year.
+under section 270(10) or year succeeding the
+section 271.                relevant tax year for
+which assessment is
+made.
+2.       Assessment order under      End of the financial     One year.
+section 270(10) or 271, year in which such
+where an updated return of updated return was
+income is furnished under furnished.
+section 263(6).
+3.       Assessment        order     End of the financial     One year.
+under section 270(10) or year in which such
+271, where return is return was furnished.
+furnished in consequence
+of order under section
+239(3)(b).
+4.      Assessment,                  End of the financial     One year.
+reassessment             or year in which notice
+recomputation         order under section 280 was
+under section 279.          served.
+5.       Fresh assessment order      End of the financial     One year.
+or fresh order under year in which order
+section 166 in pursuance under section 359 or
+to an order under section 363 is received by, or
+359, or 363, or 377, or order under section 377
+378, setting aside or or 378 is passed by, the
+canceling an assessment jurisdictional Principal
+order or an order under Commissioner             or
+section 166.                Commissioner.
+6.       Assessment            or    End of the month in      One year.
+reassessment         which which such assessment
+stands revived, as per or reassessment stands
+section 292.                revived.
+7.       Assessment required to      End of the month in      One year.
+be made in the hands of which assessment order
+partner, in consequence of in the case of firm is
+an assessment made on passed.
+Direct Taxes Committee                                                       404
+CH. XVI - PROCEDURE FOR ASSESSMENT                                   [Sec 268-301]
+Sl.              Nature of             Date from which time         Time limit
+No.          Proceedings or            limit for completion is         for
+orders                 to be calculated          completion
+A                    B                           C                     D
+the firm under section
+279.
+8.    Assessment, reassessment           End of the month in        One year.
+or recomputation required       which such order is
+to be made on the               received, or passed, by
+assessee or any person in       the        jurisdictional
+consequence of or to give       Principal Commissioner
+effect to any finding or        or Commissioner.
+direction contained in an
+order––
+(i) under      section
+359 or 363 or 365(10),
+or 368, or 377 or 378;
+or
+(ii) of any Court in a
+proceeding otherwise
+than by way of appeal
+or reference under this
+Act.
+9.       Order giving effect to          End of the month in        One year.
+an order under section          which order        under
+359 or 363 or 365(10)           section 359 or 363 or
+or 368 or 377 or 378,           365(10) or 368 is
+otherwise than by making        received, or order under
+a fresh assessment or           section 377 or 378 is
+reassessment or fresh           passed,       by     the
+order under section 166,        jurisdictional Principal
+where––                         Commissioner          or
+(i) verification of any      Commissioner.
+issue       by     way     of
+submission         of    any
+document by the assessee
+or any other person is to
+be carried out; or
+(ii) an opportunity of
+being heard is to be given
+to the assessee.
+10.       Order giving effect to          End of the month in Six months,
+an order under section          which order under extendable
+359 or 363 or 365(10) or        section 359 or 363 or to     nine
+Direct Taxes Committee                                                             405
+Income-tax Act, 2025                                                   [Sec 268-301]
+Sl.               Nature of              Date from which time         Time limit
+No.            Proceedings or           limit for completion is            for
+orders                   to be calculated          completion
+A                    B                             C                       D
+368 or 377 or 378             365(10) or 368 is            months with
+otherwise than by making      received by, or order        the approval
+a fresh assessment or         under section 377 or         of authorities
+reassessment or fresh         378 is passed by, the        as per section
+order under section 166.      jurisdictional Principal     2(62)     and
+Commissioner          or     (64).
+Commissioner.
+11.          Modification         of       End of the month in       Two months.
+assessment, reassessment      which such order under
+or recomputation to give      section 166 is received
+effect to the order passed    by     the     Assessing
+under section 166 read        Officer.
+with section 377.
+[(2)(a) Time limit for completion of any assessment or reassessment as
+provided in sub-section (1) [Table: Sl. No. 1 to 5], in a case where reference is
+made to the Transfer Pricing Officer for determining the arm’s length price
+under section 166(1), shall be extended by an additional period of twelve
+months.
+(b) In terms of provisions of sub-section (1) [Table: Sl. No. 1 to 5] and this
+sub-section, the draft of the proposed order of assessment referred to in section
+275 shall be made at any time up to the time limit of assessment, reassessment
+or recomputation referred to in the said Table and this sub-section.]
+(3) For the purposes of this section, in computing the time limit for
+completion, the following period shall be excluded,––
+(a) the time taken in reopening the whole or any part of the proceeding
+on request of the assessee or in giving an opportunity to the assessee to be
+re-heard under section 244; or
+(b) the period commencing on the date on which stay on assessment
+proceeding was granted by an order or injunction of any court and ending
+on the date on which certified copy of the order vacating the stay was
+received by jurisdictional Principal Commissioner or Commissioner; or
+(c) the period commencing from the date on which the Assessing
+Officer intimates the Central Government or the prescribed authority, the
+contravention of the provisions of Schedule III (Table: Sl. No. 23, 24, 25)
+or section 270(11)(i), and ending with the date on which the copy of the
+order withdrawing the approval or rescinding the notification, as the case
+may be, under those provisions is received by the Assessing Officer; or
+26 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+Direct Taxes Committee                                                              406
+CH. XVI - PROCEDURE FOR ASSESSMENT                                  [Sec 268-301]
+(d) the period commencing from the date on which the Assessing
+Officer directs the assessee to get his accounts audited or inventory valued
+under section 268(5) and––
+(i) ending with the last date on which the assessee is required
+to furnish a report of such audit or inventory valuation under that
+section; or
+(ii) where such direction is challenged before a court, ending
+with the date on which the order setting aside such direction is
+received by the Principal Commissioner or Commissioner; or
+(e) the period commencing from the date on which the Assessing
+Officer makes a reference to the Valuation Officer under section 269(1)
+and ending with the date on which the report of the Valuation Officer is
+received by him; or
+(f) the period (not exceeding sixty days) commencing from the date on
+which the Assessing Officer received the declaration under section 375(1)
+and ending with the date on which the order under section 375(3) is made
+by him; or
+(g) the period commencing from the date on which an application is
+made before the Board for Advance Rulings under section 383(1) and
+ending with the date on which the order either rejecting the application or
+the advance ruling pronounced by it, is received by the jurisdictional
+Principal Commissioner or Commissioner under section 384(5) or (8), as
+the case may be; or
+(h) the period commencing from the date on which a reference or first
+of the references for exchange of information is made by an authority
+competent under an agreement referred to in section 159 and ending with the
+date on which the information requested is last received by the jurisdictional
+Principal Commissioner or Commissioner, or one year, whichever is less; or
+(i) the period commencing from the date on which a reference for
+declaration of an arrangement to be an impermissible avoidance
+arrangement is received by the jurisdictional Principal Commissioner or
+Commissioner under section 274(1) and ending on the date on which a
+direction under sub-section (3) or (6) or an order under sub-section (5) of
+the said section is received by the Assessing Officer; or
+(j) the period commencing from the date on which the Assessing
+Officer makes a reference to the jurisdictional Principal Commissioner or
+Commissioner under section 270(13) and ending with the date on which
+copy of the order under section 351(2)(ii)(A) or (B), is received by the
+Assessing Officer.
+(4) Where immediately after exclusion of the period as mentioned in
+sub-section (3), the remaining period for completion available to the Assessing
+Officer, as specified in sub-section (1), for making an order of assessment,
+reassessment or recomputation, is less than sixty days, such remaining period shall
+be extended to sixty days and the aforesaid time limits for completion shall be
+deemed to have been extended accordingly.
+Direct Taxes Committee                                                          407
+Income-tax Act, 2025                                               [Sec 268-301]
+(5) Where the period available to the Transfer Pricing Officer is extended to
+sixty days as per section 166(8) and the remaining period for completion available
+to the Assessing Officer under this section, for making an order of assessment,
+reassessment or recomputation, is less than sixty days, such remaining period shall
+be extended to sixty days and the aforesaid time limit for completion shall be
+deemed to have been extended accordingly.
+(6) Where a proceeding before the Interim Board for Settlement abates
+under section 245HA of the Income-tax Act, 1961 and the remaining period of
+limitation available to the Assessing Officer under this section for making an
+order of assessment, reassessment or recomputation, after the exclusion of the
+period under section 245HA(4) of the Income-tax Act, 1961, is less than one year,
+such remaining period shall be deemed to have been extended to one year; and for
+the purposes of determining the period of limitation under sections 282, 287, 288
+and 296 and for the purposes of payment of interest under section 437, this
+sub-section shall also apply accordingly.
+(7) In a case where the remaining time period for making an order of regular
+assessment or reassessment, after excluding the time period specified in
+sub-section (3)(j), ends before the end of the month, the remaining period shall be
+extended to the end of such month, and the specified time limit for completion
+shall be deemed to have been extended accordingly.
+(8) For the purposes of this section and section 283, where by an order
+referred to in entry in sub-section (1) (Table: Sl. No. 8.A)––
+(i) any income is excluded from the total income of the assessee for a
+tax year, then, an assessment of such income for another tax year shall be
+deemed as one made in consequence of or to give effect to any finding or
+direction contained in the said order; or
+(ii) any income is excluded from the total income of one person and
+held to be the income of another person, then, an assessment of such income
+on such other person shall be deemed as one made in consequence of or to
+give effect to any finding or direction contained in the said order, if such
+other person was given an opportunity of being heard before the said order
+was passed.
+Rectification of mistake.

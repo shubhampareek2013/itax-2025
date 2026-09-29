@@ -1,0 +1,199 @@
+39. (1) The actual cost of an asset used for the purposes of the business or
+profession shall be the actual cost to the assessee, as reduced by the following
+amounts:—
+(a) part of cost of asset, if any, met by any other person or authority,
+directly or indirectly;
+(b) goods and services tax paid in respect of which credit of input
+tax has been claimed and allowed under the relevant law;
+(c) duty of excise or additional duty leviable under section 3 of the
+Customs Tariff Act, 1975 in respect of which a claim of credit has been made
+and allowed under the Central Excise Rules, 1944;
+(d) subsidy, grant or reimbursement, by whatever name called, if
+any, relatable to the acquisition of the asset, received, directly or indirectly,
+by the assessee from—
+(i) the Central Government;
+(ii) a State Government;
+(iii) any authority established under any law; or
+(iv) any other person.
+(2) The payment or aggregate of payments exceeding ₹10000 in a day for
+acquisition of an asset or part thereof, made to a person in a mode otherwise than
+by specified banking or online mode, shall be excluded from the actual cost of that
+asset.
+(3) In a case where the subsidy, grant or reimbursement referred to
+in sub-section (1)(d) is not directly relatable to the asset acquired, the amount of
+reduction under sub-section (1)(d) shall be determined as under:
+�5
+𝐴×( )
+�6
+where,—
+A = total amount of subsidy, grant or reimbursement not directly relatable
+to the asset;
+B = cost of the asset acquired for which actual cost is to be determined;
+C = cost of all the assets in respect of or in reference to which the subsidy
+or grant or reimbursement is so received.
+(4) In circumstances specified under column B of the Table below, the
+actual cost of the asset shall be as specified in column C thereof.
+Direct Taxes Committee                                                             81
+Income-tax Act, 2025                                                 [Sec 26-66]
+Table
+Sl.     Specified circumstances              Determination of actual cost
+No.
+A                B                                    C
+1.      Where capital asset is          Actual cost to amalgamated
+transferred     by      an      company shall be the same as it
+amalgamating company to an      would     have     been     if   the
+amalgamated company being       amalgamating       company      had
+an Indian company in a          continued to hold such capital asset
+scheme of amalgamation.         for the purpose of its own business.
+2.      Where capital asset is          Actual cost to resulting company
+transferred by a demerged       shall be the same as it would have
+company to a resulting          been, if the demerged company had
+company being an Indian         continued to hold such asset for the
+company in a demerger.          purpose of its own business, which
+shall not exceed the written down
+value of such capital asset in the
+hands of demerged company.
+3.      Where      inventory   is       Fair Market Value of such
+converted into or treated as    inventory as on date of conversion,
+a capital asset.                as determined in the manner as may
+be prescribed.
+4.      Where asset is acquired         Actual cost to the previous owner
+by the assessee by way of       as reduced by—
+gift or inheritance.                  (a) depreciation       actually
+allowed in respect of tax year
+commencing on 1st April, 1986
+or any earlier tax year; and
+(b) depreciation allowable for
+tax year commencing on or after
+1st April,1987 under this Act or
+under the Income-tax Act,
+1961(43 of 1961), as if such asset
+was the only asset in the relevant
+block of asset.
+5.      Where a building, being          Actual cost of the building as
+the property of the assessee, is reduced by the depreciation—
+put to use for the purpose of        (a) that would have been
+business or profession during allowable had the building been used
+the tax year.                     for the purpose of business or
+Direct Taxes Committee                                                         82
+CH. IV D.- PROFITS AND GAINS OF BUSINESS OR PROFESSION                   [Sec 26-66]
+Sl.      Specified circumstances               Determination of actual cost
+No.
+A                    B                                    C
+profession from the          date    of
+acquisition; and
+(b) calculated at the rate in force
+on the date on which such asset was
+put to use for the purpose of business
+or profession.
+6.       Where capital asset is             Actual cost to the transferee
+transferred by—                     company shall be the same as it
+(a) a holding company to    would have been, if the transferor
+its subsidiary company; or        company had continued to hold such
+(b) a subsidiary company    asset for the purpose of its own
+to its holding company,           business.
+and the conditions of section
+70(1)(c) and (d), as the case may
+be, are satisfied.
+7.      Where an asset, which                   (a) Actual cost of the asset in
+previously belonged to the             the hands of assessee, when it was
+assessee and had been used by          first acquired, as reduced by—
+him for the purpose of his                      (i) depreciation actually
+business or profession, is                  allowed in respect of tax year
+reacquired by the assessee.                 commencing           on      1st
+April,1986 or any earlier tax
+year; and
+(ii) depreciation allowable
+for tax year commencing on or
+after 1st April, 1987 under this
+Act or under the Income-tax
+Act, 1961(43 of 1961), as if
+such asset was the only asset in
+the relevant block of asset; or
+(b) actual price for which such
+asset is reacquired by the assessee,
+whichever is lower.
+8.      Where an asset is acquired          Actual cost of asset to the assessee
+by the assessee from previous       shall be the written down value of the
+owner and subsequently asset        asset in the hands of the previous
+is given back to the previous       owner at the time of transfer by the
+owner by way of lease, hire or      previous owner.
+otherwise, and—
+Direct Taxes Committee                                                           83
+Income-tax Act, 2025                                                   [Sec 26-66]
+Sl.     Specified circumstances              Determination of actual cost
+No.
+A                   B                                     C
+(a) the asset was being
+used for the purpose of
+business or profession by the
+previous owner; and
+(b) depreciation has been
+claimed by the previous
+owner.
+9.      Where an asset is used in         Actual cost of asset as reduced by
+business after it ceases to be    deduction allowed for the capital asset
+used for scientific research      under section 45(1)(a)(i) or under
+related to that business and a    section 35(1)(iv) of the Income-tax Act,
+deduction is allowable under      1961(43 of 1961).
+section 33(3).
+10.      Where the assessee had       Actual cost of the asset as
+acquired an asset outside    reduced by the depreciation––
+India, as a non- resident, and      (a) that would have been
+the asset is brought by him to  allowable had the asset been used
+India and put to use in his     for the purpose of business or
+business or profession in       profession in India since the date of
+India.                          its acquisition; and
+(b) calculated at the rate in force.
+11.      Where capital asset is       Actual cost of the asset, as if
+acquired under the scheme of there was no corporatisation.
+corporatisation     of     a
+recognised stock exchange
+approved by the Securities
+and Exchange Board of India.
+12.
+(a) Where deduction under (a) Actual cost shall be deemed to be
+section 46 was allowed or nil.
+allowable in respect of the
+capital asset—
+(i) to the assessee; or
+(ii) to any person and the
+assessee      acquires     or
+receives such asset through
+special modes of acquisition
+from such person.
+Direct Taxes Committee                                                          84
+CH. IV D.- PROFITS AND GAINS OF BUSINESS OR PROFESSION                         [Sec 26-66]
+Sl.        Specified circumstances                 Determination of actual cost
+No.
+A                    B                                           C
+(b) Where deduction                 (b) Actual cost of the asset as
+allowed under section 46 in          reduced by the depreciation,—
+respect of a capital asset
+becomes deemed income as                    (i) that would have been
+per section 46(9)(b).                    allowable had the asset been used
+for the purpose of business since
+date of acquisition; and
+(ii) calculated at the rate in force.
+13.        Where any amount is paid             Actual cost shall not include so
+or payable as interest in            much of such amount as is relatable to
+connection       with    the         any period after such asset is first put
+acquisition of an asset.             to use.
+(5) Irrespective of anything contained in sub-section (4), other than serial
+number 8 of the Table in the said sub-section, in a case where the asset is acquired
+by the assessee, its actual cost shall be such amount as may be determined by the
+Assessing Officer having regard to all the circumstances of the case, where—
+(a) the asset was used by any other person for the purposes of his
+business, before such acquisition; and
+(b)the Assessing Officer is satisfied that the main purpose of the
+transfer of the asset, directly or indirectly, was to reduce tax liability (by
+claiming depreciation on enhanced actual cost).
+(6) The determination of actual cost under sub-section (5) shall be made
+with the prior approval of the Joint Commissioner.
+(7) For the purposes of this section, “special modes of acquisition”
+means acquisition—
+(a) by way of a gift or will or an irrevocable trust; or
+(b) upon distribution on the liquidation of a company; or
+(c) by such mode of transfer as is referred to in section 70(1)(a), (c), (d),
+(e), (j), (zd), (ze) and (zf).
+Special provision for computation of cost of acquisition of certain assets.

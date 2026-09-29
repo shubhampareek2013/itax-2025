@@ -1,0 +1,10 @@
+454. Where any person, who is required to furnish a statement of financial
+transaction or reportable account under section 508(1), fails to furnish such
+statement or reportable account within the period specified in the notice issued
+under section 508(7), the income-tax authority prescribed under section 508(1)
+may impose on him, a penalty of ₹ 1000 for every day for which such failure
+continues, beginning from the day immediately after the period specified in such
+notice for furnishing such statement or reportable account expires and such
+penalty shall not exceed ₹ 100000.]
+Penalty for furnishing inaccurate statement of financial transaction or
+reportable account.

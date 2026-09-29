@@ -1,0 +1,264 @@
+263. (1)(a) Every person as mentioned below shall, for a tax year, on or
+before the due date, furnish a return14 of his income or the income of any other
+person in respect of which he is assessable during the said tax year:—
+(i) a company;
+(ii) a firm;
+(iii) a person other than a company or a firm, if his total income or the
+total income of any other person in respect of which he is assessable under this
+Act during the tax year, without giving effect to the provisions of
+Chapter XVII-B or provisions of Schedule VIII (Table: Sl. No. 1) or deductions
+allowable under section 82 or 83 or 84 or 85 or 86 or 87 or 88 of
+Chapter IV-E or Chapter VIII, as the case may be, exceeded the maximum
+amount which is not chargeable to income-tax;
+(iv) a specified entity, if its total income without giving effect to the
+provisions of section 11 exceeds the maximum amount which is not
+chargeable to income-tax;
+12 Rule 159(4), Income Tax Rules, 2026.
+13 Rule 159(6), Income Tax Rules, 2026.
+14 Rule 164, Income Tax Rules, 2026.
+Direct Taxes Committee                                                            367
+Income-tax Act, 2025                                                    [Sec 262-267]
+(v) a University, college or other institution as referred to in
+section 45(3)(a);
+(vi) a business trust;
+(vii) an investment fund as referred to in section 224;
+(viii) a person who has sustained a loss in the tax year under the head
+“Profits and gains of business or profession” or under the head “Capital
+gains” and who intends to claim that such loss, or any part thereof, is to be
+carried forward as per this Act;
+(ix) a person, who is a resident, other than not ordinarily resident, and
+who at any time during the tax year,––
+(A) holds, as a beneficial owner or otherwise, any asset
+(including any financial interest in an entity) located outside India, or
+has signing authority in any account located outside India; or
+(B) is a beneficiary of any asset (including any financial interest
+in an entity) located outside India, except where any income arising
+from such asset is includible in the income of person referred to in
+item (A);
+(x) a person, other than a company or firm, who during the tax year,
+fulfils such conditions as may be prescribed;15
+(b) the persons referred in clauses (a)(i), (a)(ii), (a)(v), (a)(vi), (a)(vii) and
+(a)(ix) shall furnish return on or before the due date regardless of income or loss;
+16[(c) for the purposes of this section, “due date” in respect of the persons
+mentioned in column B of the Table below, subject to conditions as mentioned in
+column C of the said Table, shall be the due date of the financial year
+succeeding the relevant tax year as mentioned in column D thereof:
+Table
+Sl. No.                      Person                        Conditions     Due date
+A                            B                               C             D
+1.     Assessee, including the partners of the firm   Where the       30th
+or the spouse of such partner (if section 10   provisions of   November
+applies to such spouse).                       section 172
+apply.
+2.     (i) Company;                                   Where the       31st
+(ii) Assessee (other than a company) whose provisions of       October.
+accounts are required to be audited section 172
+under this Act or under any other law do not apply.
+in force;
+(iii) partner of a firm whose accounts are
+required to be audited under this Act or
+under any other law in force; or the
+spouse of such partner (if section 10
+applies to such spouse).
+15 Rule 163, Income Tax Rules, 2026.
+16 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+Direct Taxes Committee                                                              368
+CH. XV-RETURN OF INCOME                                            [Sec 262-267]
+Sl. No.                       Person                     Conditions    Due date
+A                            B                           C              D
+3.     (i) Assessee having income from profits Where the           31st
+and gains of business or profession provisions of      August.
+whose accounts are not required to be section 172
+audited under this Act or under any do not apply.
+other law in force;
+(ii) partner of a firm whose accounts are
+not required to be audited under this
+Act or under any other law in force or
+the spouse of such partner (if section 10
+applies to such spouse)
+4.     Any other assessee                                          31st July]
+(2)(a) The Board may prescribe form for furnishing return of income,
+manner of its verification and such other particulars including––
+(i) the class or classes of persons who shall be required to furnish the
+return in electronic form or otherwise;
+(ii) the form and the manner in which the return may be furnished,
+whether in electronic form or otherwise;
+(iii) the documents, statements, receipts, certificates, audited reports
+or any other documents which may not be furnished along with the return in
+electronic form but shall be produced before the Assessing Officer on
+demand;
+(iv) the computer resource or the electronic record to which the
+return in electronic form may be transmitted;
+(b) the particulars prescribed under clause (a) may also include––
+(i) income exempt from tax;
+(ii) assets of the prescribed nature and value held by the assessee as a
+beneficial owner or otherwise or in which he is a beneficiary;
+(iii) bank account and credit card held by the assessee;
+(iv) expenditure exceeding the prescribed limit incurred by the
+assessee under prescribed heads;
+(v) such other outgoings as may be prescribed;
+(vi) the report of any audit referred to in section 63 or a copy thereof;
+(vii) the particulars of the location and style of the principal place of
+the business or profession and all the branches thereof;
+(viii) the names and addresses of the partners, if any, in the business
+or profession;
+(ix) the names of the other members of the association of person or the
+body of individuals and the extent of the share of the assessee and the shares
+of all such members in the profits of the business or profession and any
+branches thereof.
+Direct Taxes Committee                                                         369
+Income-tax Act, 2025                                                       [Sec 262-267]
+(3) The Central Government may, by notification, exempt any class or
+classes of persons, from the obligation to file a return of income under this section,
+subject to the conditions specified therein.
+(4) Any person who has not furnished a return within the time allowed to
+him under sub-section (1), may furnish the return for any tax year at any time
+within nine months from the end of the relevant tax year, or before the completion
+of the assessment, whichever is earlier.
+17[(5) If any person, having furnished a return under sub-section (1) or (4),
+discovers any omission or any wrong statement therein, he may, subject to the
+provisions of section 428(b), furnish a revised return at any time within twelve
+months from the end of the relevant tax year, or before the completion of the
+assessment, whichever is earlier.]
+(6)(a) Any person, whether or not he has furnished a return under
+sub-section (1) or (4) or (5) for a tax year, may furnish an updated return18 of his
+income or the income of any other person in respect of which he is assessable
+under this Act, at any time within forty-eight months from the end of the financial
+year succeeding the relevant tax year;
+19[(b) (i) the provisions of clause (a) shall continue to apply for a tax year
+if any person has sustained a loss in the said tax year and has furnished a
+return of loss within the due date specified under sub-section (1) and the updated
+return is a return of income or such updated return has the effect of reducing the
+loss;
+(ii) the provisions of clause (a) shall also apply where an updated return
+is furnished by a person for the relevant tax year in pursuance of a notice
+issued under section 280 within such period as specified in the said notice and in
+such a case, the assessee shall be precluded from filing return in pursuance of
+the said notice in any other manner;]
+(c) the provisions of clause (a) shall not apply for a tax year for any person,
+if––
+(i) the updated return is a return of loss for the said tax year 20[except in a
+case referred to in sub-section (6)(b)(i)]; or
+(ii) the updated return has the effect of decreasing the total tax liability
+determined on the basis of return furnished under sub-section (1) or (4) or (5)
+for the said tax year; or
+17 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+18 Rule 165, Income Tax Rules, 2026.
+19 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+20 Inserted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+Direct Taxes Committee                                                                  370
+CH. XV-RETURN OF INCOME                                                 [Sec 262-267]
+(iii) the updated return results in refund where no refund was due or
+increases the refund due on the basis of return furnished under sub-section (1)
+or (4) or (5) for the said tax year; or
+(iv) an updated return has already been furnished for the said tax year; or
+(v) any proceeding for assessment or reassessment or recomputation or
+revision of income under this Act is pending or has been completed for the said
+tax year 21[except in a case referred to in sub-section (6)(b)(ii)]; or
+(vi) the Assessing Officer is in the possession of information in respect
+of such person for the said tax year regarding violation of specified laws and
+the same has been communicated to him prior to the date of furnishing of
+updated return; or
+(vii) information for the said tax year has been received under an
+agreement referred to in section 90 or 90A of Income-tax Act, 1961 or
+section 159 of this Act in respect of such person and the same has been
+communicated to him, prior to the date of furnishing of updated return; or
+(viii) any prosecution proceedings under the Chapter XXII have been
+initiated for the said tax year in respect of such person, prior to the date of
+furnishing of updated return; or
+(ix) thirty-six months have expired from the end of the financial year
+succeeding the relevant tax year, and any notice to show-cause under
+section 281 has been issued in his case, except where an order has been
+passed under section 281(3) determining that it is not a fit case to issue
+notice under section 280; or
+(x) he is such person or belongs to such class of persons, as may be
+notified by the Board in this regard;
+(d) a person shall also not be eligible to furnish an updated return of income,
+where—
+(a) a search has been initiated under section 247 or books of account
+or other documents or any assets are requisitioned under section 248 in the
+case of that person; or
+(b) a survey has been conducted under section 253, other than
+sub-section (4) of the said section, in the case of that person; or
+(c) a notice has been issued under section 294 in pursuance to the
+provisions of section 295, to that person,
+for the tax year in which such search is initiated or survey is conducted or
+requisition is made and any tax year preceding such tax year;
+(e) if a person has furnished a return of income under clause (a) for a tax year,
+and as a result the loss or any part thereof carried forward under Chapter VII or
+unabsorbed depreciation carried forward under section 33(3)(b) or tax credit carried
+21 Inserted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+Direct Taxes Committee                                                              371
+Income-tax Act, 2025                                                         [Sec 262-267]
+forward under sections 22[206(2)(e) to (h) and 206(3) and (4)] is to be reduced for
+any subsequent tax year, then, an updated return shall be furnished for each such
+subsequent tax year.
+(7) A return of income furnished under this section, shall be treated as defective
+if it is not in conformity with all the conditions as may be prescribed23 and shall be
+dealt with in the following manner:––
+(a) where the Assessing Officer considers that the return of income
+furnished by the assessee is defective, he may intimate the defect to the assessee
+and give him an opportunity to rectify the defect within fifteen days from the
+date of such intimation or within a further period as may be allowed on an
+application made by the assessee in this behalf;
+(b) if the defect is not rectified within the period allowed under clause (a),
+then the return shall be treated as an invalid return and the provisions of this Act
+shall apply as if the assessee had failed to furnish the return;
+(c) where the assessee rectifies the defect after the expiry of the period
+allowed under clause (a), but before the assessment is made, the Assessing
+Officer may condone the delay and treat the return as a valid return.
+(8)(a) The provisions of this section shall also apply to a return of income which
+is furnished in pursuance of an order passed under section 239(3)(b);
+(b) the provisions of this section shall not apply to a specified senior
+citizen, as referred to in section 402(39), for the relevant tax year in which tax
+has been deducted at source under section 393(1) [Table: Sl. No. 8 (iii)].
+(9) For the purposes of this section,––
+(a) “beneficial owner”, in respect of an asset means an individual who
+has provided, directly or indirectly, consideration for the asset for the
+immediate or future benefit, direct or indirect, of himself or any other
+person;
+(b) “beneficiary”, in respect of an asset means an individual who
+derives benefit from the asset during the tax year and the consideration for
+such asset has been provided by any person other than such beneficiary;
+(c) “specified entity” means––
+(i) research association referred to in Schedule III (Table: Sl. No. 23);
+(ii) association or institution referred to in Schedule III
+(Table: Sl. No. 24);
+(iii) person referred to in Schedule VII (Table: Sl. No. 2);
+(iv) institution referred to in Schedule III (Table: Sl. No. 25);
+(v) any University or other educational institution or any hospital
+or other medical institution referred to in Schedule VII
+(Table: Sl. Nos. 17, 18 and 19);
+22 Substituted by the Finance Act, 2026, w.e.f. 1-4-2026, i.e. from the date of original
+enactment.
+23 Rule 166, Income Tax Rules, 2026.
+Direct Taxes Committee                                                                    372
+CH. XV-RETURN OF INCOME                                                    [Sec 262-267]
+(vi) Mutual Fund referred to in Schedule VII (Table: Sl. Nos. 20
+and 21);
+(vii) securitisation trust referred to in Schedule III (Table: Sl. No. 26);
+(viii) Investor Protection Fund referred to in Schedule III (Table:
+Sl. Nos. 28 and 29);
+(ix) Core Settlement Guarantee Fund referred to in Schedule III
+(Table: Sl. No. 30);
+(x) venture capital company or venture capital fund referred to
+in Schedule V (Table: Sl. No. 6);
+(xi) trade union or association referred to in Schedule III (Table:
+Sl. No. 31);
+(xii) Board or Authority referred to in Schedule VII (Table: Sl.
+Nos. 33 and 40);
+(xiii) Body or Authority or Board or Trust or Commission (by
+whatever name called) referred to in Schedule III (Table: Sl. No. 36);
+(xiv) infrastructure debt fund referred to in Schedule VII (Table:
+Sl. No. 46);
+(d) “specified laws” shall refer to the Smugglers and Foreign
+Exchange Manipulators (Forfeiture of Property) Act, 1976, or the
+Prohibition of Benami Property Transactions Act, 1988, or the Prevention
+of Money-laundering Act, 2002, or the Black Money (Undisclosed Foreign
+Income and Assets) and Imposition of Tax Act, 2015.
+Scheme for submission of returns through tax return preparers.

@@ -1,0 +1,125 @@
+354. (1) A registered non-profit organisation or a person referred to in
+Schedule VII (Table: Sl. No. 1) may, for the purpose of section 133(1)(b)(ii), make
+an application for approval in such form and manner, as may be prescribed, to the
+Principal Commissioner or Commissioner, subject to the following conditions:––
+(a) it is not expressed to be for the benefit of any particular religious
+community or caste;
+(b) it is established in India for a charitable purpose and does not incur
+any expenditure of an amount exceeding 5% of its total income during a tax
+year which is of a religious nature;
+(c) the instrument under which it is constituted does not, or the rules
+governing it do not, contain any provision for the transfer at any time of the
+whole or any part of its assets for any purpose other than a charitable
+purpose;
+(d) it maintains regular accounts of its receipts and expenditure;
+(e) it prepares such statement for such period, as may be prescribed, and
+deliver or cause to be delivered to the prescribed income-tax authority28 or
+the person authorised by such authority such statement in such form and
+verified in such manner and setting forth such particulars and within such time,
+as may be prescribed;29
+(f) it delivers to the said prescribed authority,30 a correction statement
+for rectification of any mistake or to add, delete or update the information
+furnished in the statement delivered under clause (e) in such form and verified
+in such manner, as may be prescribed;31 and
+28   Rule 190(1), Income Tax Rules, 2026.
+29   Rule 190(2), Form No. 113, Income Tax Rules, 2026.
+30   Rule 190(1), Income Tax Rules, 2026.
+31   Rule 190(2), Form No. 113, Income Tax Rules, 2026.
+Direct Taxes Committee                                                           475
+Income–tax Act, 2025                                                  [Sec 302-355]
+(g) it furnishes a certificate to the donor specifying the amount of
+donation within such period from the date of receipt of the donation containing
+the requisite particulars in manner, as may be prescribed.32
+(2) The application under sub-section (1) shall be made in respect of the cases
+referred to in column B of the Table below within the time limit provided in
+column C of the said Table and the Principal Commissioner or Commissioner, on
+receipt of such application, shall follow the procedure provided in sub-sections (3)
+and (4), and shall pass an order in writing within the time limit provided in
+column D and approval, if granted, shall be valid for a period provided in column E
+of the said Table.
+Table
+Sl. No.          Case            Time limit for       Time limit       Validity of
+furnishing         for passing       approval
+application        the order
+A               B                    C                  D               E
+1.      33Where       the At any time One month Three                         tax
+activities of the during the tax from the end years
+applicant have year from which of the month commencing
+not                 approval          is in       which from the tax
+commenced.          sought.              application is year in which
+made.            such
+application is
+made.
+2.      34Where       the At any time Six months Five tax years
+activities of the during the tax from the end commencing
+applicant have year from which of the quarter from the tax
+commenced.          approval          is in       which year in which
+sought.              application is such application
+made.           is made.
+3.      35Where        the Within           six Six months Five tax years
+applicant     has months of the from the end commencing
+provisional         commencement         of the quarter from the tax
+approval      and
+of activities.       in       which year in which
+activities have
+commenced.                               application  is such
+made.            application is
+made.
+32   Rule 190(7), Form No. 114, Income Tax Rules, 2026.
+33   Rule 181, Form No. 104, Income Tax Rules, 2026.
+34   Rule 181, Form No. 105, Income Tax Rules, 2026.
+35   Rule 181, Form No. 105, Income Tax Rules, 2026.
+Direct Taxes Committee                                                           476
+CH. XVII - SPECIAL PROVISIONS RELATING TO CERTAIN PERSONS             [Sec 302-355]
+Sl. No.         Case            Time limit for       Time limit       Validity of
+furnishing         for passing       approval
+application         the order
+A               B                    C                  D                E
+4.      36Where       the   At     least   six   Six months       Five tax years
+provisional         months prior to      from the end     following the
+approval of the     the expiry of the    of the quarter   tax year in
+applicant is due    provisional          in       which   which such
+to expire and       approval.            application is   application is
+activities have                          made.            made.
+not commenced
+5.      37Where      the    At     least   six   Six months       Five tax years
+period        for   months prior to      from the end     following the
+approval of a       the expiry of the    of the quarter   tax year in
+registered non-     said approval.       in      which    which such
+profit                                   application is   application is
+organisation is                          made.            made.
+due to expire.
+(3) Where an application has been made in any of the cases specified under
+sub-section (2) (Table: Sl. No. 2 to 5), the Principal Commissioner or Commissioner
+shall call for such documents or information or make such inquiries as he thinks
+necessary in order to satisfy himself about the genuineness of the activities, and
+compliance of such requirements of any other law in force, as are material for the
+purposes of achieving its objects, and––
+(a) if he is so satisfied about the objects and the genuineness of the
+activities and compliance of such requirements of any other law in force, he
+shall pass an order in writing approving it; or
+(b) if he is not so satisfied, after affording a reasonable opportunity of
+being heard,––
+(i) shall pass an order in writing rejecting the application, where
+the application was made in any of the cases specified in
+sub-section (2) (Table: Sl. No. 2); and
+(ii) in any other case, shall pass an order in writing rejecting the
+application and also cancelling the approval,
+and send a copy of the order38 to the applicant and the Assessing Officer.
+36 Rule 181, Form No. 105, Income Tax Rules, 2026.
+37 Rule 181, Form No. 105, Income Tax Rules, 2026.
+38 Rule 181, Form No. 107, Income Tax Rules, 2026.
+Direct Taxes Committee                                                            477
+Income–tax Act, 2025                                                   [Sec 302-355]
+(4) Where an application has been made in any of the cases specified in
+sub-section (2) (Table: Sl. No. 1), the Principal Commissioner or Commissioner
+shall pass an order granting provisional approval.39
+40[Merger of registered non-profit organisation in certain cases
+354A. Where any registered non-profit organisation merges with any other
+registered non-profit organisation, the provisions of section 352 shall not apply
+if,—
+(a) the other registered non-profit organisation has same or similar objects;
+and
+(b) the said merger fulfils such conditions as may be prescribed.]
+7.—Interpretation
+Interpretation.
