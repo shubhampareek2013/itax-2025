@@ -17,9 +17,15 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     .map((l) => l.replace(/\s+$/, "").trim())
     .filter((l) => l !== "" && !/^\d+$/.test(l));
   let start = -1;
-  for (let i = 0; i < lines.length; i++) if (/^CHAPTER\s+I(?:\s*[-–—]\s*.*)?$/.test(lines[i])) start = i;
-  // Some trusted reproductions (e.g. ICAI) include a section-mapping table before the bare Act.
-  // Use the last Chapter I so mapping-table rows cannot be mistaken for statutory sections.
+  for (let i = 0; i < lines.length; i++) {
+    if (!/^CHAPTER\s+I(?:\s*[-–—]\s*.*)?$/.test(lines[i])) continue;
+    const before = lines.slice(Math.max(0, i - 15), i);
+    // In reproductions such as ICAI, a section-mapping table and the Finance Act
+    // appear around the bare Act. Anchor the start to the actual Act title.
+    if (before.some((x) => /^THE INCOME-TAX ACT, 2025$/i.test(x) || /^INCOME-TAX ACT, 2025$/i.test(x))) {
+      start = i;
+    }
+  }
   if (start < 0) throw new Error('Could not find "CHAPTER I" in the text — is this the Act?');
 
   let expected = 1, endIdx = lines.length;
