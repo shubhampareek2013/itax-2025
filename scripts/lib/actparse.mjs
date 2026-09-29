@@ -54,6 +54,9 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     const m = l.match(/^(\d{1,3})\.\s*(.*)$/);
     if (!m || FOOT.test(l)) continue;
     const n = Number(m[1]);
+    // Only accept the next statutory section number. This prevents sub-clauses,
+    // table rows and amendment footnotes such as "1." from being mistaken for sections.
+    if (n !== expected) continue;
     let body = m[2].trim();
     if (!body && i + 1 < lines.length) body = lines[i + 1].trim();
     const bodyOk = /^(?:\(|[A-Z“‘]|\d)/.test(body);
@@ -67,7 +70,6 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
       title = prevTrim.replace(/\.$/, "").trim();
     }
 
-    if (n > expected) for (let q = expected; q < n; q++) missing.push(q);
     found.push({ n, title, idx: i, bodyBoundary: headStart !== null ? Math.min(headStart, i) : i,
       chapterRoman: chapter.roman, chapterName: chapter.name, part });
     expected = n + 1;
