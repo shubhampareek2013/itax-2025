@@ -28,7 +28,8 @@ if (sections.length < MIN_EXPECTED || lastFound < MIN_EXPECTED) {
   console.error(`Parsed only ${sections.length} sections (last found: ${lastFound}); refusing to replace the queue because this looks like a partial/broken PDF extraction. Expected about ${EXPECTED}.`);
   process.exit(1);
 }
-if (sections.length !== EXPECTED) console.warn(`Parsed ${sections.length} sections instead of expected ${EXPECTED}; continuing because the result passed the safety threshold.`);\nif (sections.length === 0) {
+if (sections.length !== EXPECTED) console.warn(`Parsed ${sections.length} sections instead of expected ${EXPECTED}; continuing because the result passed the safety threshold.`);
+if (sections.length === 0) {
   console.error(`No Act sections were found in the source text. Not touching the queue.`);
   process.exit(1);
 }
