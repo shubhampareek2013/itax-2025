@@ -23,7 +23,7 @@ console.log(`Source: ${origin}`);
 const { sections, missing, lastFound } = parseAct(text, { lastSection: EXPECTED });
 console.log(`Parsed ${sections.length} sections (last found: ${lastFound}).`);
 if (missing.length) console.warn(`WARNING: could not locate section(s): ${missing.join(", ")}`);
-if (sections.length === 0) {
+if (sections.length < MIN_EXPECTED || lastFound < MIN_EXPECTED) {\n  console.error(`Parsed only ${sections.length} sections (last found: ${lastFound}); refusing to replace the queue because this looks like a partial/broken PDF extraction. Expected about ${EXPECTED}.`);\n  process.exit(1);\n}\nif (sections.length !== EXPECTED) console.warn(`Parsed ${sections.length} sections instead of expected ${EXPECTED}; continuing because the result passed the safety threshold.`);\nif (sections.length === 0) {
   console.error(`No Act sections were found in the source text. Not touching the queue.`);
   process.exit(1);
 }
