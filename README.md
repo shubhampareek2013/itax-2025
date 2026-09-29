@@ -187,9 +187,9 @@ site for real work, and use the Contact page for corrections.
 To research and publish one article right now, without waiting for the cron:
 
 - From the GitHub UI: **Actions → Daily Publish → Run workflow**.
-- Locally: `npm run pipeline:run` (with `.env` filled in), then commit + push.
+- Locally: `npm run publish:batch` (with `.env` filled in), then commit + push.
 
-## 9. Adding sections to the queue
+For a complete Act re-seed, use `npm run seed:force`. The GitHub Action automatically re-seeds when fewer than 500 Act source files are present.\n\n## 9. Adding sections to the queue
 
 ```bash
 node scripts/queue-add.mjs "5" "Scope of Total Income" "Chapter I - Preliminary" "Tax Administration"
