@@ -60,7 +60,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
-          npm install
+          npm ci
 
       - name: 1. Load the Act (first run) or check for amendments (later runs)
         id: amend
@@ -87,7 +87,7 @@ jobs:
         if: steps.amend.outcome == 'success'
         run: |
           if node scripts/anything-left.mjs; then
-            gh workflow run daily-publish.yml
+            gh workflow run daily-publish.yml -f retry_failed=false -f reseed=false
           else
             echo "Nothing left to do."
           fi
