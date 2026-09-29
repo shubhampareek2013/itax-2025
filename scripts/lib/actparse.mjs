@@ -32,6 +32,8 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
   let chapter = { roman: "I", name: "" }, part = "";
   let headStart = null;
   const found = [], missing = [];
+  // Sections 443 and 447 were expressly omitted by the Finance Act, 2026.
+  // Keep their statutory numbers in the site index as explicit "Omitted" entries.
 
   for (let i = start; i < lines.length; i++) {
     const l = lines[i];
@@ -58,6 +60,13 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
 
     if (/^SCHEDULE\s+[IVXLC]+\b/.test(l) && expected > lastSection - 40) {
       endIdx = i; break;
+    }
+
+    if (expected === 443 || expected === 447) {
+      found.push({ n: expected, title: "Omitted", idx: i, bodyBoundary: i,
+        chapterRoman: chapter.roman, chapterName: chapter.name, part, omitted: true });
+      expected++;
+      continue;
     }
 
     const m = l.match(/^(\d{1,3})\.\s*(.*)$/);
@@ -89,7 +98,8 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     const end = k + 1 < found.length ? found[k + 1].bodyBoundary : endIdx;
     let text = lines.slice(s.idx, Math.max(end, s.idx + 1)).join("\n");
     if (text.length > 400000) text = text.slice(0, 400000);
-    return { n: s.n, title: s.title, chapterRoman: s.chapterRoman, chapterName: s.chapterName, part: s.part, text };
+    if (s.omitted) text = `${s.n}. Omitted by the Finance Act, 2026 with effect from 1 April 2026.`;
+    return { n: s.n, title: s.title, chapterRoman: s.chapterRoman, chapterName: s.chapterName, part: s.part, text, omitted: !!s.omitted };
   });
   return { sections, missing, lastFound: found.length ? found[found.length - 1].n : 0 };
 }
