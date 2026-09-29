@@ -28,7 +28,10 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
       const roman = l.replace("CHAPTER", "").trim();
       const nameParts = [];
       let k = i + 1;
-      while (k < lines.length && isUpperLine(lines[k]) && !isChapterLine(lines[k]) && nameParts.length < 3) { nameParts.push(lines[k]); k++; }
+      while (k < lines.length && isUpperLine(lines[k]) && !isChapterLine(lines[k]) && nameParts.length < 3) {
+        nameParts.push(lines[k]);
+        k++;
+      }
       chapter = { roman, name: sentence(nameParts.join(" ")) };
       part = "";
       if (headStart === null) headStart = i;
@@ -36,44 +39,59 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
       i = k - 1;
       continue;
     }
+
     if (isPartLine(l) && found.length) {
       part = l.replace(/^[A-Z]{1,2}\.\s?[—–-]\s*/, "");
       if (headStart === null) headStart = i;
       headLast = i;
       continue;
     }
-    if (/^SCHEDULE\s+[IVXLC]+\b/.test(l) && expected > lastSection - 40) { endIdx = i; break; }
 
-    const m = l.match(/^(\d{1,3})\.\s+(\S.*)$/);
-    if (!m || FOOT.test(l)) continue;
-    const n = Number(m[1]);
-    const prevLine = lines[i - 1] || "";
-    const bodyOk = /^(\(|[A-Z“‘])/.test(m[2]);
-    const exact = n === expected;
-    const skip = n > expected && n <= expected + 3 && /\.$/.test(prevLine.trim()) && bodyOk && prevLine.length < 160;
-    if (!(exact || skip) || !bodyOk || n > lastSection) continue;
-
-    // --- title: the line(s) just above the section number
-    const pieces = [prevLine.trim()];
-    let j = i - 2;
-    if (!/\.$/.test(pieces[0])) pieces[0] = ""; // not a title-looking line
-    let guard = 0;
-    while (pieces[0] && guard < 2 && j > headLast) {
-      const c = (lines[j] || "").trim();
-      if (c && /^[A-Z“]/.test(c) && !TERMINAL.test(c) && !isChapterLine(c) && !isPartLine(c) && !isUpperLine(c) && c.length < 120) {
-        pieces.unshift(c); j--; guard++;
-      } else break;
+    if (/^SCHEDULE\s+[IVXLC]+\b/.test(l) && expected > lastSection - 40) {
+      endIdx = i;
+      break;
     }
-    let title = pieces.join(" ").replace(/\s+/g, " ").replace(/\.$/, "").trim();
-    if (!title || title.length > 220) title = `Section ${n}`;
-    const titleStart = i - (title === `Section ${n}` ? 0 : pieces.length);
 
-    for (let q = expected; q < n; q++) missing.push(q);
+    const m = l.match(/^(\d{1,3})\.\s+(.+)$/);
+    if (!m || FOOT.test(l)) continue;
+
+    const n = Number(m[1]);
+    const body = m[2].trim();
+    const bodyOk = /^(?:\(|[A-Z“‘]|\d)/.test(body);
+
+    if (!bodyOk || n > lastSection) continue;
+
+    const prevLine = lines[i - 1] || "";
+    let title = `Section ${n}`;
+
+    const prevTrim = prevLine.trim();
+    if (prevTrim && prevTrim.length < 220 && /[A-Za-z]/.test(prevTrim)) {
+      const likelyTitle = prevTrim.replace(/\.$/, "").trim();
+      if (
+        likelyTitle &&
+        !/^CHAPTER\s+/i.test(likelyTitle) &&
+        !/^SCHEDULE\s+/i.test(likelyTitle) &&
+        !/^\d+\.$/.test(likelyTitle) &&
+        !/^PART\s+/i.test(likelyTitle)
+      ) {
+        title = likelyTitle;
+      }
+    }
+
+    if (n > expected) {
+      for (let q = expected; q < n; q++) missing.push(q);
+    }
+
     found.push({
-      n, title, idx: i,
-      bodyBoundary: headStart !== null ? Math.min(headStart, titleStart) : titleStart,
-      chapterRoman: chapter.roman, chapterName: chapter.name, part
+      n,
+      title,
+      idx: i,
+      bodyBoundary: headStart !== null ? Math.min(headStart, i) : i,
+      chapterRoman: chapter.roman,
+      chapterName: chapter.name,
+      part
     });
+
     expected = n + 1;
     headStart = null;
   }
@@ -84,6 +102,7 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     if (text.length > 400000) text = text.slice(0, 400000);
     return { n: s.n, title: s.title, chapterRoman: s.chapterRoman, chapterName: s.chapterName, part: s.part, text };
   });
+
   return { sections, missing, lastFound: found.length ? found[found.length - 1].n : 0 };
 }
 
