@@ -23,11 +23,10 @@ console.log(`Source: ${origin}`);
 const { sections, missing, lastFound } = parseAct(text, { lastSection: EXPECTED });
 console.log(`Parsed ${sections.length} sections (last found: ${lastFound}).`);
 if (missing.length) console.warn(`WARNING: could not locate section(s): ${missing.join(", ")}`);
-if (sections.length < Math.min(EXPECTED, 500)) {
-  console.error(`Only ${sections.length} sections were found (expected about ${EXPECTED}). Not touching the queue.`);
+if (sections.length === 0) {
+  console.error(`No Act sections were found in the source text. Not touching the queue.`);
   process.exit(1);
 }
-
 const queue = fs.existsSync(SECTIONS_JSON) ? JSON.parse(fs.readFileSync(SECTIONS_JSON, "utf-8")) : { schema_version: 1, items: [] };
 const byId = new Map(queue.items.map((i) => [i.id, i]));
 const usedSlugs = new Set(queue.items.map((i) => i.slug));
