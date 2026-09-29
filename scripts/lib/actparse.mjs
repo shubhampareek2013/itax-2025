@@ -11,7 +11,7 @@ const FOOT = /^\d+[a-z]?\.\s+(Substituted|Omitted|Inserted|Amended|Added|Words|I
 const sentence = (s) => { s = s.toLowerCase(); return s.charAt(0).toUpperCase() + s.slice(1); };
 
 export function parseAct(rawText, { lastSection = 536 } = {}) {
-  const lines = rawText.split(/\r?\n/).map((l) => l.replace(/\s+$/, "")).filter((l) => l.trim() !== "");
+  const lines = rawText\n    .replace(/\r/g, "")\n    .replace(/\f/g, "\n")\n    .replace(/\u00a0/g, " ")\n    .split("\n")\n    .map((l) => l.replace(/\s+$/, "").trim())\n    .filter((l) => l !== "" && !/^\d+$/.test(l));
   const start = lines.findIndex((l) => /^CHAPTER I$/.test(l));
   if (start < 0) throw new Error('Could not find "CHAPTER I" in the text — is this the Act?');
 
