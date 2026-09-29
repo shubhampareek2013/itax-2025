@@ -88,7 +88,7 @@ jobs:
         if: steps.amend.outcome == 'success'
         run: |
           if node scripts/anything-left.mjs; then
-            gh workflow run daily-publish.yml -f retry_failed=false -f reseed=false -f retry_failed=false -f reseed=false
+            gh workflow run daily-publish.yml -f retry_failed=false -f reseed=false
           else
             echo "Nothing left to do."
           fi
