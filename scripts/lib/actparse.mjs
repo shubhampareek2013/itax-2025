@@ -84,17 +84,19 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
 
     let title = `Section ${n}`;
     const headingLike = (value) => {
-      const x = value.trim();
-      if (!x || x.length > 180 || !/[A-Za-z]/.test(x)) return false;
-      if (/^[([a-zA-Z0-9]|^Table\\b|^Sl\\.\\s*No\\b|^A\\s+B\\s+C\\b/i.test(x)) return false;
-      if (/[₹%]=/.test(x)) return false;
-      if (/^(and|or|where|if|unless|in case|the amount|any amount|more than|less than|upto|up to)\\b/i.test(x)) return false;
+      const x = value.trim().replace(/\.$/, "");
+      const words = x.split(/\s+/).length;
+      if (!x || x.length > 180 || words > 18 || !/^[A-Z“‘]/.test(x)) return false;
+      if (/^\(?[a-zA-Z0-9]/.test(x) || /^Table\b|^Sl\.\s*No\b|^A\s+B\s+C\b/i.test(x)) return false;
+      if (/[;₹%=]/.test(x)) return false;
+      if (/^(and|or|where|if|unless|in case|the amount|any amount|more than|less than|upto|up to|which|such|this|that|these|those)\b/i.test(x)) return false;
+      if (/[,:]$/.test(value.trim())) return false;
       return true;
     };
-    for (let j = i - 1; j >= Math.max(start, i - 8); j--) {
-      const candidate = lines[j].replace(/\\.$/, "").trim();
+    for (let j = i - 1; j >= Math.max(start, i - 50); j--) {
+      const candidate = lines[j];
       if (headingLike(candidate)) {
-        title = candidate;
+        title = candidate.replace(/\.$/, "").trim();
         break;
       }
     }
