@@ -167,11 +167,12 @@
       "chapter": "Chapter III — Incomes which do not form part of total income",
       "part": "Incomes not to be included in total income of political parties and",
       "category": "General",
-      "status": "pending",
+      "status": "failed",
       "slug": "incomes-not-included-in-total-income-of-political-parties-and-electoral-trusts",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s013",
@@ -181,11 +182,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Heads of income",
       "category": "General",
-      "status": "pending",
+      "status": "failed",
       "slug": "heads-of-income",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s014",
@@ -195,11 +197,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Heads of income",
       "category": "General",
-      "status": "pending",
+      "status": "failed",
       "slug": "income",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s015",
@@ -209,11 +212,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "pending",
+      "status": "failed",
       "slug": "salaries",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s016",
@@ -223,11 +227,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "pending",
+      "status": "failed",
       "slug": "income-from-salary",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s017",
@@ -237,11 +242,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "pending",
+      "status": "failed",
       "slug": "perquisite2",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s018",
@@ -251,11 +257,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "pending",
+      "status": "failed",
       "slug": "profits-in-lieu-of-salary",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s019",
@@ -265,11 +272,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "pending",
+      "status": "failed",
       "slug": "deductions-from-salaries",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s020",
@@ -279,11 +287,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "failed",
       "slug": "income-from-house-property",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s021",
@@ -293,11 +302,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "failed",
       "slug": "determination-of-annual-value",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Gemini API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quota"
     },
     {
       "id": "itax2025-s022",
