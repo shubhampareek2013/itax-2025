@@ -105,8 +105,7 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
         break;
       }
     }
-    }
-
+    
     found.push({ n, title, idx: i, bodyBoundary: headStart !== null ? Math.min(headStart, i) : i,
       chapterRoman: chapter.roman, chapterName: chapter.name, part });
     expected = n + 1;
