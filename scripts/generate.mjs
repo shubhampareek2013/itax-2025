@@ -71,7 +71,7 @@ function buildPrompt(item, src) {
 Act: ${item.act}
 Section: ${item.section} — ${item.title}
 Chapter: ${item.chapter}${item.part ? `\nPart: ${item.part}` : ""}
-The Act came into force on 1 April 2026 (as amended by the Finance Act, 2026).
+Do not use global facts about commencement, rates, tax policy, or other sections unless they are present in the supplied official text or are separately supported by a cited official source in the relevant comparison or guidance section.
 
 OFFICIAL TEXT (extracted from the Income Tax Department's consolidated PDF; tables may be flattened):
 """
