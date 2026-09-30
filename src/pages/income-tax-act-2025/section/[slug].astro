@@ -28,6 +28,7 @@ const TYPES = {
 };
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const sections = [];
+const studySections = [];
 
 // 1. Official text (verbatim from the Income Tax Department PDF — never AI-written)
 if (official) {
@@ -63,19 +64,19 @@ if (notes.length) {
 // 2b. Study guide: commentary, worked example, MCQs, mnemonics (Gemini Pro, checked against the official text)
 if (study) {
   const stale = study.stale ? `<p class="banner"><b>This section was amended after this study guide was written.</b> It will be refreshed automatically; rely on the official text and the highlighted amendment meanwhile.</p>` : "";
-  sections.push({ heading: "Commentary", id: "commentary", type: ["AI-assisted", "ai"], html:
+  studySections.push({ heading: "Commentary", id: "commentary", type: ["AI-assisted", "ai"], html:
     stale + `<p class="muted" style="font-size:14px;margin-top:0">Written by Gemini from the official text above and checked against it. Not statutory text or legal advice.</p>` + marked.parse(study.commentary) });
   const ex = study.example;
-  sections.push({ heading: "Worked example", id: "example", type: ["Explanation", "exp"], html:
+  studySections.push({ heading: "Worked example", id: "example", type: ["Explanation", "exp"], html:
     `<p class="banner" style="background:var(--accent-soft);border-color:transparent"><b>Assumptions (illustrative only):</b> ${esc(ex.assumptions)}</p>` +
     `<p><b>Scenario.</b> ${esc(ex.scenario)}</p><p><b>Walkthrough.</b> ${esc(ex.walkthrough)}</p><p><b>Takeaway.</b> ${esc(ex.takeaway)}</p>` });
   const q = study.mcqs.map((m, i) => `<div class="mcq" data-answer="${m.answer}"><p><b>Q${i + 1}.</b> ${esc(m.question)}</p>` +
     m.options.map((o, k) => `<button type="button" class="opt" data-i="${k}"><span class="ltr">${"ABCD"[k]}</span>${esc(o)}</button>`).join("") +
     `<div class="exp" hidden><b>Answer: ${"ABCD"[m.answer]}.</b> ${esc(m.explanation)}</div></div>`).join("");
-  sections.push({ heading: "Test yourself", id: "test-yourself", type: ["Practice", "case"], html:
+  studySections.push({ heading: "Test yourself", id: "test-yourself", type: ["Practice", "case"], html:
     `<p class="muted" style="font-size:14px;margin-top:0">Answer from the official text above. Tap an option to check it.</p>${q}<p class="score" id="score" aria-live="polite"></p>` });
   if (study.mnemonics.length) {
-    sections.push({ heading: "Memory aids", id: "memory-aids", type: ["Mnemonic", "case"], html:
+    studySections.push({ heading: "Memory aids", id: "memory-aids", type: ["Mnemonic", "case"], html:
       study.mnemonics.map((m) => `<div class="mnemo"><div class="dev">${esc(m.device)}</div><ul>${m.stands_for.map((x) => `<li><b>${esc(x.letter)}</b> — ${esc(x.meaning)}</li>`).join("")}</ul><p class="muted" style="margin:6px 0 0;font-size:15px">${esc(m.tip || "")}</p></div>`).join("") +
       `<p class="muted" style="font-size:13px">Memory aids help you recall the parts of a section; the official text is what counts.</p>` });
   }
@@ -105,6 +106,19 @@ if (article) {
 } else if (!study) {
   sections.push({ heading: "Explanation", id: "explanation", type: ["Explanation", "exp"], html:
     `<p>A plain-language explanation of this section has not been published yet. The official text above is complete as of the last check.</p>` });
+}
+
+// The authored Section-4-style article remains the primary explanation.
+// Optional AI study material is deliberately grouped as practice/revision after it.
+if (studySections.length) {
+  sections.push({
+    heading: "Practice & Revision",
+    id: "practice-revision",
+    type: ["Practice", "case"],
+    html: studySections.map((s) =>
+      `<div style="margin-bottom:28px"><span class="tag ${s.type[1]}">${s.type[0]}</span><h3 style="font-size:21px;margin:10px 0 12px">${s.heading}</h3>${s.html}</div>`
+    ).join("")
+  });
 }
 
 const title = fm.title || `Section ${item.section} — ${item.title} | Income-tax Act, 2025`;
