@@ -2,8 +2,8 @@
 // explanation, and it is fact-checked against the changed text before it is shown.
 import { complete } from "../../src/ai/provider.mjs";
 
-const MODEL = process.env.GEMINI_COMMENTARY_MODEL || "gemini-2.5-pro";
-const FALLBACK = "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_COMMENTARY_MODEL || "gemini-3.8-flash";
+const FALLBACK = "gemini-3.8-flash";
 
 const SYSTEM = `You explain amendments to India's Income-tax Act, 2025 for accountants and taxpayers.
 You receive the section title and the exact changes to its wording (removed text, added text, with surrounding context). The text you are given is the ONLY authority.
