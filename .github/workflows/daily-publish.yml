@@ -32,10 +32,11 @@ permissions:
 
 concurrency:
   group: publish-provisions
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   run:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -92,11 +93,6 @@ jobs:
       - name: 3. Site build check
         run: npm run build
 
-      - name: 4. Continue in a fresh run if there is more to do
+      - name: 4. Do not self-trigger another run
         if: steps.amend.outcome == 'success'
-        run: |
-          if node scripts/anything-left.mjs; then
-            gh workflow run daily-publish.yml -f retry_failed=false -f reseed=false
-          else
-            echo "Nothing left to do."
-          fi
+        run: echo "Automatic continuation disabled; run manually when you want to continue."
