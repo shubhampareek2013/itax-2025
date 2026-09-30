@@ -8,8 +8,8 @@
 import { complete } from "../../src/ai/provider.mjs";
 import { numbersIn, figuresIn } from "./numbers.mjs";
 
-const MODEL = process.env.GEMINI_STUDY_MODEL || "gemini-2.5-pro";
-const FALLBACK = "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_STUDY_MODEL || "gemini-3.8-flash";
+const FALLBACK = "gemini-3.8-flash";
 const MAX_SRC = 70000;
 
 async function call(args) {
