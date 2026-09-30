@@ -26,7 +26,7 @@ on:
       batch_limit:
         description: "Maximum number of AI-authored sections to process in this run"
         type: string
-        default: "1"
+        default: "10"
       study_guides:
         description: "Also generate optional MCQ/mnemonic study guides after publishing?"
         type: boolean
@@ -44,7 +44,7 @@ concurrency:
 
 jobs:
   run:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -61,7 +61,7 @@ jobs:
       COMMIT_EVERY: "10"
       SLEEP_MS: ${{ vars.SLEEP_MS || '400' }}
       CONCURRENCY: ${{ vars.STUDY_CONCURRENCY || '4' }}
-      BATCH_LIMIT: ${{ inputs.batch_limit || '1' }}
+      BATCH_LIMIT: ${{ inputs.batch_limit || '10' }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -97,11 +97,11 @@ jobs:
       - name: 2. Generate and publish Section-4-style articles
         env:
           TIME_BUDGET_MIN: "150"
-          BATCH_LIMIT: ${{ inputs.batch_limit || '1' }}
+          BATCH_LIMIT: ${{ inputs.batch_limit || '10' }}
         run: node scripts/run-batch.mjs
 
       - name: 3. Optional practice layer (MCQs and mnemonics)
-        if: inputs.study_guides == true
+        if: github.event_name == 'push' || inputs.study_guides == true
         env:
           TIME_BUDGET_MIN: "150"
         run: node scripts/run-study-batch.mjs
