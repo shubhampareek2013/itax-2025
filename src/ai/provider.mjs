@@ -67,7 +67,7 @@ async function completeClaude({ system, prompt, maxTokens, search, temperature, 
 async function completeGemini({ system, prompt, maxTokens, search, temperature, model: m }) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY is not set.");
-  const model = m || process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  const model = m || process.env.GEMINI_MODEL || "gemini-3.8-flash";
   const grounding = search && process.env.GEMINI_GROUNDING !== "false";
   const body = {
     systemInstruction: { parts: [{ text: system }] },
