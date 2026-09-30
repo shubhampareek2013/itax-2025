@@ -83,22 +83,28 @@ export function parseAct(rawText, { lastSection = 536 } = {}) {
     if (!bodyLooksLikeHeading || looksLikeTableRow || n > lastSection) continue;
 
     let title = `Section ${n}`;
+    // The official PDF prints each statutory heading immediately before its numbered provision.
+    // Keep the search window tight: the old 50-line look-back could select an unrelated
+    // sentence from the preceding section and turn it into a false section title.
     const headingLike = (value) => {
       const x = value.trim().replace(/\.$/, "");
       const words = x.split(/\s+/).length;
-      if (!x || x.length > 180 || words > 18 || !/^[A-Z“‘]/.test(x)) return false;
-      if (/^\(?[a-zA-Z0-9]/.test(x) || /^Table\b|^Sl\.\s*No\b|^A\s+B\s+C\b/i.test(x)) return false;
+      if (!x || x.length > 180 || words > 18) return false;
+      if (/^\(?[a-zA-Z0-9]/.test(x)) return false;
+      if (/^(TABLE|Sl\.\s*No\b|No\.\s+of|A\s+B\s+C\b)/i.test(x)) return false;
       if (/[;₹%=]/.test(x)) return false;
-      if (/^(and|or|where|if|unless|in case|the amount|any amount|more than|less than|upto|up to|which|such|this|that|these|those)\b/i.test(x)) return false;
+      if (/^(and|or|where|if|unless|in case|the amount|any amount|more than|less than|upto|up to|which|such|this|that|these|those|provided that)\b/i.test(x)) return false;
       if (/[,:]$/.test(value.trim())) return false;
-      return true;
+      if (/^(Direct Taxes Committee|Income-tax Act, 2025|\[Sec\s|Page\s+\d|\d+\s*$)/i.test(x)) return false;
+      return /^[A-Z“‘]/.test(x);
     };
-    for (let j = i - 1; j >= Math.max(start, i - 50); j--) {
+    for (let j = i - 1; j >= Math.max(start, i - 6); j--) {
       const candidate = lines[j];
       if (headingLike(candidate)) {
         title = candidate.replace(/\.$/, "").trim();
         break;
       }
+    }
     }
 
     found.push({ n, title, idx: i, bodyBoundary: headStart !== null ? Math.min(headStart, i) : i,
