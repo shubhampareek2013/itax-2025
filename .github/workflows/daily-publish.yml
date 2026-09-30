@@ -20,7 +20,15 @@ on:
         type: boolean
         default: false
       reseed:
-        description: "Rebuild the queue from the official PDF (first run, or to force a refresh)?"
+        description: "Rebuild the queue from the official PDF and refresh deterministic titles?"
+        type: boolean
+        default: false
+      batch_limit:
+        description: "Maximum number of AI-authored sections to process in this run"
+        type: string
+        default: "1"
+      study_guides:
+        description: "Also generate optional MCQ/mnemonic study guides after publishing?"
         type: boolean
         default: false
   # schedule:
@@ -53,6 +61,7 @@ jobs:
       COMMIT_EVERY: "10"
       SLEEP_MS: ${{ vars.SLEEP_MS || '400' }}
       CONCURRENCY: ${{ vars.STUDY_CONCURRENCY || '4' }}
+      BATCH_LIMIT: ${{ inputs.batch_limit || '1' }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -85,14 +94,21 @@ jobs:
           git add content/
           git diff --cached --quiet || (git commit -m "content: Act data / amendment check $(date -u +%F)" && git push)
 
-      - name: 2. Write study guides (commentary, example, MCQs, mnemonics)
+      - name: 2. Generate and publish Section-4-style articles
+        env:
+          TIME_BUDGET_MIN: "150"
+          BATCH_LIMIT: ${{ inputs.batch_limit || '1' }}
+        run: node scripts/run-batch.mjs
+
+      - name: 3. Optional practice layer (MCQs and mnemonics)
+        if: inputs.study_guides == true
         env:
           TIME_BUDGET_MIN: "150"
         run: node scripts/run-study-batch.mjs
 
-      - name: 3. Site build check
+      - name: 4. Site build check
         run: npm run build
 
-      - name: 4. Do not self-trigger another run
+      - name: 5. Do not self-trigger another run
         if: steps.amend.outcome == 'success'
         run: echo "Automatic continuation disabled; run manually when you want to continue."
