@@ -50,9 +50,9 @@ jobs:
     env:
       AI_PROVIDER: ${{ vars.AI_PROVIDER || 'gemini' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-      GEMINI_STUDY_MODEL: ${{ vars.GEMINI_STUDY_MODEL || 'gemini-2.5-pro' }}
-      GEMINI_COMMENTARY_MODEL: ${{ vars.GEMINI_COMMENTARY_MODEL || 'gemini-2.5-pro' }}
+      GEMINI_MODEL: "gemini-3.8-flash"
+      GEMINI_STUDY_MODEL: "gemini-3.8-flash"
+      GEMINI_COMMENTARY_MODEL: "gemini-3.8-flash"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
       SITE_URL: ${{ vars.SITE_URL }}
