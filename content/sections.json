@@ -9,12 +9,11 @@
       "title": "Section 1",
       "chapter": "Chapter I — Preliminary",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "short-title-extent-and-commencement",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s002",
@@ -23,12 +22,11 @@
       "title": "Section 2",
       "chapter": "Chapter I — Preliminary",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "definitions",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s003",
@@ -37,12 +35,11 @@
       "title": "Section 3",
       "chapter": "Chapter I — Preliminary",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "definition-of-tax-year",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s004",
@@ -67,12 +64,11 @@
       "title": "Section 5",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "scope-of-total-income",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s006",
@@ -81,12 +77,11 @@
       "title": "Section 6",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "residence-in-india",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s007",
@@ -95,12 +90,11 @@
       "title": "Section 7",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "year",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s008",
@@ -109,12 +103,11 @@
       "title": "Section 8",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "specified-entity",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s009",
@@ -123,12 +116,11 @@
       "title": "“Capital gains”",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "income-deemed-to-accrue-or-arise-in-india",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s010",
@@ -137,12 +129,11 @@
       "title": "Section 10",
       "chapter": "Chapter II — Basis of charge",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "code",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s011",
@@ -152,12 +143,11 @@
       "chapter": "Chapter III — Incomes which do not form part of total income",
       "part": "Incomes not to be included in total income",
       "category": "General",
-      "status": "failed",
+      "status": "pending",
       "slug": "incomes-not-included-in-total-income",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Gemini API error 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
+      "sources": []
     },
     {
       "id": "itax2025-s012",
