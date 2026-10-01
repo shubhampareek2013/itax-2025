@@ -22,16 +22,27 @@ export async function complete({ system, prompt, maxTokens = 8000, search = true
   }
   const waits = [4000, 10000, 30000, 60000, 90000];
   let lastErr;
-  for (let attempt = 0; attempt <= waits.length; attempt++) {
-    try {
-      return PROVIDER === "claude"
-        ? await completeClaude({ system, prompt, maxTokens, search, temperature, model })
-        : await completeGemini({ system, prompt, maxTokens, search, temperature, model });
-    } catch (err) {
-      lastErr = err;
-      if (err.name === "DailyQuotaError") throw err;
-      if (!err.retryable || attempt === waits.length) throw err;
-      await sleep(waits[attempt]);
+  const geminiModels = model ? [model] : [
+    process.env.GEMINI_MODEL || "gemini-3.8-flash",
+    process.env.GEMINI_FALLBACK_MODEL || "gemini-3.5-flash-lite",
+    process.env.GEMINI_LEGACY_FALLBACK_MODEL || "gemini-2.5-flash-lite"
+  ];
+  const models = PROVIDER === "gemini" ? [...new Set(geminiModels)] : [model];
+  for (const selectedModel of models) {
+    for (let attempt = 0; attempt <= waits.length; attempt++) {
+      try {
+        return PROVIDER === "claude"
+          ? await completeClaude({ system, prompt, maxTokens, search, temperature, model: selectedModel })
+          : await completeGemini({ system, prompt, maxTokens, search, temperature, model: selectedModel });
+      } catch (err) {
+        lastErr = err;
+        if (err.name === "DailyQuotaError") {
+          if (PROVIDER === "gemini") break;
+          throw err;
+        }
+        if (!err.retryable || attempt === waits.length) break;
+        await sleep(waits[attempt]);
+      }
     }
   }
   throw lastErr;
@@ -68,7 +79,7 @@ async function completeGemini({ system, prompt, maxTokens, search, temperature, 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY is not set.");
   const model = m || process.env.GEMINI_MODEL || "gemini-3.8-flash";
-  const grounding = search && process.env.GEMINI_GROUNDING !== "false";
+  const grounding = search && process.env.GEMINI_GROUNDING === "true";
   const body = {
     systemInstruction: { parts: [{ text: system }] },
     contents: [{ role: "user", parts: [{ text: prompt }] }],
