@@ -91,8 +91,15 @@ jobs:
           fi
           git config user.name "itax-automation"
           git config user.email "actions@users.noreply.github.com"
+          git config pull.rebase true
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && exit 1)
           git add content/
-          git diff --cached --quiet || (git commit -m "content: Act data / amendment check $(date -u +%F)" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "content: Act data / amendment check $(date -u +%F)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
 
       - name: 2. Generate and publish Section-4-style articles
         env:
@@ -101,7 +108,7 @@ jobs:
         run: node scripts/run-batch.mjs
 
       - name: 3. Optional practice layer (MCQs and mnemonics)
-        if: github.event_name == 'push' || inputs.study_guides == true
+        if: github.event_name == 'workflow_dispatch' && inputs.study_guides == true
         env:
           TIME_BUDGET_MIN: "150"
         run: node scripts/run-study-batch.mjs
