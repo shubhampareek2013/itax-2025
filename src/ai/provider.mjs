@@ -38,7 +38,7 @@ export async function complete({ system, prompt, maxTokens = 8000, search = true
 }
 
 function httpError(prefix, status, body) {
-  if (status === 429 && /PerDay|per day|daily/i.test(body)) return new DailyQuotaError(`${prefix} daily quota exhausted: ${body.slice(0, 300)}`);
+  if (status === 429 && /RESOURCE_EXHAUSTED|quota|rate.?limit|per day|daily/i.test(body)) return new DailyQuotaError(`${prefix} quota/rate limit exhausted: ${body.slice(0, 500)}`);
   const e = new Error(`${prefix} error ${status}: ${body.slice(0, 500)}`);
   e.retryable = status === 429 || status >= 500;
   return e;
