@@ -25,7 +25,7 @@ export async function complete({ system, prompt, maxTokens = 8000, search = true
   const geminiModels = model ? [model] : [
     process.env.GEMINI_MODEL || "gemini-3.8-flash",
     process.env.GEMINI_FALLBACK_MODEL || "gemini-3.5-flash-lite",
-    process.env.GEMINI_LEGACY_FALLBACK_MODEL || "gemini-2.5-flash-lite"
+    process.env.GEMINI_LEGACY_FALLBACK_MODEL || "gemini-3.1-flash-lite"
   ];
   const models = PROVIDER === "gemini" ? [...new Set(geminiModels)] : [model];
   for (const selectedModel of models) {
@@ -83,7 +83,7 @@ async function completeGemini({ system, prompt, maxTokens, search, temperature, 
   const body = {
     systemInstruction: { parts: [{ text: system }] },
     contents: [{ role: "user", parts: [{ text: prompt }] }],
-    generationConfig: { maxOutputTokens: maxTokens, temperature }
+    generationConfig: { maxOutputTokens: maxTokens }
   };
   if (grounding) body.tools = [{ googleSearch: {} }];
   const res = await fetch(
