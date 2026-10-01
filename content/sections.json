@@ -317,10 +317,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "published",
       "slug": "deductions-from-income-from-house-property",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -331,10 +331,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "published",
       "slug": "arrears-of-rent-and-unrealised-rent-received-subsequently",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -345,10 +345,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "published",
       "slug": "property-owned-by-co-owners",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -359,10 +359,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Income from house property",
       "category": "House Property",
-      "status": "pending",
+      "status": "published",
       "slug": "interpretation",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -373,10 +373,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "published",
       "slug": "income-under-head-profits-and-gains-of-business-or-profession",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -387,10 +387,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "published",
       "slug": "manner-of-computing-profits-and-gains-of-business-or-profession",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -401,10 +401,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "published",
       "slug": "rent-rates-taxes-repairs-and-insurance",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -415,10 +415,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "published",
       "slug": "deductions-related-to-employee-welfare",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
@@ -429,11 +429,12 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "failed",
       "slug": "deduction-on-certain-premium",
       "published_date": null,
       "last_verified": null,
-      "sources": []
+      "sources": [],
+      "failure_reason": "Section is empty: ## Related Provisions"
     },
     {
       "id": "itax2025-s031",
@@ -443,10 +444,10 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Profits and gains of business or profession",
       "category": "Business & Profession",
-      "status": "pending",
+      "status": "published",
       "slug": "deduction-for-bad-debt-and-provision-for-bad-and-doubtful-debt",
-      "published_date": null,
-      "last_verified": null,
+      "published_date": "2026-10-01",
+      "last_verified": "2026-10-01",
       "sources": []
     },
     {
