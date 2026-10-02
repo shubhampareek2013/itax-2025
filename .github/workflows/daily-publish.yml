@@ -31,8 +31,8 @@ on:
         description: "Also generate optional MCQ/mnemonic study guides after publishing?"
         type: boolean
         default: false
-  # schedule:
-  #   - cron: "30 2 * * *"   # 08:00 IST daily amendment check, once bulk loading is done
+  schedule:
+    - cron: "30 2 * * *"   # 08:00 IST daily: continue publishing until the queue is empty
 
 permissions:
   contents: write
@@ -56,12 +56,13 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
       SITE_URL: ${{ vars.SITE_URL }}
-      RETRY_FAILED: ${{ inputs.retry_failed && '1' || '0' }}
+      # Always retry previously failed sections; transient AI quota/rate-limit failures must not strand sections permanently.
+      RETRY_FAILED: "1"
       TIME_BUDGET_MIN: "150"
       COMMIT_EVERY: "10"
       SLEEP_MS: ${{ vars.SLEEP_MS || '400' }}
       CONCURRENCY: ${{ vars.STUDY_CONCURRENCY || '4' }}
-      BATCH_LIMIT: ${{ inputs.batch_limit || '10' }}
+      BATCH_LIMIT: ${{ inputs.batch_limit || '20' }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -121,6 +122,6 @@ jobs:
       - name: 4. Site build check
         run: npm run build
 
-      - name: 5. Do not self-trigger another run
-        if: steps.amend.outcome == 'success'
-        run: echo "Automatic continuation disabled; run manually when you want to continue."
+      - name: 5. Verify remaining queue
+        run: |
+          node -e 'const q=require("./content/sections.json"); const p=q.items.filter(x=>x.status==="pending").length; const f=q.items.filter(x=>x.status==="failed").length; const pub=q.items.filter(x=>x.status==="published").length; console.log(`Queue status: published=${pub}, pending=${p}, failed=${f}`)'
