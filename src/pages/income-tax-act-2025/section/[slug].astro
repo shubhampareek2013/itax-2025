@@ -82,6 +82,13 @@ if (study) {
   }
 }
 
+// Related Rules / Case Law links are derived only from references present in the published article.
+const articleText = article?.body || "";
+const ruleRefs = [...new Set([...articleText.matchAll(/\bRule\s+(\d+[A-Za-z]?)\b/gi)].map(m => m[1]))];
+if (ruleRefs.length) {
+  const links = ruleRefs.map(r => '<a class="chip" href="/income-tax-rules-2026?rule=' + encodeURIComponent(r) + '">Rule ' + esc(r) + '</a>').join(" ");
+  sections.push({ heading: "Related Rules", id: "related-rules", type: ["Official guidance", "guid"], html: '<p class="muted">Rules referenced in the published material for this section.</p><div style="display:flex;flex-wrap:wrap;gap:8px">' + links + '</div>' });
+}
 // 3. AI-assisted explanation (only if one has been published)
 if (article) {
   for (const part of article.body.split(/^## /m).slice(1)) {
