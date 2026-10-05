@@ -1,10 +1,6 @@
 name: Publish & keep the Act up to date
 
-# No fixed schedule for the initial bulk load — start it yourself:
-# Actions tab -> "Publish & keep the Act up to date" -> Run workflow.
-# Once the site is fully loaded, switch on the schedule below (uncomment it) so the
-# daily amendment check runs by itself; the bulk-load jobs will simply find nothing
-# left to do and exit in a few seconds.
+# Automatic bulk publishing + daily amendment checks. You can still run it manually from Actions.
 on:
   push:
     paths:
@@ -26,11 +22,11 @@ on:
       batch_limit:
         description: "Maximum number of AI-authored sections to process in this run"
         type: string
-        default: "10"
+        default: "20"
       study_guides:
-        description: "Also generate optional MCQ/mnemonic study guides after publishing?"
+        description: "Generate MCQ/mnemonic study guides too (automatic; this switch is retained for compatibility)."
         type: boolean
-        default: false
+        default: true
   schedule:
     - cron: "30 2 * * *"   # 08:00 IST daily: continue publishing until the queue is empty
 
@@ -44,7 +40,7 @@ concurrency:
 
 jobs:
   run:
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
