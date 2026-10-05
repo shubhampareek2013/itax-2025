@@ -34,7 +34,17 @@ async function main() {
   const status = readJson(STATUS);
   fs.mkdirSync(AMEND, { recursive: true });
 
-  const { text, sha256, origin } = await fetchActText();
+  let fetched;
+  try {
+    fetched = await fetchActText();
+  } catch (e) {
+    console.warn(`Official Act refresh unavailable today: ${e.message}. Keeping the existing validated source library unchanged.`);
+    status.last_checked = today();
+    status.last_result = "official refresh unavailable; existing sources retained";
+    writeJson(STATUS, status);
+    return;
+  }
+  const { text, sha256, origin } = fetched;
   console.log(`Fetched the Act from: ${origin}`);
   let changedSections = 0;
 
