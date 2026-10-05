@@ -227,12 +227,11 @@
       "chapter": "Chapter IV — Computation of total income",
       "part": "Salaries",
       "category": "Salary",
-      "status": "failed",
+      "status": "pending",
       "slug": "perquisite2",
       "published_date": null,
       "last_verified": null,
-      "sources": [],
-      "failure_reason": "Figure \"₹7,500,000\" in \"Key Points\" does not appear in the official text; Figure \"₹7,500,000\" in \"Conditions\" does not appear in the official text"
+      "sources": []
     },
     {
       "id": "itax2025-s018",
