@@ -80,11 +80,16 @@ jobs:
       - name: 1. Load the Act (first run) or check for amendments (later runs)
         id: amend
         run: |
-          SOURCE_COUNT=$(find content/source -maxdepth 1 -type f -name "itax2025-s*.txt" 2>/dev/null | wc -l)
-          if [ "${{ inputs.reseed }}" = "true" ] || [ "$SOURCE_COUNT" -lt 500 ] || [ -f content/.force-reseed ]; then
+          SOURCE_COUNT=$(git ls-files 'content/source/itax2025-s*.txt' | wc -l)
+          echo "Tracked Act section source files: $SOURCE_COUNT"
+          if [ "${{ inputs.reseed }}" = "true" ] || [ -f content/.force-reseed ]; then
             FORCE_SOURCE=1 node scripts/seed-queue.mjs
             rm -f content/.force-reseed
+          elif [ "$SOURCE_COUNT" -lt 500 ]; then
+            echo "Source library is incomplete ($SOURCE_COUNT files); attempting official reseed."
+            FORCE_SOURCE=1 node scripts/seed-queue.mjs
           else
+            echo "Using the validated section-source library already stored in the repository; no unnecessary download."
             node scripts/check-amendments.mjs
           fi
           git config user.name "itax-automation"
