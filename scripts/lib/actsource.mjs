@@ -1,7 +1,7 @@
 // Fetches the current Income-tax Act, 2025 text.
 // Deterministic source acquisition: official Income Tax Department PDF first,
-// curl retry second, ICAI reproduced bare Act as a secondary fallback, and
-// finally the repository copy only if it passes the full 536-section validation.
+// curl retry second. If the official government source is unavailable, fail closed:
+// legal-source integrity is more important than keeping the publishing job green.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -52,17 +52,7 @@ export async function fetchActText() {
     try {
       ({ bytes, origin } = fetchPdfWithCurl(PDF_URL, "official website (curl fallback)"));
     } catch (curlError) {
-      try {
-        ({ bytes, origin } = await fetchPdf(FALLBACK_PDF_URL, "ICAI reproduced Act (secondary fallback; official PDF unavailable)"));
-      } catch (fallbackError) {
-        const local = path.join(process.cwd(), "content", "act", "act-2025.pdf");
-        if (!fs.existsSync(local)) {
-          throw new Error(`Could not download the official Act PDF (${officialError.message}; curl: ${curlError.message}) or the secondary fallback (${fallbackError.message}).`);
-        }
-        bytes = fs.readFileSync(local);
-        assertPdf(bytes);
-        origin = "repository PDF (last-resort; full-section validation required)";
-      }
+      throw new Error(`Official Income Tax Department Act PDF unavailable (${officialError.message}; curl: ${curlError.message}). Refusing secondary/legal-source fallback.`);
     }
   }
   const pdf = path.join(os.tmpdir(), "act2025.pdf");
