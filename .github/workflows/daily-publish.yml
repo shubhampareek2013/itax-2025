@@ -53,6 +53,7 @@ jobs:
       GEMINI_MODEL: "gemini-3.8-flash"
       GEMINI_STUDY_MODEL: "gemini-3.8-flash"
       GEMINI_COMMENTARY_MODEL: "gemini-3.8-flash"
+      GEMINI_GROUNDING: "true"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
       SITE_URL: ${{ vars.SITE_URL }}
@@ -110,18 +111,18 @@ jobs:
       - name: 2. Generate and publish Section-4-style articles
         env:
           TIME_BUDGET_MIN: "150"
-          BATCH_LIMIT: ${{ inputs.batch_limit || '10' }}
+          BATCH_LIMIT: ${{ inputs.batch_limit || '20' }}
         run: node scripts/run-batch.mjs
 
-      - name: 3. Optional practice layer (MCQs and mnemonics)
-        if: github.event_name == 'workflow_dispatch' && inputs.study_guides == true
+      - name: 3. Generate practice layer (MCQs, examples and mnemonics)
         env:
           TIME_BUDGET_MIN: "150"
+          BATCH_LIMIT: ${{ inputs.batch_limit || '20' }}
         run: node scripts/run-study-batch.mjs
 
       - name: 4. Site build check
         run: npm run build
 
-      - name: 5. Verify remaining queue
+      - name: 5. Verify content completeness
         run: |
-          node -e 'const q=require("./content/sections.json"); const p=q.items.filter(x=>x.status==="pending").length; const f=q.items.filter(x=>x.status==="failed").length; const pub=q.items.filter(x=>x.status==="published").length; console.log(`Queue status: published=${pub}, pending=${p}, failed=${f}`)'
+          node -e 'const fs=require("fs"),p=require("path"),q=require("./content/sections.json"); const pub=q.items.filter(x=>x.status==="published"), ma=pub.filter(x=>!fs.existsSync(p.join("content/articles",x.slug+".md"))), ms=pub.filter(x=>!fs.existsSync(p.join("content/study",x.id+".json"))), src=q.items.filter(x=>!fs.existsSync(p.join("content/source",x.id+".txt"))); console.log("Queue: published="+pub.length+", pending="+q.items.filter(x=>x.status==="pending").length+", failed="+q.items.filter(x=>x.status==="failed").length); console.log("AI articles missing for published sections: "+ma.length); console.log("Study guides missing (still being generated): "+ms.length); console.log("Official source files missing: "+src.length); if(ma.length||src.length) process.exit(1);'
