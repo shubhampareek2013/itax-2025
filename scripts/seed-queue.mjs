@@ -53,10 +53,10 @@ for (const s of sections) {
     chapter: `Chapter ${s.chapterRoman} — ${s.chapterName}`,
     part: s.part || undefined,
     category: categoryFor(s.chapterName, s.part),
-    status: old?.status || "pending",
+    status: (old && (old.title !== s.title || old.chapter !== `Chapter ${s.chapterRoman} — ${s.chapterName}`)) ? "pending" : (old?.status || "pending"),
     slug,
-    published_date: old?.published_date ?? null,
-    last_verified: old?.last_verified ?? null,
+    published_date: (old && (old.title !== s.title || old.chapter !== `Chapter ${s.chapterRoman} — ${s.chapterName}`)) ? null : (old?.published_date ?? null),
+    last_verified: (old && (old.title !== s.title || old.chapter !== `Chapter ${s.chapterRoman} — ${s.chapterName}`)) ? null : (old?.last_verified ?? null),
     sources: old?.sources ?? [],
     ...(old?.failure_reason ? { failure_reason: old.failure_reason } : {})
   });
