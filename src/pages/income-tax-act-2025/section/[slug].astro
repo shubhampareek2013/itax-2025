@@ -4,6 +4,7 @@ import { getPageItems, loadArticleBySlug, loadQueue, loadSource, loadAmendments,
 import { extractFootnotes } from "../../../lib/footnotes.mjs";
 import { esc, renderHunks } from "../../../lib/render.mjs";
 import { marked } from "marked";
+import AmazonRecommendations from "../../../components/AmazonRecommendations.astro";
 
 export function getStaticPaths() {
   return getPageItems().map((item) => ({ params: { slug: item.slug }, props: { item } }));
@@ -206,6 +207,7 @@ const verified = fm.lastVerified || item.last_verified;
             <Fragment set:html={s.html} />
           </section>
         ))}
+        <AmazonRecommendations section={item.section} title="Recommended resources for this topic" limit={3} />
         <p class="disc">Educational content, not legal advice. The official Act and Rules prevail. See the <a href="/disclaimer">disclaimer</a>.</p>
       </article>
     </div>
