@@ -1,0 +1,59 @@
+{
+  "enabled": false,
+  "items": [
+    {
+      "id": "direct-tax-reference",
+      "title": "Direct Tax / Income-tax Reference Book",
+      "description": "A current reference book for readers who want deeper coverage of income-tax law.",
+      "category": "Direct Tax",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    },
+    {
+      "id": "income-tax-practice",
+      "title": "Income-tax Law & Practice",
+      "description": "Useful for students, accountants and tax professionals studying practical application.",
+      "category": "Direct Tax",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    },
+    {
+      "id": "direct-tax-mcq",
+      "title": "Direct Tax / Income-tax MCQ Book",
+      "description": "Practice-oriented material for revision and examination preparation.",
+      "category": "Practice",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    },
+    {
+      "id": "gst-reference",
+      "title": "GST Reference Book",
+      "description": "A useful companion resource for readers working across direct and indirect taxation.",
+      "category": "GST",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    },
+    {
+      "id": "accounting-reference",
+      "title": "Accounting Reference Book",
+      "description": "A complementary accounting resource for tax and finance professionals.",
+      "category": "Accounting",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    },
+    {
+      "id": "excel-reference",
+      "title": "Microsoft Excel Reference",
+      "description": "Useful for readers who work with tax calculations, reconciliations and financial data.",
+      "category": "Productivity",
+      "sections": [],
+      "amazonUrl": "",
+      "enabled": false
+    }
+  ]
+}
