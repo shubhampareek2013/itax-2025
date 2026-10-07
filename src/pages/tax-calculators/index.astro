@@ -1,28 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-// Every calculator is a plain deterministic JS module under /src/lib/calculators/.
-// AI is never used for the arithmetic. Rates/slabs are wired in only after verification
-// against the Finance Act in force — see src/lib/calculators/README.md.
-const calculators = [
-  ["Income tax — old vs new regime", "Compare both regimes side by side."],
-  ["Capital gains", "Short and long term, with indexation rules where applicable."],
-  ["TDS", "Deduction at source by nature of payment."],
-  ["HRA", "House-rent allowance exemption."],
-  ["Deductions", "Chapter VI-A style deductions under the 2025 Act."],
-  ["Advance tax", "Instalment dates and amounts."]
-];
 ---
-<Layout title="Tax calculators" canonicalPath="/tax-calculators">
-  <div class="wrap">
-    <div class="page-head" style="padding-top:24px">
-      <div class="eyebrow">Calculators</div>
-      <h1 style="margin-top:8px">Tax calculators</h1>
-      <p>Plain deterministic code — never AI — does the arithmetic. Each calculator goes live only after its rates and limits are checked against the Finance Act in force.</p>
-    </div>
-    <div class="grid g3">
-      {calculators.map(([n, d]) => (
-        <div class="card"><span class="tag ai">Verifying rates</span><h3 style="font-size:20px;margin:12px 0 6px">{n}</h3><p class="muted" style="margin:0;font-size:15px">{d}</p></div>
-      ))}
-    </div>
-  </div>
+<Layout title="Tax Calculators & Tools" canonicalPath="/tax-calculators">
+<div class="wrap"><div class="page-head" style="padding-top:24px"><div class="eyebrow">Tax tools</div><h1 style="margin-top:8px">Tax calculators & tools</h1><p>Practical tools will be added here with their assumptions, applicable year and source basis shown clearly.</p></div><div class="grid g2">
+<div class="card"><span class="tag">Planned</span><h3 style="margin:12px 0 8px">Income-tax calculator</h3><p class="muted">Year-specific calculation with old/new regime logic and a transparent calculation trail.</p></div>
+<div class="card"><span class="tag">Planned</span><h3 style="margin:12px 0 8px">TDS calculator</h3><p class="muted">Section-specific TDS reference and calculation support.</p></div>
+<div class="card"><span class="tag">Planned</span><h3 style="margin:12px 0 8px">Capital gains calculator</h3><p class="muted">Separate short-term/long-term treatment with applicable dates and rates shown.</p></div>
+<div class="card"><span class="tag">Planned</span><h3 style="margin:12px 0 8px">GST calculator</h3><p class="muted">Inclusive/exclusive GST calculations once the GST module is established.</p></div>
+</div><div class="card" style="margin-top:20px"><b>Accuracy rule:</b><p class="muted" style="margin:6px 0 0">Calculators will not silently guess a tax year, rate, threshold or exemption. Every calculation will identify the legal assumptions used.</p></div></div>
 </Layout>
