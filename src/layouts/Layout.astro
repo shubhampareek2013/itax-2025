@@ -17,6 +17,7 @@ const site = Astro.site?.toString().replace(/\/$/, "") || "";
 const canonical = `${site}${canonicalPath}`;
 const path = Astro.url.pathname;
 const nav = [
+  ["Tax Hub", "/tax-hub"],
   ["Act 2025", "/income-tax-act-2025"],
   ["Amendments", "/amendments"],
   ["Rules 2026", "/income-tax-rules-2026"],
