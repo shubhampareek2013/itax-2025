@@ -1,0 +1,127 @@
+---
+import productsData from "../../content/affiliate-products.json";
+
+export interface Props {
+  section?: string | number;
+  title?: string;
+  limit?: number;
+}
+
+const { section, title = "Recommended resources", limit = 4 } = Astro.props;
+const globalEnabled = productsData.enabled === true;
+const sectionNo = section == null ? "" : String(section);
+
+const products = globalEnabled
+  ? productsData.items
+      .filter((p) => p.enabled && p.amazonUrl)
+      .filter((p) => !p.sections?.length || p.sections.map(String).includes(sectionNo))
+      .slice(0, limit)
+  : [];
+---
+
+{products.length > 0 && (
+  <section class="affiliate-recommendations" aria-label={title}>
+    <div class="affiliate-head">
+      <div>
+        <span class="tag">Recommended</span>
+        <h2>{title}</h2>
+        <p>Selected resources that may be useful alongside this section.</p>
+      </div>
+    </div>
+
+    <div class="affiliate-grid">
+      {products.map((product) => (
+        <article class="affiliate-card">
+          <div class="affiliate-category">{product.category}</div>
+          <h3>{product.title}</h3>
+          <p>{product.description}</p>
+          <a class="affiliate-button" href={product.amazonUrl} target="_blank" rel="nofollow sponsored noopener">
+            View on Amazon.in <span aria-hidden="true">↗</span>
+          </a>
+          <div class="affiliate-paid">(paid link)</div>
+        </article>
+      ))}
+    </div>
+
+    <p class="affiliate-disclosure">
+      As an Amazon Associate I earn from qualifying purchases.
+    </p>
+  </section>
+)}
+
+<style>
+  .affiliate-recommendations {
+    margin: 34px 0 24px;
+    padding: 28px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--bg-2);
+  }
+  .affiliate-head h2 {
+    margin: 8px 0 6px;
+    font-size: 25px;
+  }
+  .affiliate-head p {
+    margin: 0 0 20px;
+    color: var(--text-2);
+    font-size: 15px;
+  }
+  .affiliate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .affiliate-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 20px;
+  }
+  .affiliate-category {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .affiliate-card h3 {
+    margin: 8px 0 7px;
+    font-size: 18px;
+  }
+  .affiliate-card p {
+    margin: 0 0 16px;
+    color: var(--text-2);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .affiliate-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 14px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .affiliate-button:hover {
+    text-decoration: none;
+    filter: brightness(1.06);
+  }
+  .affiliate-paid {
+    margin-top: 7px;
+    color: var(--text-2);
+    font-size: 11px;
+  }
+  .affiliate-disclosure {
+    margin: 18px 0 0;
+    color: var(--text-2);
+    font-size: 12px;
+  }
+  @media (max-width: 650px) {
+    .affiliate-recommendations { padding: 20px; }
+    .affiliate-grid { grid-template-columns: 1fr; }
+  }
+</style>
