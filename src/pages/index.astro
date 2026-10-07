@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Layout from "../layouts/Layout.astro";
 import { loadQueue, getPageItems, hasSource, loadAmendments } from "../lib/content.mjs";
+import AmazonRecommendations from "../components/AmazonRecommendations.astro";
 
 const queue = loadQueue();
 const published = getPageItems().sort((a, b) => Number(a.section) - Number(b.section));
@@ -97,6 +98,12 @@ const pairs = [...mapping.terms, ...mapping.sections];
         </div>
         <p class="muted" style="font-size:13px;margin:14px 0 0">Only verified mappings appear here; the list grows with every published provision.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="wrap">
+      <AmazonRecommendations title="Recommended books & resources" limit={4} />
     </div>
   </section>
 
