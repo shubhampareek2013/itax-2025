@@ -1,89 +1,32 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import AmazonRecommendations from "../components/AmazonRecommendations.astro";
-
+import Layout from "../../layouts/Layout.astro";
+import AmazonRecommendations from "../../components/AmazonRecommendations.astro";
 const modules = [
-  {title:"Income-tax Act, 2025", tag:"Core law", href:"/income-tax-act-2025", desc:"Section-by-section official text, plain-language explanations, examples, comparisons and study material.", live:true},
-  {title:"Income-tax Rules, 2026", tag:"Rules", href:"/income-tax-rules-2026", desc:"A verified rule-by-rule reference linked back to the provisions it implements.", live:true},
-  {title:"1961 → 2025", tag:"Transition", href:"/1961-vs-2025", desc:"Find the corresponding provision and understand what changed between the two Acts.", live:true},
-  {title:"Case law", tag:"Judgments", href:"/case-law", desc:"Verified judgments, holdings and section-level relevance. No unverified cases are added.", live:true},
-  {title:"CBDT circulars", tag:"Official guidance", href:"/cbdt-circulars", desc:"Official circulars mapped to the provisions and topics they clarify.", live:true},
-  {title:"CBDT notifications", tag:"Official guidance", href:"/cbdt-notifications", desc:"Notifications and operative changes, linked only after source verification.", live:true},
-  {title:"Tax calculators", tag:"Tools", href:"/tax-calculators", desc:"Deterministic calculators and reference tools. Legal assumptions will always be shown.", live:true},
-  {title:"Tax study & revision", tag:"Learning", href:"/income-tax-act-2025", desc:"MCQs, practical examples, key points and revision material attached to published sections.", live:true},
+["Income-tax Act, 2025","Core law","/income-tax-act-2025","Section-by-section official text, plain-language explanations, examples, comparisons and study material."],
+["Income-tax Rules, 2026","Rules","/income-tax-rules-2026","A verified rule-by-rule reference linked back to the provisions it implements."],
+["1961 → 2025","Transition","/1961-vs-2025","Find the corresponding provision and understand what changed between the two Acts."],
+["Case law","Judgments","/case-law","Verified judgments, holdings and section-level relevance. No unverified cases are added."],
+["CBDT circulars","Official guidance","/cbdt-circulars","Official circulars mapped to the provisions and topics they clarify."],
+["CBDT notifications","Official guidance","/cbdt-notifications","Notifications and operative changes, linked only after source verification."],
+["Tax calculators","Tools","/tax-calculators","Deterministic calculators and reference tools with their assumptions clearly shown."],
+["Tax study & revision","Learning","/income-tax-act-2025","MCQs, practical examples, key points and revision material attached to published sections."]
 ];
-
 const coming = [
-  ["GST", "A dedicated GST Act, Rules, circulars, notifications and case-law library."],
-  ["Tax forms", "A verified index of income-tax and related statutory forms with official source links."],
-  ["Due dates & compliance", "A source-backed compliance calendar for filing and payment deadlines."],
-  ["Tax rates & thresholds", "Year-wise rates, limits and thresholds with the applicable assessment/financial year clearly stated."],
+["GST","A dedicated GST Act, Rules, circulars, notifications and case-law library."],
+["Tax forms","A verified index of income-tax and related statutory forms with official source links."],
+["Due dates & compliance","A source-backed compliance calendar for filing and payment deadlines."],
+["Tax rates & thresholds","Year-wise rates, limits and thresholds with the applicable year clearly stated."]
 ];
 ---
 <Layout title="Tax Hub — Income-tax, GST, Rules, Case Law & Tax Resources" canonicalPath="/tax-hub" wide>
-  <div class="wrap">
-    <section class="hub-hero">
-      <div class="eyebrow">Indian Tax Hub</div>
-      <h1>One place for<br /><span class="grad">tax law & practice.</span></h1>
-      <p>Official-source-first tax reference material, practical explanations, study tools and professional resources — organised so you can move from a provision to the rule, guidance and case law around it.</p>
-      <div class="hub-actions">
-        <a class="btn" href="/income-tax-act-2025">Explore Income-tax Act 2025 →</a>
-        <a class="btn ghost" href="/income-tax-rules-2026">Explore Rules 2026</a>
-      </div>
-    </section>
-
-    <section class="blk">
-      <h2>Tax library</h2>
-      <p class="lead">The hub is deliberately modular. We only label a module as live when the underlying content and sources are actually available.</p>
-      <div class="grid g2">
-        {modules.map((m) => (
-          <a class="card module" href={m.href}>
-            <span class="tag">{m.tag}</span>
-            <h3>{m.title}</h3>
-            <p>{m.desc}</p>
-            <span class="module-link">{m.live ? "Open →" : "Coming soon"}</span>
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <section class="blk">
-      <h2>What we are building next</h2>
-      <p class="lead">These areas are part of the long-term tax hub, but will be populated only with verified material.</p>
-      <div class="grid g2">
-        {coming.map(([title, desc]) => (
-          <div class="card future">
-            <span class="tag">Planned</span>
-            <h3>{title}</h3>
-            <p>{desc}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-
-    <section class="blk">
-      <AmazonRecommendations title="Recommended tax books & resources" limit={6} />
-    </section>
-
-    <section class="hub-note">
-      <b>Source policy</b>
-      <p>Statutory text and official tax guidance are kept separate from AI-assisted explanations. Government sources take priority; unverified legal claims are not presented as fact.</p>
-    </section>
-  </div>
-  <style>
-    .hub-hero { padding: 82px 0 62px; max-width: 860px; }
-    .hub-hero h1 { font-size: clamp(46px, 8vw, 82px); line-height: .98; margin: 12px 0 22px; letter-spacing:-.045em; }
-    .grad { background: linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
-    .hub-hero p { max-width: 760px; color:var(--text-2); font-size:21px; line-height:1.45; }
-    .hub-actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:28px; }
-    .blk { padding:48px 0; }
-    .blk h2 { font-size:clamp(30px,4vw,42px); margin-bottom:8px; }
-    .module h3,.future h3 { margin:12px 0 8px; font-size:23px; }
-    .module p,.future p { margin:0; color:var(--text-2); line-height:1.55; }
-    .module-link { display:block; margin-top:18px; color:var(--accent); font-weight:600; font-size:14px; }
-    .hub-note { margin:24px 0 60px; padding:24px 26px; border:1px solid var(--line); border-radius:20px; background:var(--bg-2); color:var(--text-2); }
-    .hub-note b { color:var(--text); }
-    .hub-note p { margin:7px 0 0; }
-    @media(max-width:600px){.hub-hero{padding-top:50px}.hub-hero p{font-size:18px}}
-  </style>
+<div class="wrap">
+<section class="hub-hero"><div class="eyebrow">Indian Tax Hub</div><h1>One place for<br/><span class="grad">tax law & practice.</span></h1><p>Official-source-first tax reference material, practical explanations, study tools and professional resources — organised so you can move from a provision to the rule, guidance and case law around it.</p><div class="hub-actions"><a class="btn" href="/income-tax-act-2025">Explore Income-tax Act 2025 →</a><a class="btn ghost" href="/income-tax-rules-2026">Explore Rules 2026</a></div></section>
+<section class="blk"><h2>Tax library</h2><p class="lead">The hub is modular. A module is presented as live only when its underlying content is actually available.</p><div class="grid g2">{modules.map(([title,tag,href,desc])=><a class="card module" href={href}><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p><span class="module-link">Open →</span></a>)}</div></section>
+<section class="blk"><h2>Coming next</h2><p class="lead">These areas will be populated only with verified material.</p><div class="grid g2">{coming.map(([title,desc])=><div class="card future"><span class="tag">Planned</span><h3>{title}</h3><p>{desc}</p></div>)}</div></section>
+<section class="blk"><AmazonRecommendations title="Recommended tax books & resources" limit={6}/></section>
+<section class="hub-note"><b>Source policy</b><p>Statutory text and official tax guidance are kept separate from AI-assisted explanations. Government sources take priority; unverified legal claims are not presented as fact.</p></section>
+</div>
+<style>
+.hub-hero{padding:82px 0 62px;max-width:860px}.hub-hero h1{font-size:clamp(46px,8vw,82px);line-height:.98;margin:12px 0 22px;letter-spacing:-.045em}.grad{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}.hub-hero p{max-width:760px;color:var(--text-2);font-size:21px;line-height:1.45}.hub-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.blk{padding:48px 0}.blk h2{font-size:clamp(30px,4vw,42px);margin-bottom:8px}.module h3,.future h3{margin:12px 0 8px;font-size:23px}.module p,.future p{margin:0;color:var(--text-2);line-height:1.55}.module-link{display:block;margin-top:18px;color:var(--accent);font-weight:600;font-size:14px}.hub-note{margin:24px 0 60px;padding:24px 26px;border:1px solid var(--line);border-radius:20px;background:var(--bg-2);color:var(--text-2)}.hub-note b{color:var(--text)}.hub-note p{margin:7px 0 0}@media(max-width:600px){.hub-hero{padding-top:50px}.hub-hero p{font-size:18px}}
+</style>
 </Layout>
