@@ -1,0 +1,101 @@
+{
+  "id": "itax2025-s004",
+  "section": "4",
+  "title": "Section 4",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-09",
+  "commentary": "Section 4 establishes the fundamental charging provision of the Income-tax Act, 2025. Under sub-section (1), income-tax is charged for any tax year at the rate or rates enacted by any Central Act (such as an annual Finance Act), strictly in accordance with and subject to the provisions of this Act. Sub-section (2) specifies that this charge applies to the total income of the tax year of every person. \n\nSub-section (3) clarifies the scope of the levy by stating that income-tax includes any additional income-tax, by whatever name called, levied under the Act. While tax is ordinarily levied on the income of a tax year, sub-section (4) provides an exception: if the Act directs that tax be charged on income of a period other than the tax year, it must be charged accordingly. Finally, sub-section (5) facilitates collection by mandating that tax on chargeable income be deducted at source, collected at source, or paid in advance as provided under the Act.\n\nInterpretation: This section serves as the core charging section that activates liability. The rates may stem from an external Central Act, but the computation, scope, and machinery of collection remain strictly governed by this Act.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Taxpayer Alpha is a person with a computed total income of ₹10,00,000 for a given tax year; the applicable Central Act enacts a flat rate of 10% plus an additional income-tax of 1%; tax deducted at source during the year is ₹20,000.",
+    "scenario": "Taxpayer Alpha earns income during a tax year and needs to determine whether liability arises under the Act, how the tax is levied, and how advance mechanism applies.",
+    "walkthrough": "Step 1: Under sub-section (1), the applicable rate enacted by the Central Act (10%) applies to Alpha for the tax year subject to the provisions of this Act.\nStep 2: Under sub-section (2), the charge is placed on the total income of Alpha (a person) of the tax year (₹10,00,000).\nStep 3: Under sub-section (3), the additional income-tax (1%) is included as part of income-tax.\nStep 4: Under sub-section (5), Alpha's income-tax liability is subject to deduction at source (₹20,000 credited) or advance payment as provided by the Act.",
+    "takeaway": "Liability to pay income-tax arises on the total income of a person at rates fixed by a Central Act, inclusive of any additional income-tax, and is recoverable through deduction, collection, or advance payment."
+  },
+  "mcqs": [
+    {
+      "question": "According to Section 4(1), how are the rates for charging income-tax for any tax year enacted?",
+      "options": [
+        "They are determined by the State Legislature of the relevant state",
+        "They are enacted by any Central Act",
+        "They are prescribed directly by the assessing authority",
+        "They are determined mutually between the taxpayer and the tax department"
+      ],
+      "answer": 1,
+      "explanation": "Section 4(1) explicitly states that income-tax shall be charged where any Central Act enacts that income-tax shall be charged for any tax year at any rate or rates. The other options are incorrect as the text specifically identifies a Central Act."
+    },
+    {
+      "question": "Under Section 4(2), upon what is the charge of income-tax levied?",
+      "options": [
+        "On the gross receipts of business entities only",
+        "On the net worldwide assets of individuals only",
+        "On the total income of the tax year of every person",
+        "On the declared turnover exceeding the prescribed limit"
+      ],
+      "answer": 2,
+      "explanation": "Section 4(2) states that the charge of income-tax under sub-section (1) shall be on the total income of the tax year of every person as per the provisions of this Act. Options A, B, and D mention concepts not contained in Section 4(2)."
+    },
+    {
+      "question": "What does Section 4(3) state regarding additional income-tax?",
+      "options": [
+        "Additional income-tax is excluded from the definition of income-tax",
+        "Additional income-tax is only chargeable if approved by the Supreme Court",
+        "Additional income-tax cannot be levied under this Act",
+        "Income-tax shall also include any additional income-tax, by whatever name called, levied under this Act"
+      ],
+      "answer": 3,
+      "explanation": "Section 4(3) clearly provides that income-tax shall also include any additional income-tax, by whatever name called, levied under this Act. The other options contradict this explicit statutory wording."
+    },
+    {
+      "question": "Can income-tax be charged in respect of income of a period other than the tax year under Section 4?",
+      "options": [
+        "No, income-tax can strictly never be charged on any period other than the full tax year",
+        "Yes, if this Act provides that income-tax is to be charged in respect of income of a period other than the tax year",
+        "Yes, but only if the taxpayer makes an application to the State Government",
+        "No, unless ratified by a special resolution of Parliament each quarter"
+      ],
+      "answer": 1,
+      "explanation": "Section 4(4) provides that if this Act provides that income-tax is to be charged in respect of income of a period other than the tax year, it shall be charged accordingly. Options A, C, and D are contrary to the text."
+    },
+    {
+      "question": "Under Section 4(5), how may income-tax for income chargeable under Section 4 be collected or recovered?",
+      "options": [
+        "Only by post-assessment penalty notices",
+        "Exclusively through voluntary lump-sum year-end payments",
+        "Deducted or collected at source or paid in advance as provided under this Act",
+        "Through seizure of movable property before the commencement of the tax year"
+      ],
+      "answer": 2,
+      "explanation": "Section 4(5) specifies that income-tax shall be deducted or collected at source or paid in advance as provided under this Act. The other options are not supported by the text."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CRIPA",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Central Act rate enactment (sub-section 1)"
+        },
+        {
+          "letter": "R",
+          "meaning": "Rate applied to total income of every person (sub-section 2)"
+        },
+        {
+          "letter": "I",
+          "meaning": "Includes additional income-tax (sub-section 3)"
+        },
+        {
+          "letter": "P",
+          "meaning": "Period other than tax year if provided (sub-section 4)"
+        },
+        {
+          "letter": "A",
+          "meaning": "Advance payment, deduction, or collection at source (sub-section 5)"
+        }
+      ],
+      "tip": "Use CRIPA to remember the five key structural facets of the basis of charge in Section 4, following sub-sections (1) through (5) in sequence."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
