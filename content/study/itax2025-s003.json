@@ -1,0 +1,74 @@
+{
+  "id": "itax2025-s003",
+  "section": "3",
+  "title": "Section 3",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-10",
+  "commentary": "Section 3 defines the term “tax year” for the purposes of the Income-tax Act. Under sub-section (1), the baseline rule is that a tax year is the twelve months period of the financial year commencing on the 1st April. This sets a uniform twelve-month timeframe for tax assessment.\n\nSub-section (2) provides an exception to the commencement date for new undertakings and emerging income. When a business or profession is newly set up, or a source of income newly comes into existence in any financial year, the tax year does not begin on 1st April. Instead, it begins on the date of setting up the business or profession, or the date on which the source of income newly comes into existence. Regardless of when in the year it begins, the tax year concludes at the end of that same financial year.\n\nInterpretation: The statutory phrasing indicates that while a normal tax year is always twelve months long, the first tax year for a new business, profession, or new income stream will often be a shorter period covering only the fraction of the financial year remaining after inception.",
+  "example": {
+    "assumptions": "All dates are illustrative assumptions. A taxpayer establishes a new consulting profession on 15th October of a given financial year.",
+    "scenario": "A professional sets up a new practice on 15th October. They need to determine the start and end dates of their first 'tax year' under the Act.",
+    "walkthrough": "Step 1: Under Section 3(1), a standard tax year consists of the twelve months period of the financial year starting 1st April. Step 2: Because this profession is newly set up during the financial year, Section 3(2)(a) applies instead of the default 1st April commencement. Step 3: Pursuant to Section 3(2)(a), the tax year begins on 15th October, which is the date of setting up the profession. Step 4: Pursuant to the concluding words of Section 3(2), this tax year ends with the said financial year.",
+    "takeaway": "For a newly set up profession, the first tax year begins on the date of setup and ends on the final day of that financial year."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 3(1), what is the definition of a standard 'tax year'?",
+      "options": [
+        "A period of twelve months commencing on the 1st January",
+        "The twelve months period of the financial year commencing on the 1st April",
+        "Any period of twelve months chosen by the taxpayer",
+        "The period between the filing of two successive tax returns"
+      ],
+      "answer": 1,
+      "explanation": "Section 3(1) explicitly defines 'tax year' as the twelve months period of the financial year commencing on the 1st April. The other options refer to calendar years or discretionary periods not stated in the text."
+    },
+    {
+      "question": "For a business newly set up in any financial year, when does the tax year commence according to Section 3(2)?",
+      "options": [
+        "On 1st April of that financial year",
+        "On the date of setting up of such business",
+        "On the first day of the succeeding financial year",
+        "On the date of issuing the first invoice"
+      ],
+      "answer": 1,
+      "explanation": "Section 3(2)(a) specifies that the tax year begins with the date of setting up of such business or profession. It does not relate back to 1st April, nor does it depend on invoice issuance."
+    },
+    {
+      "question": "When does the tax year end for a source of income newly coming into existence during a financial year?",
+      "options": [
+        "Twelve months from the date the source came into existence",
+        "On the date the tax return is filed",
+        "With the said financial year",
+        "On the last day of the calendar year"
+      ],
+      "answer": 2,
+      "explanation": "Section 3(2) mandates that the period begins with the relevant date and concludes by 'ending with the said financial year'. It does not extend for a full 12 months from inception."
+    },
+    {
+      "question": "A taxpayer begins receiving income from a brand-new source on 1st November. Under Section 3(2)(b), what is the tax year for this source of income?",
+      "options": [
+        "The period beginning on 1st November and ending with the said financial year",
+        "The full twelve-month period commencing on the preceding 1st April",
+        "A period of twelve months beginning on 1st November",
+        "The financial year commencing on 1st April following the date of inception"
+      ],
+      "answer": 0,
+      "explanation": "Section 3(2)(b) dictates that for a newly arising source of income, the tax year begins on the date the source newly comes into existence (1st November) and ends with the said financial year."
+    },
+    {
+      "question": "Which of the following situations is expressly governed by the commencement rules in Section 3(2)?",
+      "options": [
+        "An existing business changing its accounting period",
+        "A taxpayer shifting their residential status during the year",
+        "A business or profession newly set up, or a source of income newly coming into existence",
+        "A company undergoing statutory dissolution or liquidation"
+      ],
+      "answer": 2,
+      "explanation": "Section 3(2) explicitly applies 'In the case of a business or profession newly set up, or a source of income newly coming into existence in any financial year'. The other circumstances are not mentioned in Section 3."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}

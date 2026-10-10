@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s007",
+  "section": "7",
+  "title": "Section 7",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-10",
+  "commentary": "Section 7 specifies certain categories of income that are statutorily deemed to be received in a tax year, establishing the exact timing of their inclusion in total income.\n\nUnder sub-section (1), three categories of employment-related receipts are deemed received in the tax year: first, the annual accretion to an employee's balance in a recognised provident fund, to the extent specified in paragraph 6 of Part A of Schedule XI; second, the transferred balance in a recognised provident fund, to the extent specified in paragraph 11(4) and (5) of Part A of Schedule XI; and third, contributions made in that year by the Central Government or any other employer to an employee's account under a pension scheme referred to in section 124.\n\nSub-section (2) governs the timing of dividend income. Any dividend covered under section 2(40)(a) to (e) is deemed to be income of the tax year in which it is declared, distributed, or paid. In contrast, an interim dividend is deemed to be income of the tax year in which it is unconditionally made available by the company to the entitled member.\n\nInterpretation: This section creates legal fictions to eliminate ambiguity regarding the tax year of receipt, distinguishing between final dividends (taxable upon declaration, distribution, or payment) and interim dividends (taxable only when unconditionally made available).",
+  "example": {
+    "assumptions": "All figures and dates are illustrative assumptions. An employer contributes ₹50,000 to an employee's section 124 pension scheme in Tax Year 1. A company declares an interim dividend on March 25 of Tax Year 1, but unconditionally makes it available to the member on April 5 of Tax Year 2.",
+    "scenario": "A taxpayer receives an employer contribution toward an eligible pension scheme and is also entitled to an interim dividend from an Indian company across two tax years.",
+    "walkthrough": "Step 1: Under section 7(1)(c), the employer's contribution of ₹50,000 to the pension scheme under section 124 is deemed to be received in Tax Year 1, the year in which the contribution was made. Step 2: Under section 7(2)(b), the interim dividend is not deemed to be income of Tax Year 1 (when declared), but is deemed to be income of Tax Year 2, because that is the year in which the amount was unconditionally made available to the member.",
+    "takeaway": "Employer pension contributions are deemed received in the year contributed, while interim dividends are deemed income only in the tax year they are unconditionally made available to the member."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 7(1)(c), which employer contributions are deemed to be received in the tax year by an employee?",
+      "options": [
+        "Contributions made by the Central Government or any other employer under a pension scheme mentioned in section 124",
+        "Only contributions made by private corporate employers under an approved gratuity fund",
+        "Any voluntary contribution made by the employee to an unrecognized provident fund",
+        "Contributions made exclusively by State Governments to superannuation funds"
+      ],
+      "answer": 0,
+      "explanation": "Section 7(1)(c) explicitly covers contributions made by the Central Government or any other employer in that year to an employee's account under a pension scheme mentioned in section 124. The other options describe entities or funds not specified in section 7(1)(c)."
+    },
+    {
+      "question": "In which tax year is an interim dividend deemed to be the income of the assessee under section 7(2)(b)?",
+      "options": [
+        "The tax year in which the company's board of directors passes the resolution to pay it",
+        "The tax year in which the amount of such dividend is unconditionally made available by the company to the member",
+        "The tax year in which the annual general meeting approves the interim dividend",
+        "The tax year in which the dividend distribution tax is remitted"
+      ],
+      "answer": 1,
+      "explanation": "Section 7(2)(b) states that any interim dividend is deemed to be the income of the tax year in which the amount is unconditionally made available by the company to the member entitled to it. The date of resolution, AGM approval, or tax remittance are not the criteria under this sub-section."
+    },
+    {
+      "question": "Under section 7(1)(a), the annual accretion to the balance of an employee participating in a recognised provident fund is deemed to be received in the tax year to the extent provided in which provision?",
+      "options": [
+        "Section 124(2)",
+        "Paragraph 11(4) of Part A of Schedule XI",
+        "Paragraph 6 of Part A of Schedule XI",
+        "Section 2(40)(a)"
+      ],
+      "answer": 2,
+      "explanation": "Section 7(1)(a) specifies that annual accretion to the balance of an employee participating in a recognised provident fund is deemed received to the extent provided in paragraph 6 of Part A of Schedule XI. Paragraph 11 relates to transferred balance, while sections 124 and 2(40) cover pension schemes and dividends respectively."
+    },
+    {
+      "question": "Under section 7(2)(a), a dividend within the meaning of section 2(40)(a) to (e) is deemed to be the income of the tax year in which it is:",
+      "options": [
+        "Unconditionally made available to the member only",
+        "Deposited into a separate bank account by the company",
+        "Audited and finalized in the annual financial statements",
+        "Declared, distributed or paid by the company, as the case may be"
+      ],
+      "answer": 3,
+      "explanation": "Section 7(2)(a) states that any dividend declared, distributed, or paid within the meaning of section 2(40)(a) to (e) is deemed to be the income of the tax year in which it is so declared, distributed or paid. Making unconditionally available is the standard for interim dividends under clause (b)."
+    },
+    {
+      "question": "The transferred balance in a recognised provident fund is deemed to be received in the tax year to the extent provided in:",
+      "options": [
+        "Paragraph 11(4) and (5) of Part A of Schedule XI",
+        "Paragraph 6 of Part B of Schedule XI",
+        "Section 124 only",
+        "Section 2(40)(e)"
+      ],
+      "answer": 0,
+      "explanation": "Section 7(1)(b) directly references paragraph 11(4) and (5) of Part A of Schedule XI for the transferred balance in a recognised provident fund."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "ATC",
+      "stands_for": [
+        {
+          "letter": "A",
+          "meaning": "Annual accretion to the credit balance in a recognised provident fund"
+        },
+        {
+          "letter": "T",
+          "meaning": "Transferred balance in a recognised provident fund"
+        },
+        {
+          "letter": "C",
+          "meaning": "Contribution by employer to a pension scheme under section 124"
+        }
+      ],
+      "tip": "Use ATC to remember the three employment-related items deemed to be received in the tax year under section 7(1)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

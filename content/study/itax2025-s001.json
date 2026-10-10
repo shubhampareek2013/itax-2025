@@ -1,0 +1,52 @@
+{
+  "id": "itax2025-s001",
+  "section": "1",
+  "title": "Section 1",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-10",
+  "commentary": "Section 1 serves as the preliminary provision that establishes the formal identity, territorial reach, and date of operational commencement for the statute.\n\nUnder sub-section (1), the enactment is officially named the Income-tax Act, 2025. This establishes the statutory citation for all legal, administrative, and compliance references across the country.\n\nSub-section (2) defines the territorial scope of the legislation, providing that it extends to the whole of India. Consequently, the provisions of the statute are uniformly applicable across all states and Union territories within India without territorial carve-outs or exemptions mentioned in this section.\n\nSub-section (3) prescribes the general date of commencement. The Act comes into force on 1st April, 2026. However, this entry into force is subject to the qualifying phrase 'Save as otherwise provided in this Act', which preserves any distinct commencement dates that may be specifically legislated for particular provisions elsewhere within the enactment.\n\nInterpretation: The clause 'Save as otherwise provided' indicates that while the default effective date for the Act is 1st April, 2026, specific sections may take effect on different dates if expressly stated in other parts of the statute.",
+  "example": {
+    "assumptions": "All figures and dates are illustrative assumptions. Assessee Co. is a commercial entity operating offices in Mumbai and Bengaluru during the calendar years 2025 and 2026.",
+    "scenario": "Assessee Co. is reviewing the new tax statute to determine how it is cited, where it applies, and when its general provisions take effect regarding its pan-India operations.",
+    "walkthrough": "Under sub-section (1), the company identifies the formal name of the law as the Income-tax Act, 2025. Next, under sub-section (2), the company determines that both of its operating locations fall directly under the statute's jurisdiction because it extends to the whole of India. Finally, under sub-section (3), the company notes that the general provisions of the Act become effective on 1st April, 2026, except where any particular clause expressly appoints a different date.",
+    "takeaway": "The Income-tax Act, 2025 applies across the entire territory of India and enters into force generally on 1st April, 2026."
+  },
+  "mcqs": [
+    {
+      "question": "What is the official short title of the legislation specified under Section 1(1)?",
+      "options": [
+        "The Indian Income-tax Code, 2025",
+        "The Income-tax Act, 2025",
+        "The Income-tax Act, 2026",
+        "The Direct Taxes Act, 2025"
+      ],
+      "answer": 1,
+      "explanation": "Section 1(1) expressly provides that the Act may be called the Income-tax Act, 2025. The other options introduce names or years not found in the text."
+    },
+    {
+      "question": "What is the territorial extent of the Income-tax Act, 2025 according to Section 1(2)?",
+      "options": [
+        "It extends only to specified taxable territories notified by the Government.",
+        "It extends to the whole of India except designated Union Territories.",
+        "It extends to the whole of India.",
+        "It extends to all states but excludes offshore areas."
+      ],
+      "answer": 2,
+      "explanation": "Section 1(2) explicitly states that the Act 'extends to the whole of India' without any territorial exclusions. The other options add limitations not present in the text."
+    },
+    {
+      "question": "Unless otherwise provided in the Act, on which date does the Income-tax Act, 2025 come into force under Section 1(3)?",
+      "options": [
+        "1st April, 2026",
+        "1st April, 2025",
+        "1st January, 2026",
+        "31st March, 2026"
+      ],
+      "answer": 0,
+      "explanation": "Section 1(3) provides that, save as otherwise provided, the Act shall come into force on the 1st April, 2026. The other options state alternative dates not mentioned in the provision."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}
