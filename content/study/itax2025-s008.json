@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s008",
+  "section": "8",
+  "title": "Section 8",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-13",
+  "commentary": "Section 8 establishes a charging mechanism for transfers of capital assets or stock-in-trade by certain non-corporate entities to their partners or members. Under sub-section (1), when a specified person (a partner or member) receives a capital asset, stock-in-trade, or both from a specified entity in connection with its dissolution or reconstitution, the entity is deemed to have transferred the property in the tax year it was received.\n\nSub-section (2) provides that the resulting profits and gains are deemed to be the entity's income for that tax year, taxable under either \"Profits and gains of business or profession\" or \"Capital gains\". Sub-section (3) fixes the full value of consideration as the fair market value of the property on the date of its receipt by the partner or member. To address implementation challenges, sub-sections (4) and (5) authorize the Board, with Central Government approval, to issue guidelines that must be laid before Parliament for 30 days. Sub-section (6) defines specified entities (firms, AOPs, and BOIs, excluding companies and co-operative societies), specified persons, and the conditions constituting reconstitution.\n\nInterpretation: The provision places the entire tax burden of the distribution on the entity rather than the recipient, ensuring that asset distributions during entity restructuring are treated as taxable commercial transfers at current market rates.",
+  "example": {
+    "assumptions": "All monetary figures are purely illustrative assumptions. Cost of acquisition of a capital asset is ₹20,00,000; its fair market value on the date of receipt is ₹50,00,000. The entity is a partnership firm.",
+    "scenario": "Firm X dissolves and distributes a capital asset to Partner P during the tax year.",
+    "walkthrough": "Under sub-section (1), Firm X is deemed to have transferred the capital asset to Partner P in the tax year of receipt because Firm X is a specified entity and P is a specified person undergoing dissolution. Under sub-section (3), the fair market value on the receipt date (assumed at ₹50,00,000) is deemed to be the full value of consideration. Under sub-section (2), the resulting gains are deemed to be the income of Firm X for that tax year and charged to tax in the hands of Firm X under the head 'Capital gains'.",
+    "takeaway": "Distributions of capital assets or inventory upon dissolution or reconstitution trigger taxable profits in the hands of the firm based on fair market value at the date of receipt."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 8(3), what is deemed to be the full value of consideration for the deemed transfer of a capital asset or stock-in-trade?",
+      "options": [
+        "The book value of the asset recorded in the books of the specified entity",
+        "The cost of acquisition adjusted for inflation",
+        "The fair market value on the date of receipt by the specified person",
+        "The agreed value stated in the reconstitution or dissolution deed"
+      ],
+      "answer": 2,
+      "explanation": "Section 8(3) explicitly provides that the fair market value of the capital asset or stock-in-trade on the date of its receipt by the specified person is deemed to be the full value of the consideration."
+    },
+    {
+      "question": "Which of the following entities is explicitly excluded from the definition of a 'specified entity' under Section 8(6)(a)?",
+      "options": [
+        "A partnership firm",
+        "A co-operative society",
+        "A body of individuals",
+        "An association of persons"
+      ],
+      "answer": 1,
+      "explanation": "Section 8(6)(a) defines a specified entity as a firm or other association of persons or body of individuals, but expressly states '(not being a company or a co-operative society)'."
+    },
+    {
+      "question": "For how long must a guideline issued by the Board under Section 8(4) be laid before each House of Parliament?",
+      "options": [
+        "A total period of fourteen days",
+        "A total period of twenty-one days",
+        "A total period of thirty days",
+        "A total period of sixty days"
+      ],
+      "answer": 2,
+      "explanation": "Under Section 8(5), every guideline issued by the Board shall be laid before each House of Parliament for a total period of thirty days."
+    },
+    {
+      "question": "If a specified entity distributes stock-in-trade to a retiring partner upon reconstitution, under which head is the profit charged to tax in the hands of the specified entity?",
+      "options": [
+        "Income from other sources",
+        "Capital gains only",
+        "Profits and gains of business or profession",
+        "Salaries"
+      ],
+      "answer": 2,
+      "explanation": "Under Section 8(2)(ii), the profits and gains are chargeable to income-tax under 'Profits and gains of business or profession' or 'Capital gains'. Because stock-in-trade is distributed, it falls under 'Profits and gains of business or profession'."
+    },
+    {
+      "question": "Under Section 8(6)(c)(iii), which event constitutes a 'reconstitution of the specified entity'?",
+      "options": [
+        "All the partners or members continue with a change in their respective share or in the shares of some of them",
+        "All original partners or members cease to be associated with the entity",
+        "The entity is converted into a company or a co-operative society",
+        "The business activity of the entity is completely discontinued without changing the partners"
+      ],
+      "answer": 0,
+      "explanation": "Section 8(6)(c)(iii) states that reconstitution includes circumstances where all the partners or members of such specified entity continue with a change in their respective share or in the shares of some of them."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CAS",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Ceasing of one or more partners or members [Section 8(6)(c)(i)]"
+        },
+        {
+          "letter": "A",
+          "meaning": "Admitted new partner/member while existing continue [Section 8(6)(c)(ii)]"
+        },
+        {
+          "letter": "S",
+          "meaning": "Share change among continuing partners or members [Section 8(6)(c)(iii)]"
+        }
+      ],
+      "tip": "Use CAS to remember the three statutory forms of 'reconstitution of the specified entity' in Section 8(6)(c)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
