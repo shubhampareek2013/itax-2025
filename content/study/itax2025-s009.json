@@ -1,0 +1,97 @@
+{
+  "id": "itax2025-s009",
+  "section": "9",
+  "title": "“Capital gains”",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-17",
+  "commentary": "Section 9 defines categories of income that are statutorily deemed to accrue or arise in India, regardless of where they may be received. Under sub-section (2), income arising through or from any asset, property, business connection, or transfer of a capital asset in India is deemed to accrue or arise in India. Specific sourcing rules are provided for salaries (earned in India or paid by the Government to an Indian citizen abroad), dividends paid by Indian companies outside India, interest, royalties, and fees for technical services (FTS).\n\nInterest, royalties, and FTS generally follow the payer's residence: amounts paid by the Government or residents are sourced in India, subject to exceptions where the underlying funds, rights, or services are used outside India. Conversely, payments by non-residents are sourced in India only if utilised for an Indian business, profession, or source. Sub-section (9) details the scope of 'business connection' and 'significant economic presence', while exempting specific non-resident operations such as purchasing goods for export, news gathering, and shooting films. Sub-section (10) deems foreign shares to be situated in India if their value is substantially derived (at least 50% and exceeding ten crore rupees) from Indian assets.\n\nInterpretation: The section creates a comprehensive territorial nexus framework, ensuring that economic activities rooted in India or supported by the Indian market remain chargeable to tax irrespective of physical presence or contract location.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. ForeignCo is a company incorporated in Country X. ForeignCo owns assets globally with a total fair market value of ₹30 crore on the specified date, of which ₹18 crore represents tangible and intangible assets situated in India. Non-Resident Investor A holds a 10% shareholding in ForeignCo with voting rights and transfers these shares to another non-resident outside India for a gain of ₹2 crore.",
+    "scenario": "Investor A sells shares of ForeignCo outside India. The tax authority examines whether any portion of the gain from the transfer of ForeignCo's shares is deemed to accrue or arise in India under indirect transfer provisions.",
+    "walkthrough": "Step 1: Under sub-section (10)(b), a foreign share is deemed to derive its value substantially from assets located in India if the Indian assets exceed ten crore rupees and represent at least 50% of the value of all assets owned by the entity. Here, the Indian assets are valued at ₹18 crore (exceeding ₹10 crore) and constitute 60% (₹18 crore / ₹30 crore) of total assets (at least 50%). Thus, the shares derive value substantially from Indian assets.\nStep 2: Under sub-section (10)(a), the shares of ForeignCo are deemed to be capital assets situated in India.\nStep 3: Under sub-section (10)(g)(ii), the transfer is exempt only if the transferor holds neither management/control nor voting power/capital exceeding 5% at any time in the 12 months preceding the transfer. Because Investor A holds 10%, this small-shareholder exemption does not apply.\nStep 4: Under sub-section (10)(f) and sub-section (2)(d), since all assets are not in India, the income deemed to accrue or arise in India is the part reasonably attributable to the Indian assets (60% of ₹2 crore = ₹1.2 crore).",
+    "takeaway": "An indirect transfer of foreign shares attracts Indian tax liability when Indian assets exceed ten crore rupees and form at least 50% of total asset value, provided the transferor exceeds statutory holding thresholds."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 9(10)(b), a foreign company's share is deemed to derive its value substantially from assets located in India only if the value of such Indian assets on the specified date exceeds:",
+      "options": [
+        "Five crore rupees and represents at least 25% of total asset value",
+        "Ten crore rupees and represents at least 50% of total asset value",
+        "Twenty crore rupees and represents at least 51% of total asset value",
+        "One crore rupees and represents at least 75% of total asset value"
+      ],
+      "answer": 1,
+      "explanation": "Section 9(10)(b) explicitly provides that the value of Indian assets must exceed ten crore rupees and represent at least 50% of the value of all the assets owned by the company or entity. The other amounts and percentages do not match the text."
+    },
+    {
+      "question": "Which of the following operations of a non-resident is excluded from being treated as a business carried out in India under Section 9(9)(c)?",
+      "options": [
+        "Habitually securing orders mainly for a parent non-resident entity",
+        "Maintaining a stock of goods in India from which regular deliveries are made",
+        "Purchase of goods in India for the purposes of export out of India",
+        "Engaging in interactive digital transactions above prescribed limits"
+      ],
+      "answer": 2,
+      "explanation": "Section 9(9)(c)(ii)(A) specifically excludes business activities or operations confined to the purchase of goods in India for the purposes of export out of India. Options A and B represent dependent agent business connections under sub-section (9)(b), and Option D relates to significant economic presence under sub-section (9)(d)."
+    },
+    {
+      "question": "Under Section 9(5)(a)(ii), interest payable by a resident is NOT deemed to accrue or arise in India if the borrowed money is used for:",
+      "options": [
+        "A business or profession carried on by such resident in India",
+        "Purchasing residential property situated within India",
+        "Making or earning any income by such resident from any source outside India",
+        "Investing in shares of an Indian company outside India"
+      ],
+      "answer": 2,
+      "explanation": "Under Section 9(5)(a)(ii)(B), an exception is provided where interest is payable in respect of moneys borrowed and used for making or earning any income by such resident from any source outside India (or for a business/profession carried on outside India under (A)). The other options do not qualify for this exception."
+    },
+    {
+      "question": "According to Section 9(7)(b), the term 'fees for technical services' specifically excludes consideration for:",
+      "options": [
+        "Managerial services rendered by a consultant",
+        "Provision of services of technical personnel",
+        "Any construction, assembly, mining or like project undertaken by the recipient",
+        "Consultancy services rendered remotely from abroad"
+      ],
+      "answer": 2,
+      "explanation": "Section 9(7)(b)(i) excludes consideration for any construction, assembly, mining or like project undertaken by the recipient, as well as consideration chargeable under 'Salaries'. Managerial, consultancy, and technical personnel services are expressly included."
+    },
+    {
+      "question": "Under Section 9(10)(d), the 'specified date' for valuation defaults to the date the accounting period ends preceding the transfer, but shifts to the date of transfer if the book value of assets on the transfer date exceeds that on the previous date by:",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "15%"
+      ],
+      "answer": 3,
+      "explanation": "Section 9(10)(d)(ii) specifies that the date of transfer becomes the specified date if the book value of the assets of the company or entity on the date of transfer exceeds the book value of the assets as on the date referred to in sub-clause (i) by 15%."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "ASPT",
+      "stands_for": [
+        {
+          "letter": "A",
+          "meaning": "Asset or source of income in India"
+        },
+        {
+          "letter": "S",
+          "meaning": "Source of income in India (grouped under clause (a))"
+        },
+        {
+          "letter": "P",
+          "meaning": "Property in India"
+        },
+        {
+          "letter": "T",
+          "meaning": "Transfer of a capital asset situated in India"
+        }
+      ],
+      "tip": "Use ASPT to recall the core territorial nexus categories in Section 9(2) through or from which income is deemed to accrue or arise in India."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
