@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s006",
+  "section": "6",
+  "title": "Section 6",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-18",
+  "commentary": "Section 6 sets out the complete framework for determining the residential status of all categories of persons for a tax year. For individuals, primary residency under sub-section (2) requires physical presence in India for at least 182 days in the tax year, or at least 60 days in that year combined with 365 days across the preceding four tax years. The 60-day requirement is relaxed to 182 days for Indian citizens leaving for employment abroad or as Indian crew members, and for visiting citizens or persons of Indian origin. However, under sub-section (5), if a visiting citizen or person of Indian origin has total income (excluding foreign sources) exceeding fifteen lakh rupees, the 60-day threshold is substituted with 120 days. Sub-section (7) introduces deemed residency for Indian citizens earning over fifteen lakh rupees from non-foreign sources who are not liable to tax elsewhere. For firms, HUFs, and AOPs, residency depends on whether control and management is situated wholly outside India, whereas companies are resident if they are Indian companies or their place of effective management is in India. Sub-section (13) specifies when an individual or HUF is 'not ordinarily resident'.\n\nInterpretation: The single-status rule in sub-section (12) ensures that residential status is uniform across all streams of income; a taxpayer cannot be treated as a resident for one income source and a non-resident for another.",
+  "example": {
+    "assumptions": "All figures and durations are illustrative assumptions: Tax year is 2026-27; Mr. X is an Indian citizen residing in a foreign country; his total income from Indian sources (excluding foreign sources) is ₹18,00,000; he stays in India for 140 days in the tax year; his cumulative stay in the 4 preceding tax years is 420 days; he has stayed in India for 800 days in the 7 preceding tax years.",
+    "scenario": "Mr. X, an Indian citizen living abroad, visits India for 140 days during the tax year. His Indian-sourced total income is ₹18,00,000, and he was present in India for 420 days in total across the preceding four tax years.",
+    "walkthrough": "Step 1: Check sub-section (2)(a). Mr. X is present for 140 days, which is less than 182 days, so he does not qualify under this clause.\nStep 2: Check sub-sections (4) and (5). Being an Indian citizen on a visit with total income (excluding foreign sources) exceeding fifteen lakh rupees, the 60-day condition in sub-section (2)(b) is substituted with 120 days.\nStep 3: Check sub-section (2)(b) as modified. Mr. X stayed 140 days (120 days or more) and accumulated 420 days (365 days or more) in the preceding four years. Hence, he is a resident.\nStep 4: Determine ordinary residency under sub-section (13)(b). Because he is an Indian citizen whose total income excluding foreign sources exceeds fifteen lakh rupees and his stay is between 120 days and 181 days, he is classified as 'not ordinarily resident'.",
+    "takeaway": "An Indian citizen visiting India with qualifying non-foreign income exceeding fifteen lakh rupees who stays between 120 and 181 days is classified as a resident who is not ordinarily resident."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 6(10), when is a company considered a resident in India in any tax year?",
+      "options": [
+        "Only when more than fifty percent of its shareholders reside in India",
+        "If it is an Indian company or its place of effective management is in India",
+        "Whenever its control and management is not situated wholly outside India",
+        "If the majority of its board meetings during the year are held in India"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (10)(a) provides that a company is resident in India if it is an Indian company or its place of effective management is in India in that tax year. Option A, C, and D do not reflect the statutory test for companies."
+    },
+    {
+      "question": "Which of the following conditions must be fulfilled for an individual to be deemed a resident under Section 6(7)?",
+      "options": [
+        "Citizen of India, not liable to tax elsewhere by reason of domicile/residence, and non-foreign total income exceeds fifteen lakh rupees",
+        "Person of Indian origin, not liable to tax anywhere in the world, and total global income exceeds fifteen lakh rupees",
+        "Citizen of India, present in India for at least thirty days, with total income exceeding fifty lakh rupees",
+        "Any individual who is stateless and maintains an Indian bank account"
+      ],
+      "answer": 0,
+      "explanation": "Sub-section (7) specifies three criteria for deemed residency: the individual must be a citizen of India, not liable to tax in any other country or territory due to domicile, residence, or similar criteria, and have total income (other than foreign sources) exceeding fifteen lakh rupees."
+    },
+    {
+      "question": "Under Section 6(13)(a)(ii), an individual is not ordinarily resident in India if his cumulative physical presence in India across the seven preceding tax years is:",
+      "options": [
+        "365 days or less",
+        "182 days or less",
+        "729 days or less",
+        "730 days or less"
+      ],
+      "answer": 2,
+      "explanation": "Sub-section (13)(a)(ii) explicitly sets the threshold as being in India cumulatively for 'seven hundred and twenty-nine days or less' in the seven tax years preceding that year."
+    },
+    {
+      "question": "Under Section 6(9), a Hindu undivided family, firm, or association of persons is resident in India unless:",
+      "options": [
+        "All of its partners or members reside outside India for more than 182 days",
+        "The control and management of its affairs is situated wholly outside India during the tax year",
+        "Its manager or principal officer is determined to be a non-resident in that tax year",
+        "At least ninety percent of its total income arises outside India"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (9) states that such entities are resident in India unless the control and management of their affairs is situated wholly outside India during such tax year."
+    },
+    {
+      "question": "An Indian citizen visiting India whose total income (excluding foreign sources) exceeds fifteen lakh rupees is tested for residency under Section 6(2)(b) with the 60-day period substituted by:",
+      "options": [
+        "90 days",
+        "100 days",
+        "150 days",
+        "120 days"
+      ],
+      "answer": 3,
+      "explanation": "Sub-section (5) provides that where such a visiting individual's total income (other than income from foreign sources) exceeds fifteen lakh rupees, sub-section (2)(b) applies as if 'sixty days' had been substituted with 'one hundred and twenty days'."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CNT",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Citizen of India"
+        },
+        {
+          "letter": "N",
+          "meaning": "Not liable to tax in any other country or territory due to domicile, residence, or similar criteria"
+        },
+        {
+          "letter": "T",
+          "meaning": "Total income exceeding fifteen lakh rupees (other than income from foreign sources)"
+        }
+      ],
+      "tip": "Use CNT to remember the three cumulative conditions under Section 6(7) for an individual to be deemed a resident in India."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
