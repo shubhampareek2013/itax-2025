@@ -1,0 +1,74 @@
+{
+  "id": "itax2025-s011",
+  "section": "11",
+  "title": "Section 11",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-19",
+  "commentary": "Section 11 provides the statutory framework for excluding certain incomes and exempting specific persons from income-tax. Under sub-section (1), any income listed in Schedules II, III, IV, V, and VI is excluded from the computation of total income for a tax year, provided that the conditions specified in those respective Schedules are satisfied. Sub-section (2) clarifies that if those schedule-specific conditions are breached or unmet in any tax year, the income in question loses its exclusion and is charged to tax on the total income for that tax year.\n\nSub-section (3) addresses entity-level exemptions rather than itemized income streams. It provides that persons enumerated in Schedule VII are not chargeable to tax on their total income for a tax year, subject to meeting the conditions stipulated therein. Under sub-section (4), if such a person fails to fulfill the conditions in Schedule VII, their income becomes chargeable to tax under the provisions of the Act for that tax year. Finally, sub-section (5) authorizes the Central Government to make rules or issue notifications for the purposes of the section across Schedules II through VII.\n\nInterpretation: This section creates two distinct categories of relief: transaction- or source-based exclusions under Schedules II through VI, and entity-based full exemptions under Schedule VII, both strictly conditional upon continuous compliance with their statutory terms.",
+  "example": {
+    "assumptions": "All figures and references are illustrative assumptions. For the relevant tax year, Assessee A earns ₹5,00,000 from an income stream listed in Schedule II, and Entity B is a person enumerated in Schedule VII with a total income of ₹20,00,000.",
+    "scenario": "During the tax year, Assessee A fails to satisfy a condition specified in Schedule II regarding the ₹5,00,000 income. Simultaneously, Entity B fully satisfies all conditions specified in Schedule VII.",
+    "walkthrough": "Step 1: Apply Section 11(1) and 11(2) to Assessee A. While Section 11(1) permits exclusion of Schedule II income, it requires condition compliance. Under Section 11(2), because Assessee A failed to satisfy the condition, the ₹5,00,000 must be included and charged to tax on total income for that tax year.\nStep 2: Apply Section 11(3) to Entity B. Since Entity B is enumerated in Schedule VII and meets all specified conditions, it is not chargeable to tax on its ₹20,00,000 total income for the tax year.\nStep 3: Section 11(4) is inapplicable to Entity B because no conditions were breached.",
+    "takeaway": "Income exclusions under Schedules II to VI and person-level exemptions under Schedule VII are strictly contingent upon meeting their respective schedule-based conditions in each tax year."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 11(1), income enumerated in which Schedules shall not be included in total income, subject to the fulfilment of conditions specified therein?",
+      "options": [
+        "Schedules I, II, III, and IV",
+        "Schedules II, III, IV, V and VI",
+        "Schedules III, IV, V, VI and VII",
+        "Schedules II, IV, VI and VII only"
+      ],
+      "answer": 1,
+      "explanation": "Section 11(1) expressly lists Schedules II, III, IV, V and VI for incomes that shall not be included in total income. Schedule VII deals with exempt persons under Section 11(3), and Schedule I is not mentioned in sub-section (1)."
+    },
+    {
+      "question": "What is the tax consequence under Section 11(2) if the conditions in Schedule II are not satisfied in respect of an enumerated income in a tax year?",
+      "options": [
+        "Such income is charged to tax under this Act on the total income for that tax year.",
+        "The person is permanently disqualified from claiming any future exclusions.",
+        "The income is taxed at a flat mandatory penalty rate of fifty percent.",
+        "The exclusion is deferred to the immediately succeeding tax year."
+      ],
+      "answer": 0,
+      "explanation": "Section 11(2) specifies that wherever conditions in the Schedules referred to in sub-section (1) are not satisfied, such income shall be charged to tax under this Act on the total income for that tax year. The other options introduce penalties and procedures not found in the text."
+    },
+    {
+      "question": "Which provision governs the non-chargeability to tax on total income for persons enumerated in Schedule VII?",
+      "options": [
+        "Section 11(1)",
+        "Section 11(2)",
+        "Section 11(3)",
+        "Section 11(5)"
+      ],
+      "answer": 2,
+      "explanation": "Section 11(3) states that persons enumerated in Schedule VII shall, subject to fulfilment of the conditions specified therein, not be chargeable to tax under this Act on total income for a tax year. Section 11(1) governs income exclusions, 11(2) governs failure of those exclusions, and 11(5) covers rule-making powers."
+    },
+    {
+      "question": "Under Section 11(4), what happens if a person enumerated in Schedule VII fails to satisfy the specified conditions during a tax year?",
+      "options": [
+        "The person's total income is deemed to be zero for that tax year.",
+        "The person is granted an automatic statutory extension to comply.",
+        "The income of such person shall be charged to tax under the provisions of this Act for that tax year.",
+        "Only fifty percent of the person's income becomes subject to tax."
+      ],
+      "answer": 2,
+      "explanation": "Section 11(4) provides that wherever the conditions referred to in Schedule VII are not satisfied in respect of the persons enumerated in that Schedule, the income of such person shall be charged to tax under the provisions of this Act for that tax year. The other options are unsupported by the text."
+    },
+    {
+      "question": "Under Section 11(5), who has the power to make rules or issue notifications as specified in Schedules II through VII?",
+      "options": [
+        "The Assessing Officer",
+        "The Central Board of Direct Taxes",
+        "The Commissioner of Income-tax",
+        "The Central Government"
+      ],
+      "answer": 3,
+      "explanation": "Section 11(5) explicitly empowers the Central Government to make rules or issue notifications for the purposes of this section as specified in Schedules II, III, IV, V, VI and VII. The CBDT, Assessing Officer, and Commissioner are not mentioned in Section 11(5)."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}
