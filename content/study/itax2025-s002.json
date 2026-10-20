@@ -1,0 +1,74 @@
+{
+  "id": "itax2025-s002",
+  "section": "2",
+  "title": "Section 2",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-20",
+  "commentary": "Section 2 serves as the comprehensive interpretation clause for the Income-tax Act, 2025, establishing statutory definitions that govern liability, computation, and procedures across all chapters. It sets out fundamental classifications of taxable units, defining a \"person\" under clause (77) and an \"assessee\" under clause (11). Crucial boundaries of the tax base are demarcated through definitions such as \"agricultural income\" in clause (5), which excludes urban land transfers, and \"income\" in clause (49), which provides an expansive, inclusive catalogue of receipts.\n\nThe section also establishes the framework for capital gains taxation. Clause (22) defines a \"capital asset\" by including all property while carving out specific exclusions such as stock-in-trade, specified personal effects, and rural agricultural land. Clauses (67) and (101) classify assets into short-term and long-term based on statutory holding period benchmarks (generally twenty-four months, reduced to twelve months for listed securities, equity-oriented funds, units of UTI, and zero-coupon bonds). Corporate reorganisations are codified via specific criteria for \"amalgamation\" in clause (6), \"demerger\" in clause (35), and \"slump sale\" in clause (103).\n\nInterpretation: The opening qualifier \"unless the context otherwise requires\" ensures judicial flexibility, permitting departures from literal definitions where a rigid reading would defeat the legislative intent of a specific operational provision.",
+  "example": {
+    "assumptions": "All dates, asset values, and transaction details are illustrative assumptions. Assessee X holds: (i) listed equity shares on a recognised stock exchange purchased on 1 May 2024 for Rs. 1,00,000 and sold on 10 June 2025 for Rs. 1,50,000; (ii) residential furniture purchased for Rs. 40,000 and sold for Rs. 25,000.",
+    "scenario": "Assessee X sells both the residential furniture and the listed equity shares during the tax year and needs to determine whether these items are capital assets and whether the resulting gains or losses are short-term or long-term.",
+    "walkthrough": "Step 1: Under Section 2(22)(ii) read with Section 2(22)(B), personal effects include movable property held for personal use, such as furniture, and are excluded from being a capital asset unless they constitute jewellery, archaeological collections, drawings, paintings, sculptures, or works of art. The residential furniture is therefore not a capital asset, and its sale does not generate capital gains.\nStep 2: Under Section 2(22), the listed equity shares constitute a capital asset as they are property held by the assessee and are not covered by any exclusion.\nStep 3: Under Section 2(101)(a), the standard holding period threshold for a short-term capital asset is not more than twenty-four months.\nStep 4: Under Section 2(101)(b)(i), for a security listed in a recognised stock exchange in India, the holding period threshold is substituted with twelve months.\nStep 5: Because Assessee X held the listed shares from 1 May 2024 to 10 June 2025 (more than twelve months), the shares cease to be a short-term capital asset and constitute a long-term capital asset under Section 2(67), giving rise to long-term capital gain under Section 2(68).",
+    "takeaway": "Statutory exclusions under Section 2(22) remove personal effects like furniture from capital gains, while Section 2(101)(b) accelerates the long-term holding status of listed securities from twenty-four months to twelve months."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 2(22)(iii)(B), agricultural land in India is not excluded from the definition of a capital asset if it is situated within what aerial distance from a municipality having a population of more than 1,00,000 and up to 10,00,000?",
+      "options": [
+        "Not being more than two kilometres",
+        "Not being more than six kilometres",
+        "Not being more than eight kilometres",
+        "Not being more than ten kilometres"
+      ],
+      "answer": 1,
+      "explanation": "Item 2 of the Table in Section 2(22)(iii)(B) specifies an aerial distance of not being more than six kilometres for a municipality or cantonment board with a population of more than 1,00,000 and up to 10,00,000. Two kilometres applies to populations between 10,000 and 1,00,000, while eight kilometres applies to populations exceeding 10,00,000."
+    },
+    {
+      "question": "According to Section 2(79), a person is deemed to have a substantial interest in a company if they beneficially own shares carrying not less than what percentage of the voting power?",
+      "options": [
+        "Not less than 10%",
+        "Not less than 15%",
+        "Not less than 20%",
+        "Not less than 50%"
+      ],
+      "answer": 2,
+      "explanation": "Section 2(79) defines a 'person who has a substantial interest in the company' as a beneficial owner of shares (not being shares entitled to a fixed rate of dividend) carrying not less than 20% of the voting power. A 10% threshold applies to advances under Section 2(40)(e)(i), not Section 2(79)."
+    },
+    {
+      "question": "Under Section 2(101), what is the general holding period threshold for a short-term capital asset, and what threshold applies to a zero-coupon bond?",
+      "options": [
+        "Not more than twenty-four months generally; not more than twelve months for a zero-coupon bond",
+        "Not more than thirty-six months generally; not more than twelve months for a zero-coupon bond",
+        "Not more than twenty-four months generally; not more than eighteen months for a zero-coupon bond",
+        "Not more than twelve months generally; not more than twenty-four months for a zero-coupon bond"
+      ],
+      "answer": 0,
+      "explanation": "Section 2(101)(a) specifies that a short-term capital asset is held for not more than twenty-four months, while Section 2(101)(b)(iv) substitutes twelve months in the case of a zero-coupon bond."
+    },
+    {
+      "question": "Under Section 2(6)(c), what minimum proportion in value of shares in the amalgamating company must be held by shareholders who become shareholders of the amalgamated company for a merger to qualify as an amalgamation?",
+      "options": [
+        "Not less than 50% in value",
+        "Not less than 60% in value",
+        "Not less than two-thirds in value",
+        "Not less than three-fourths in value"
+      ],
+      "answer": 3,
+      "explanation": "Section 2(6)(c) mandates that shareholders holding not less than three-fourths in value of the shares in the amalgamating company or companies (other than shares already held by the amalgamated company or its subsidiary) must become shareholders of the amalgamated company."
+    },
+    {
+      "question": "Under Section 2(22)(B), which of the following items held for personal use is expressly excluded from 'personal effects' and therefore treated as a capital asset?",
+      "options": [
+        "Wearing apparel",
+        "Furniture",
+        "Archaeological collections",
+        "Utensils"
+      ],
+      "answer": 2,
+      "explanation": "Section 2(22)(B) defines personal effects as movable property held for personal use (including wearing apparel and furniture), but explicitly excludes jewellery, archaeological collections, drawings, paintings, sculptures, or any work of art. Hence, archaeological collections remain capital assets."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}

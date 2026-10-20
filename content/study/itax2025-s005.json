@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s005",
+  "section": "5",
+  "title": "Section 5",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-20",
+  "commentary": "Section 5 establishes the statutory scope of total income chargeable to tax based on residential status. Under sub-section (1), a resident is taxed on income from any source that is received or deemed to be received in India, income that accrues or arises or is deemed to accrue or arise in India, and income that accrues or arises outside India. However, for an individual or entity categorized as 'not ordinarily resident' under section 6(13), income accruing or arising outside India is included only if it is derived from a business controlled in or a profession set up in India.\n\nUnder sub-section (2), the scope for a non-resident is strictly territorial, comprising only income received or deemed to be received in India, and income accruing, arising, or deemed to accrue or arise in India. Sub-section (3) clarifies that foreign accrued income is not deemed to be received in India merely because it is recorded in a balance sheet drawn up in India. To prevent double taxation, sub-section (4) provides that once income has been taxed on an accrual or deemed accrual basis, it cannot be taxed again upon actual or deemed receipt in India.\n\nInterpretation: The section serves as the foundational charging perimeter, delineating global taxation for ordinary residents while restricting non-residents and not ordinarily residents strictly to Indian-nexus income.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. Taxpayer P is a resident but 'not ordinarily resident' in India for the relevant tax year. P has: (i) ₹3,00,000 received in India from domestic dividends; (ii) ₹4,00,000 accruing in Country X from a consulting business controlled from India; and (iii) ₹2,00,000 accruing in Country X from an independent overseas venture not controlled in India.",
+    "scenario": "P needs to determine which receipts and accruals form part of total income under the provisions governing a 'not ordinarily resident'.",
+    "walkthrough": "Step 1: Under section 5(1)(a), the dividend of ₹3,00,000 is included in total income because it was received in India. Step 2: Under section 5(1)(c), the ₹4,00,000 accruing outside India is included because it is derived from a business controlled in India. Step 3: Under the restrictive clause of section 5(1)(c), the ₹2,00,000 accruing outside India is excluded because it is not derived from a business controlled in or a profession set up in India. Step 4: P's total income under section 5 equals ₹7,00,000.",
+    "takeaway": "For a person who is not ordinarily resident, income accruing outside India enters total income only if it is tied to an Indian-controlled business or an Indian-established profession."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 5(1)(c), when is income accruing or arising outside India included in the total income of a person who is 'not ordinarily resident'?",
+      "options": [
+        "In all circumstances regardless of the source or control",
+        "Only when it is derived from a business controlled in or a profession set up in India",
+        "Only when it is remitted to India within the same tax year",
+        "Whenever it is entered in an Indian bank account"
+      ],
+      "answer": 1,
+      "explanation": "Section 5(1)(c) expressly provides that for a person who is 'not ordinarily resident' under section 6(13), income accruing or arising outside India is included only when derived from a business controlled in or a profession set up in India. The other options are not conditions stated in the text."
+    },
+    {
+      "question": "Which of the following streams of income is included in the total income of a non-resident under section 5(2)?",
+      "options": [
+        "Income accruing or arising outside India from a business controlled in India",
+        "Income accruing or arising outside India from a profession set up in India",
+        "Income received or deemed to be received in India in that year by or on behalf of such person",
+        "Income accruing outside India that is entered into a balance sheet prepared in India"
+      ],
+      "answer": 2,
+      "explanation": "Under section 5(2)(a), a non-resident's total income includes income received or deemed to be received in India. Business controlled from India and profession set up in India only apply to residents who are not ordinarily resident under section 5(1)(c), not to non-residents."
+    },
+    {
+      "question": "What does section 5(3) state regarding income accruing or arising outside India?",
+      "options": [
+        "It shall be deemed received in India if approved by a statutory auditor",
+        "It shall be deemed received in India whenever transmitted through banking channels",
+        "It is completely exempt from total income for all classes of residents",
+        "It shall not be deemed to be received in India by reason only of the fact that it is taken into account in a balance sheet prepared in India"
+      ],
+      "answer": 3,
+      "explanation": "Section 5(3) explicitly clarifies that income accruing or arising outside India shall not be deemed to be received in India under this section merely because it is taken into account in a balance sheet prepared in India."
+    },
+    {
+      "question": "Under section 5(4), how is income treated if it has already been included in total income on an accrual or deemed accrual basis?",
+      "options": [
+        "It is taxed again upon actual receipt at a reduced rate",
+        "It must be adjusted against foreign tax credits in the year of receipt",
+        "It shall not again be included on the basis that it is received or deemed to be received by that person in India",
+        "It must be recomputed using the exchange rate applicable on the date of receipt"
+      ],
+      "answer": 2,
+      "explanation": "Section 5(4) mandates that once income is included in total income because it accrued or arose, or is deemed to have accrued or arisen, it cannot be included again on the basis of receipt or deemed receipt in India."
+    },
+    {
+      "question": "Under section 5(1), the total income of a resident who is not 'not ordinarily resident' includes:",
+      "options": [
+        "Income received/deemed received in India, income accruing/arising (or deemed) in India, and all income accruing or arising outside India",
+        "Only income received in India and income accruing or arising in India",
+        "Only income derived from a business controlled in India",
+        "Income accruing outside India only if it is not taxed in any other country"
+      ],
+      "answer": 0,
+      "explanation": "Under section 5(1)(a), (b), and (c), the total income of an ordinary resident includes Indian receipts, Indian accruals, and all foreign accruals without the business/profession restriction applicable to not ordinarily residents."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "RAO",
+      "stands_for": [
+        {
+          "letter": "R",
+          "meaning": "Received or deemed to be received in India"
+        },
+        {
+          "letter": "A",
+          "meaning": "Accrues or arises, or is deemed to accrue or arise, in India"
+        },
+        {
+          "letter": "O",
+          "meaning": "Outside India accrual or arising"
+        }
+      ],
+      "tip": "Use RAO to remember the three sequential heads of income included in a resident's total income under section 5(1)(a), 5(1)(b), and 5(1)(c)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

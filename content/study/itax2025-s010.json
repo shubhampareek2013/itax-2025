@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s010",
+  "section": "10",
+  "title": "Section 10",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-20",
+  "commentary": "Section 10 lays down the assessment rules for a husband and wife governed by the community of property system (known as “COMMUNIAO DOS BENS” under the Portuguese Civil Code of 1860) in force in the State of Goa and the Union territories of Dadra and Nagar Haveli and Daman and Diu. Under clause (a), their income under any head cannot be assessed together as that of such community of property, whether treated as an association of persons or a body of individuals. Under clause (b), their income under each head of income other than “Salaries” must be divided equally between the husband and the wife. Under clause (c), the income so divided shall be included separately in the total income of the husband and the wife respectively, and the remaining provisions of the Act apply accordingly. Under clause (d), where either spouse has income under the head “Salaries”, that income is included in the total income of the spouse who actually earned it.\n\nInterpretation: This provision prevents assessing the marital community as an entity such as an AOP or BOI, mandating a 50:50 statutory division of non-salary income between spouses while preserving individual assessment for salary income.",
+  "example": {
+    "assumptions": "state that all figures are illustrative assumptions and list them: Husband (H) and Wife (W) are governed by Communiao dos Bens under the Portuguese Civil Code of 1860 in Goa; H earns illustrative salary of ₹12,00,000; community rental income under 'Income from house property' is ₹4,00,000; interest income under 'Income from other sources' is ₹1,00,000",
+    "scenario": "H and W need to determine how their salary, rental, and interest incomes must be reported and assessed under Section 10.",
+    "walkthrough": "Under clause (a), the incomes of H and W cannot be clubbed together and assessed as an association of persons or a body of individuals. Under clause (b), incomes under heads other than 'Salaries' (rental income of ₹4,00,000 and interest income of ₹1,00,000, totaling ₹5,00,000) are divided equally between H (₹2,50,000) and W (₹2,50,000). Under clause (c), this divided income is included separately in their respective total incomes. Under clause (d), the salary income of ₹12,00,000 is included solely in the total income of H, who actually earned it. As a result, H's total income includes ₹12,00,000 plus ₹2,50,000, and W's total income includes ₹2,50,000.",
+    "takeaway": "Income from heads other than salaries is divided equally between both spouses, whereas salary income is assessed entirely in the hands of the spouse who actually earned it."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 10(b), which head of income is specifically excluded from being divided equally between the husband and the wife?",
+      "options": [
+        "Income from house property",
+        "Salaries",
+        "Capital gains",
+        "Profits and gains of business or profession"
+      ],
+      "answer": 1,
+      "explanation": "Section 10(b) explicitly provides that income under each head of income other than 'Salaries' shall be divided equally between the husband and the wife. The other options are heads of income subject to equal division under this clause."
+    },
+    {
+      "question": "According to Section 10(a), how does the Act treat the assessment of the community of property of a husband and wife governed by Communiao dos Bens?",
+      "options": [
+        "Their income under any head of income shall not be assessed together as that of such community of property (whether treated as an association of persons or a body of individuals)",
+        "Their income must compulsorily be assessed together as an association of persons",
+        "Their income must be assessed together as a body of individuals under all heads of income",
+        "Their income is assessed together as a Hindu undivided family"
+      ],
+      "answer": 0,
+      "explanation": "Section 10(a) specifically provides that their income under any head of income shall not be assessed together as that of such community of property, whether treated as an association of persons or a body of individuals. The other options contradict this explicit statutory prohibition."
+    },
+    {
+      "question": "Under Section 10(d), where either spouse has income under the head 'Salaries', how is that income included in total income?",
+      "options": [
+        "It is divided equally between both spouses",
+        "It is included in the total income of the husband as the manager of the community",
+        "It is included in the total income of the spouse who has actually earned it",
+        "It is excluded completely from total income under the Act"
+      ],
+      "answer": 2,
+      "explanation": "Section 10(d) provides that where either the husband or the wife has any income under the head 'Salaries', that income shall be included in the total income of the spouse who has actually earned it. Options A, B, and D do not follow this rule."
+    },
+    {
+      "question": "Section 10 applies to a husband and wife governed by the system of community of property in force in which territories?",
+      "options": [
+        "The Union territory of Puducherry and the State of Tamil Nadu",
+        "The State of Kerala and the Union territory of Lakshadweep",
+        "The State of Goa and the Union territories of Jammu and Kashmir and Ladakh",
+        "The State of Goa and the Union territories of Dadra and Nagar Haveli and Daman and Diu"
+      ],
+      "answer": 3,
+      "explanation": "The opening words of Section 10 state that it applies to spouses governed by the community of property system in force in the State of Goa and the Union territories of Dadra and Nagar Haveli and Daman and Diu. Other territories are not mentioned in the section."
+    },
+    {
+      "question": "Under Section 10(c), how is the non-salary income that has been divided equally between the husband and the wife treated under the Act?",
+      "options": [
+        "It is included separately in the total income of the husband and the wife respectively, and the remaining provisions of the Act apply accordingly",
+        "It is assessed jointly as the income of a partnership firm formed by the spouses",
+        "It is taxed at a flat rate without applying the remaining provisions of the Act",
+        "It is included entirely in the total income of the husband while granting an exemption to the wife"
+      ],
+      "answer": 0,
+      "explanation": "Section 10(c) provides that the income so divided shall be included separately in the total income of the husband and the wife respectively, and the remaining provisions of this Act shall apply accordingly. Options B, C, and D are contrary to this text."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "GDD",
+      "stands_for": [
+        {
+          "letter": "G",
+          "meaning": "Goa"
+        },
+        {
+          "letter": "D",
+          "meaning": "Dadra and Nagar Haveli"
+        },
+        {
+          "letter": "D",
+          "meaning": "Daman and Diu"
+        }
+      ],
+      "tip": "Use GDD to remember the State and Union territories where spouses governed by the Portuguese Civil Code fall under Section 10."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

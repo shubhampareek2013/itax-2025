@@ -1,0 +1,89 @@
+{
+  "id": "itax2025-s012",
+  "section": "12",
+  "title": "Section 12",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-20",
+  "commentary": "Section 12 provides a conditional tax exemption regime specifically for political parties and electoral trusts. Under sub-section (1), any income enumerated in Schedule VIII is excluded when computing the total income of a political party or an electoral trust for a tax year. However, this non-inclusion is strictly conditional upon satisfying the requirements set out in Schedule VIII.\n\nSub-section (2) provides the tax consequence when those requirements are breached. If the conditions specified in Schedule VIII are not fulfilled in respect of any enumerated income for a tax year, that specific income loses its protection and is charged to tax under the Act for that tax year.\n\nSub-section (3) authorizes the Central Government to formulate rules or issue notifications for carrying out the purposes of Section 12, as outlined in Schedule VIII.\n\nInterpretation: The section operates as an enabling provision that links the tax status of political parties and electoral trusts directly to Schedule VIII. Non-compliance does not necessarily invalidate the entity's status as a whole, but directly exposes the non-compliant enumerated income to taxation.",
+  "example": {
+    "assumptions": "All figures and events are illustrative assumptions. Trust T is an electoral trust. In a tax year, Trust T receives an enumerated income of ₹10,00,000 covered under Schedule VIII.",
+    "scenario": "During the tax year, Trust T receives ₹10,00,000 of income enumerated in Schedule VIII. However, it fails to comply with one of the mandatory conditions specified in Schedule VIII regarding the maintenance or reporting of this receipt.",
+    "walkthrough": "Step 1: Under Section 12(1), the ₹10,00,000 can only be excluded from total income if all conditions specified in Schedule VIII are fulfilled.\nStep 2: Under Section 12(2), because Trust T failed to satisfy the conditions referred to in Schedule VIII in respect of this income, the ₹10,00,000 cannot be excluded.\nStep 3: Consequently, pursuant to Section 12(2), the ₹10,00,000 is charged to tax under this Act for that tax year.",
+    "takeaway": "An electoral trust or political party must satisfy every condition in Schedule VIII to prevent its enumerated income from being charged to tax."
+  },
+  "mcqs": [
+    {
+      "question": "Which entities are eligible for the non-inclusion of enumerated income in their total income under Section 12(1)?",
+      "options": [
+        "Any political party or charitable institution",
+        "Any political party or an electoral trust",
+        "Any registered trade union or electoral trust",
+        "Any electoral trust or local authority"
+      ],
+      "answer": 1,
+      "explanation": "Section 12(1) explicitly covers 'any political party or an electoral trust'. Charitable institutions, trade unions, and local authorities are not mentioned in this section."
+    },
+    {
+      "question": "What is the consequence under Section 12(2) if the conditions referred to in Schedule VIII are not satisfied in respect of an enumerated income in a tax year?",
+      "options": [
+        "Such income shall be charged to tax under this Act for that tax year",
+        "The entity loses its registration permanently under the Act",
+        "Such income is held in abeyance and taxed in the following tax year",
+        "The entity must pay a penalty equal to twice the untaxed amount"
+      ],
+      "answer": 0,
+      "explanation": "Under Section 12(2), wherever conditions referred to in Schedule VIII are not satisfied in respect of any enumerated income, such income shall be charged to tax under the Act for that tax year. Permanent loss of registration or mandatory penalties are not provided in this section."
+    },
+    {
+      "question": "Who is empowered under Section 12(3) to make rules or issue notifications for the purposes of this section as specified in Schedule VIII?",
+      "options": [
+        "The Election Commission of India",
+        "The Central Board of Direct Taxes",
+        "The Central Government",
+        "The Assessing Officer having jurisdiction"
+      ],
+      "answer": 2,
+      "explanation": "Section 12(3) provides that the Central Government may make rules or issue notifications for the purposes of this section as specified in Schedule VIII."
+    },
+    {
+      "question": "Under Section 12(1), on what basis is enumerated income in Schedule VIII excluded from the total income of a political party?",
+      "options": [
+        "Subject to obtaining prior written permission from the Assessing Officer",
+        "Subject to an annual audit by the Comptroller and Auditor General",
+        "Subject to issuing a formal declaration to the Election Commission",
+        "Subject to fulfilment of conditions specified in Schedule VIII"
+      ],
+      "answer": 3,
+      "explanation": "Section 12(1) explicitly provides that enumerated income shall not be included 'subject to fulfilment of conditions specified therein' (Schedule VIII). The other procedures are not mentioned in the text."
+    },
+    {
+      "question": "An electoral trust has two separate streams of income enumerated in Schedule VIII during a tax year. It satisfies the conditions of Schedule VIII for Stream A, but fails to satisfy them for Stream B. How does Section 12 apply?",
+      "options": [
+        "Both streams are charged to tax because non-fulfilment for one stream taints all receipts",
+        "Both streams remain exempt provided Stream B is less than Stream A",
+        "Stream A is not included in total income, while Stream B is charged to tax for that tax year",
+        "Stream B is deferred and reassessed only in the following tax year"
+      ],
+      "answer": 2,
+      "explanation": "Section 12(1) excludes enumerated income where conditions are met, while Section 12(2) specifies that where conditions are not satisfied 'in respect of any income enumerated', 'such income' shall be charged to tax for that tax year. Therefore, only Stream B is taxed."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "PE",
+      "stands_for": [
+        {
+          "letter": "P",
+          "meaning": "Political party"
+        },
+        {
+          "letter": "E",
+          "meaning": "Electoral trust"
+        }
+      ],
+      "tip": "Use PE to recall the two specific entities eligible for conditional exclusion of Schedule VIII income under Section 12(1)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
