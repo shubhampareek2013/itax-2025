@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s015",
+  "section": "15",
+  "title": "Section 15",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-21",
+  "commentary": "Section 15 sets out the scope and basis of charge for income under the head \"Salaries\". Under sub-section (1), salary income is charged to tax under three distinct circumstances: salary that has become due in the tax year regardless of whether it is paid or not, salary paid or allowed before it becomes due (advance salary), and arrears of salary paid or allowed during the tax year, provided they were not charged to income-tax in an earlier tax year. Sub-section (2) clarifies that the term \"employer\" includes a former employer, ensuring receipts from past employments are covered. To prevent double taxation, sub-section (3) provides that any advance salary once included in total income cannot be taxed again when it subsequently falls due. Finally, sub-section (4) explicitly excludes any salary, bonus, commission, or remuneration received by or due to a partner from their firm, establishing that partner remunerations fall outside the purview of this section.\n\nInterpretation: The section operates on an accrual-or-receipt basis, whichever comes earlier, capturing both earned unpaid dues and unearned advances, while ensuring no single receipt is subject to double assessment.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Base monthly salary is 50,000 currency units; assessee receives 12 months regular salary (600,000), 2 months advance salary for next year (100,000), 1 month unpaid salary from a former employer (50,000), and remuneration as a partner from a firm (80,000).",
+    "scenario": "An employee receives their regular salary, two months of unearned advance salary, an unpaid salary entitlement from a former employer, and partner remuneration from a registered partnership firm.",
+    "walkthrough": "Step 1: The regular salary of 600,000 is due and chargeable under Section 15(1)(a).\nStep 2: The advance salary of 100,000 is paid before becoming due and is chargeable in the current tax year under Section 15(1)(b); pursuant to Section 15(3), it will not be taxed again when it falls due.\nStep 3: The 50,000 due from the former employer is chargeable under Section 15(1)(a) read with Section 15(2), as employer includes a former employer.\nStep 4: Under Section 15(4), the partner remuneration of 80,000 is not regarded as salary for the purposes of this section and is excluded.",
+    "takeaway": "Salary is taxable at the earliest point of being due or paid—including amounts from former employers—while advance salary is protected against double taxation and partner remuneration is excluded."
+  },
+  "mcqs": [
+    {
+      "question": "What is the tax treatment under Section 15(3) when salary previously taxed on an advance basis subsequently becomes due?",
+      "options": [
+        "It shall not be included again in the total income of such person",
+        "It is added to total income again and granted a credit",
+        "It is treated as arrears of salary in the year it becomes due",
+        "It is chargeable again if the employer has changed"
+      ],
+      "answer": 0,
+      "explanation": "Section 15(3) specifically states that if any salary paid in advance is included in the total income for any tax year, it shall not be included again in the total income of such person when the salary becomes due. The other options contradict this explicit rule."
+    },
+    {
+      "question": "Under Section 15(1)(c), when are arrears of salary paid or allowed to an assessee chargeable to income-tax?",
+      "options": [
+        "Only if the assessee remains employed with the same employer",
+        "If not charged to income-tax for any earlier tax year",
+        "Only if paid along with interest",
+        "Exclusively when sanctioned by an order of an appellate authority"
+      ],
+      "answer": 1,
+      "explanation": "Section 15(1)(c) provides that arrears of salary paid or allowed in the tax year are chargeable if not charged to income-tax for any earlier tax year. The other conditions are not found in the text."
+    },
+    {
+      "question": "How does Section 15(4) treat remuneration, bonus, commission, or salary received by a partner from their firm?",
+      "options": [
+        "It is taxed as advance salary under Section 15(1)(b)",
+        "It is taxed as salary due under Section 15(1)(a)",
+        "It shall not be regarded as salary for the purposes of Section 15",
+        "It is chargeable under Salaries only if paid in cash"
+      ],
+      "answer": 2,
+      "explanation": "Section 15(4) provides that any salary, bonus, commission or remuneration due to, or received by, a partner of a firm from the firm shall not be regarded as salary for the purposes of this section."
+    },
+    {
+      "question": "Pursuant to Section 15(2), which of the following is expressly included within the meaning of 'employer' for the purposes of Section 15(1)?",
+      "options": [
+        "A partnership firm paying a partner",
+        "A prospective employer offering an interview",
+        "A family trust",
+        "A former employer"
+      ],
+      "answer": 3,
+      "explanation": "Section 15(2) states that for the purposes of sub-section (1), employer includes former employer. The other entities are not included by this provision."
+    },
+    {
+      "question": "Under Section 15(1)(a), salary that has become due from an employer to an assessee during the tax year is chargeable to income-tax:",
+      "options": [
+        "Only if actually received during the same tax year",
+        "Only after a formal demand notice is served",
+        "Whether paid or not",
+        "Provided the assessee does not receive advance salary in the same year"
+      ],
+      "answer": 2,
+      "explanation": "Section 15(1)(a) provides that any salary due from an employer to an assessee in the tax year is chargeable under Salaries 'whether paid or not'. Actual payment is not required once it is due."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "DPA",
+      "stands_for": [
+        {
+          "letter": "D",
+          "meaning": "Due salary in the tax year, whether paid or not"
+        },
+        {
+          "letter": "P",
+          "meaning": "Paid or allowed though not due (advance salary)"
+        },
+        {
+          "letter": "A",
+          "meaning": "Arrears of salary paid or allowed if not charged earlier"
+        }
+      ],
+      "tip": "Use DPA to recall the three categories of salary chargeable to tax under Section 15(1)(a), (b), and (c)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

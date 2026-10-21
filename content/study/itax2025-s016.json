@@ -1,0 +1,74 @@
+{
+  "id": "itax2025-s016",
+  "section": "16",
+  "title": "Section 16",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-21",
+  "commentary": "Section 16 defines the term \"salary\" in an inclusive manner for the purposes of this Part of the Act. Rather than confining salary to conventional recurring base pay, the section sets out twelve specific categories of receipts and credits that fall under its ambit. \n\nThese categories encompass standard employment emoluments such as wages, annuities, pensions, gratuities, fees, commissions, and perquisites. It also brings into the fold profits in lieu of or in addition to salary or wages, advance salary receipts, and encashment payments received by an employee for unavailed leave. Beyond direct payments, the definition includes specific statutory fund accretions and employer retirement contributions: taxable annual accretions and taxable transferred balances in recognised provident funds (as governed by Part A of Schedule XI), employer or Central Government contributions to a pension scheme under section 124, and Central Government contributions to the Agniveer Corpus Fund under section 125.\n\nInterpretation: The use of the word \"includes\" signifies that the definition is not exhaustive, but rather extends the ordinary understanding of employment remuneration to include statutory fund accretions and deferred retirement contributions made on behalf of the employee.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: basic wages are ₹60,000; commission is ₹10,000; advance of salary is ₹15,000; payment for unavailed leave is ₹12,000; and Central Government contribution to a section 124 pension scheme is ₹7,000.",
+    "scenario": "During a tax year, an employee receives various amounts from their employer, including basic wages, a performance commission, an advance against next month's salary, and a leave encashment payment, while also having a government pension contribution credited.",
+    "walkthrough": "Step 1: Include basic wages of ₹60,000 under section 16(a).\nStep 2: Include commission of ₹10,000 under section 16(d).\nStep 3: Include advance of salary of ₹15,000 under section 16(g).\nStep 4: Include payment for unavailed leave of ₹12,000 under section 16(h).\nStep 5: Include the Central Government contribution to the pension scheme of ₹7,000 under section 16(k).\nTotal salary under section 16 equals ₹1,04,000.",
+    "takeaway": "Under section 16, 'salary' captures not only regular wages and commissions, but also prepayments like salary advances, leave encashments, and employer pension contributions."
+  },
+  "mcqs": [
+    {
+      "question": "Which of the following is expressly included in the definition of 'salary' under section 16(g)?",
+      "options": [
+        "Any arrears of rent",
+        "Any advance of salary",
+        "Any loan from a non-employer bank",
+        "Any dividend received on shares"
+      ],
+      "answer": 1,
+      "explanation": "Section 16(g) explicitly includes 'any advance of salary' within the definition of salary. Arrears of rent, personal loans, and dividends are not listed in section 16."
+    },
+    {
+      "question": "Under section 16(k), salary includes contributions to a pension scheme referred to in section 124 made by which of the following?",
+      "options": [
+        "The employee exclusively",
+        "The Central Government or any other employer",
+        "A foreign government only",
+        "Any registered non-governmental organization"
+      ],
+      "answer": 1,
+      "explanation": "Section 16(k) provides that salary includes 'the contribution made by the Central Government or any other employer in any tax year, to the account of an employee under a pension scheme referred to in section 124'."
+    },
+    {
+      "question": "According to section 16(l), contribution to the Agniveer Corpus Fund under the Agnipath Scheme (section 125) is included in salary when made by:",
+      "options": [
+        "The individual employee",
+        "The State Government",
+        "The Central Government",
+        "Any private corporate sponsor"
+      ],
+      "answer": 2,
+      "explanation": "Section 16(l) specifically includes 'the contribution made by the Central Government in any tax year, to the Agniveer Corpus Fund account of an individual enrolled in the Agnipath Scheme referred to in section 125'."
+    },
+    {
+      "question": "As per section 16(h), which payment relating to leave is treated as salary?",
+      "options": [
+        "Any payment received by an employee in respect of any period of leave not availed of by him",
+        "Any payment made to an employee to mandate leave travel within India",
+        "Any deduction made from salary on account of excessive unauthorized leave",
+        "Any compensation for sick leave exceeding sixty days"
+      ],
+      "answer": 0,
+      "explanation": "Section 16(h) states that salary includes 'any payment received by an employee in respect of any period of leave not availed of by him'. The other options are not mentioned in the section."
+    },
+    {
+      "question": "Under section 16(i), the annual accretion to the balance of an employee participating in a recognised provident fund is included in salary:",
+      "options": [
+        "In its entirety without any limitation",
+        "Only if the accretion exceeds ten percent of basic wages",
+        "To the extent to which it is chargeable to tax as per paragraph 6 of Part A of Schedule XI",
+        "Only upon the complete termination of the employment contract"
+      ],
+      "answer": 2,
+      "explanation": "Section 16(i) specifies that the annual accretion to the balance at credit in a recognised provident fund is included 'to the extent to which it is chargeable to tax as per paragraph 6 of Part A of Schedule XI'."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "itax2025-s013",
+  "section": "13",
+  "title": "Section 13",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-21",
+  "commentary": "Section 13 prescribes the statutory classification of income under the Act. Subject to other express provisions (\"Save as otherwise provided in this Act\"), all incomes must be categorized under five designated heads for the dual purposes of the charge of income-tax and the computation of total income. These heads are:\n(a) Salaries;\n(b) Income from house property;\n(c) Profits and gains of business or profession;\n(d) Capital gains; and\n(e) Income from other sources.\n\nBy categorizing receipts into these five heads, the section sets the foundational framework for computing total income and levying the charge of income-tax across the Act.\n\nInterpretation: The opening clause \"Save as otherwise provided in this Act\" indicates that while classification under these five heads is the general rule, any specific statutory exceptions or alternative computation provisions established elsewhere in the Act will prevail over this general requirement.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. An individual taxpayer earns: ₹50,000 from monthly wages, ₹20,000 as rent from a residential flat, ₹30,000 from retail trading, ₹15,000 from the transfer of listed shares, and ₹5,000 as bank savings interest.",
+    "scenario": "A taxpayer earns multiple types of income during a year and must classify each item to compute total income for income-tax purposes.",
+    "walkthrough": "Under Section 13, each item of income is classified under its respective statutory head:\n- The monthly wage of ₹50,000 is classified under Section 13(a) as 'Salaries'.\n- The rental earnings of ₹20,000 are classified under Section 13(b) as 'Income from house property'.\n- The trading profit of ₹30,000 is classified under Section 13(c) as 'Profits and gains of business or profession'.\n- The share transfer gain of ₹15,000 is classified under Section 13(d) as 'Capital gains'.\n- The bank interest of ₹5,000 is classified under Section 13(e) as 'Income from other sources'.",
+    "takeaway": "Every item of income must be assigned to one of the five heads of income listed in Section 13 for computation and charge of income-tax."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 13, how many heads of income are specified for the charge of income-tax and computation of total income?",
+      "options": [
+        "Three heads",
+        "Four heads",
+        "Five heads",
+        "Six heads"
+      ],
+      "answer": 2,
+      "explanation": "Section 13 explicitly lists five heads of income: (a) Salaries, (b) Income from house property, (c) Profits and gains of business or profession, (d) Capital gains, and (e) Income from other sources. Options A, B, and D do not reflect the correct count of heads specified in the section."
+    },
+    {
+      "question": "Which of the following is NOT an enumerated head of income under Section 13?",
+      "options": [
+        "Profits and gains of business or profession",
+        "Capital gains",
+        "Agricultural income",
+        "Income from house property"
+      ],
+      "answer": 2,
+      "explanation": "Agricultural income is not listed in Section 13. Section 13 lists only Salaries, Income from house property, Profits and gains of business or profession, Capital gains, and Income from other sources (options A, B, and D are all listed in Section 13)."
+    },
+    {
+      "question": "According to Section 13, all incomes are classified under the specified heads of income for which purposes?",
+      "options": [
+        "Only for determining the rate of tax deductions at source",
+        "For the purposes of charge of income-tax and computation of total income",
+        "Exclusively for the collection of advance tax",
+        "Solely for penalty and prosecution proceedings"
+      ],
+      "answer": 1,
+      "explanation": "Section 13 states that all incomes shall be classified under the heads of income 'for the purposes of charge of income-tax and computation of total income'. Options A, C, and D state purposes not mentioned in Section 13."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "SIPCI",
+      "stands_for": [
+        {
+          "letter": "S",
+          "meaning": "Salaries"
+        },
+        {
+          "letter": "I",
+          "meaning": "Income from house property"
+        },
+        {
+          "letter": "P",
+          "meaning": "Profits and gains of business or profession"
+        },
+        {
+          "letter": "C",
+          "meaning": "Capital gains"
+        },
+        {
+          "letter": "I",
+          "meaning": "Income from other sources"
+        }
+      ],
+      "tip": "Use SIPCI to recall the five heads of income in the exact statutory order set out in clauses (a) through (e) of Section 13."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
