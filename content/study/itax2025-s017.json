@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s017",
+  "section": "17",
+  "title": "Section 17",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-23",
+  "commentary": "Section 17 defines \"perquisite\" for the computation of income under the head \"Salaries\" and outlines statutory exclusions and valuation rules. Under sub-section (1), perquisites include rent-free or concessional accommodation, amenities granted to directors or employees exceeding a prescribed monetary salary threshold, sweat equity shares or specified securities, and employer payments discharging an employee's personal obligations. It also encompasses employer payments toward life insurance or annuity contracts outside recognized funds, aggregate employer contributions exceeding ₹7,50,000 in a tax year across recognized provident funds, approved superannuation funds, and section 124(1) schemes, as well as annual accretions (like interest or dividend) attributable to such excess contributions.\n\nSub-section (2) lists non-taxable benefits. These exclusions include medical treatment in employer-maintained, government, or designated approved hospitals; approved health insurance premiums; and vehicle facilities provided solely for commuting between residence and the workplace. Medical treatment and stay abroad are excluded up to limits permitted by the Reserve Bank of India, alongside travel costs for the patient and one attendant if the employee's gross total income does not exceed a prescribed limit.\n\nInterpretation: The simultaneous taxation of employer contributions over ₹7,50,000 under clause (h) and their corresponding annual accretions under clause (i) operates as a linked mechanism to prevent high earners from accumulating tax-sheltered investment returns within retirement accounts.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. Employee X receives an employer contribution of ₹9,00,000 to an approved superannuation fund during the tax year, and the employer incurs ₹40,000 on providing a shared cab facility for X's daily commute between residence and office.",
+    "scenario": "X is an employee at Zed Corp. During the tax year, Zed Corp contributes ₹9,00,000 to X's account in an approved superannuation fund. Additionally, Zed Corp spends ₹40,000 on transport for X to commute from residence to office and back.",
+    "walkthrough": "Step 1: Apply section 17(1)(h) to the retirement fund contribution. Under this clause, employer contributions to an approved superannuation fund are taxable to the extent the aggregate exceeds ₹7,50,000. The excess is ₹9,00,000 - ₹7,50,000 = ₹1,50,000, which is included as a taxable perquisite.\nStep 2: Apply section 17(2)(e) to the commuting expenditure. Expenditure incurred by the employer for the use of any vehicle for journey between residence and office or workplace is expressly excluded from perquisites. Thus, the ₹40,000 is non-taxable.\nStep 3: Compute total perquisite value under these heads, which equals ₹1,50,000.",
+    "takeaway": "Employer contributions to specified retirement funds are taxable perquisites to the extent they exceed ₹7,50,000 in a tax year, while daily residence-to-work travel expenses borne by the employer remain fully exempt."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 17(1)(h), aggregate employer contributions to a recognized provident fund, an approved superannuation fund, and a section 124(1) scheme become a taxable perquisite once they exceed what limit in a tax year?",
+      "options": [
+        "₹5,00,000",
+        "₹7,50,000",
+        "₹10,00,000",
+        "₹12,00,000"
+      ],
+      "answer": 1,
+      "explanation": "Section 17(1)(h) specifies that the aggregate amount of any contribution in excess of ₹ 750000 in a tax year made by the employer to these three specified funds is treated as a perquisite. The other options are incorrect as they do not reflect the statutory figure."
+    },
+    {
+      "question": "Which of the following items is expressly excluded from being treated as a perquisite under section 17(2)?",
+      "options": [
+        "Expenditure incurred by the employer for the use of any vehicle for journey by the assessee between residence and office",
+        "The value of rent-free accommodation provided to the assessee by his employer",
+        "Any sum paid by the employer in respect of any obligation payable by the assessee",
+        "The value of sweat equity shares allotted free of cost to the assessee by the employer"
+      ],
+      "answer": 0,
+      "explanation": "Section 17(2)(e) specifically excludes expenditure incurred by the employer for the use of any vehicle for journeys between residence and office or workplace. The other items are explicitly defined as taxable perquisites under section 17(1)(a), (f), and (d) respectively."
+    },
+    {
+      "question": "Pursuant to section 17(4)(h), the value of any specified security or sweat equity shares is determined on which specific date?",
+      "options": [
+        "The date on which the option is granted to the employee",
+        "The date on which the option vests in the employee",
+        "The date on which the option is exercised by the assessee",
+        "The date on which the shares are transferred to the demat account"
+      ],
+      "answer": 2,
+      "explanation": "Section 17(4)(h) defines the value as the fair market value of the specified security or sweat equity shares on the date on which the option is exercised by the assessee, less any amount paid or recovered. The grant, vesting, or transfer dates are not the statutory valuation points."
+    },
+    {
+      "question": "Under section 17(3)(a), employer expenditure on medical treatment and stay abroad is excluded from perquisites only to the extent permitted by which authority?",
+      "options": [
+        "Central Board of Direct Taxes",
+        "Insurance Regulatory and Development Authority",
+        "Medical Council of India",
+        "Reserve Bank of India"
+      ],
+      "answer": 3,
+      "explanation": "Section 17(3)(a) provides that expenditure on medical treatment and stay abroad shall be excluded from perquisites only to the extent permitted by the Reserve Bank of India. IRDAI and CBDT are not mentioned in this sub-section."
+    },
+    {
+      "question": "Under section 17(2)(f)(iii), foreign travel and stay expenses borne by an employer are excluded for the patient and how many accompanying attendants?",
+      "options": [
+        "One attendant",
+        "Two attendants",
+        "Up to two dependent family members",
+        "Any number of attendants certified by the treating hospital"
+      ],
+      "answer": 0,
+      "explanation": "Section 17(2)(f)(iii) explicitly limits the exclusion to travel and stay abroad of 'one attendant who accompanies the patient in connection with such treatment.' The other options allow more attendants than permitted by the statute."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "RSA",
+      "stands_for": [
+        {
+          "letter": "R",
+          "meaning": "Recognised provident fund"
+        },
+        {
+          "letter": "S",
+          "meaning": "Scheme referred to in section 124(1)"
+        },
+        {
+          "letter": "A",
+          "meaning": "Approved superannuation fund"
+        }
+      ],
+      "tip": "Use 'RSA' to remember the three funds whose aggregate employer contribution is capped at ₹7,50,000 under section 17(1)(h)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

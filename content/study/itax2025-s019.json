@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s019",
+  "section": "19",
+  "title": "Section 19",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-23",
+  "commentary": "Section 19 provides deductions permissible while computing income chargeable under the head \"Salaries\". It details these deductions through a Table in sub-section (1), subject to procedural and boundary conditions set out in sub-section (2).\n\nAllowable deductions include tax on employment (full amount paid) and the standard deduction—fixed at the lesser of salary or ₹75,000 where tax is computed under section 202(1), and ₹50,000 in other cases. For separation and retirement benefits, government employees generally receive complete deductions for death-cum-retirement gratuities, commuted pensions, and leave encashment at retirement. Non-government employees receive deductions regulated by statutory formulas and notified limits for gratuities, commuted pensions (one-third or one-half of commuted value based on whether gratuity was received), retrenchment compensation, leave salary encashment, and voluntary retirement compensation (capped at ₹5,00,000).\n\nSub-section (2) defines key parameters: \"salary\" for non-government gratuity and leave encashment includes dearness allowance only if employment terms provide, but excludes all other allowances and perquisites. It also imposes aggregate lifetime deduction caps across successive employers and prohibits the voluntary retirement deduction if relief under section 157 has been granted.\n\nInterpretation: The differentiated standard deduction indicates a deliberate statutory incentive encouraging assessees to compute tax under section 202(1).",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Employee E receives ₹7,00,000 as compensation under an eligible voluntary retirement scheme from a public sector company; E has not claimed any deduction under Sl. No. 12 or relief under section 157 in any earlier tax year.",
+    "scenario": "Employee E opts for voluntary separation from a public sector company during the tax year and receives a voluntary retirement compensation of ₹7,00,000 under a scheme framed in accordance with applicable guidelines.",
+    "walkthrough": "Step 1: Check eligibility under section 19(2)(h)(i) and section 19(2)(e). Since E retired from a public sector company under an approved scheme and has claimed neither prior deduction under this item nor relief under section 157, E qualifies for deduction under Sl. No. 12.\nStep 2: Apply the limits under Sl. No. 12 of the Table in section 19(1), which provides a deduction equal to the minimum of (a) compensation received (₹7,00,000) and (b) ₹5,00,000.\nStep 3: Comparing ₹7,00,000 and ₹5,00,000, the allowable deduction under section 19(1) is ₹5,00,000.",
+    "takeaway": "Deduction for voluntary retirement compensation under section 19 is capped at a statutory maximum of ₹5,00,000 and can be availed of only once in an employee's lifetime."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 19(1), what is the maximum standard deduction available to an assessee whose income-tax is computed under section 202(1)?",
+      "options": [
+        "₹ 50000 or the salary, whichever is less",
+        "₹ 75000 or the salary, whichever is less",
+        "₹ 500000 or the salary, whichever is less",
+        "Entire amount of salary without any monetary limit"
+      ],
+      "answer": 1,
+      "explanation": "Sl. No. 2(a) of the Table in section 19(1) explicitly provides that where income-tax is computed under section 202(1), the standard deduction is ₹ 75000 or the salary, whichever is less. Option A applies in any other case, while options C and D do not relate to standard deduction."
+    },
+    {
+      "question": "Under Sl. No. 8 of the Table in section 19(1), what commuted value of pension is deductible where payment in commutation of pension is received from a non-government employer and the employee has received gratuity?",
+      "options": [
+        "The commuted value of one-half of the pension normally entitled to be received",
+        "The entire commuted value received without limitation",
+        "The commuted value of one-third of the pension normally entitled to be received",
+        "The commuted value of two-thirds of the pension normally entitled to be received"
+      ],
+      "answer": 2,
+      "explanation": "Sl. No. 8(a) of the Table in section 19(1) specifies that where the employee has received gratuity, the deduction is the commuted value of one-third of the pension normally entitled to be received. Option A applies where no gratuity has been received."
+    },
+    {
+      "question": "Which of the following conditions applies to a deduction claimed in respect of voluntary retirement compensation under Sl. No. 12 of section 19(1)?",
+      "options": [
+        "The maximum deduction is restricted to ₹ 500000 and can only be allowed for one tax year in an employee's lifetime.",
+        "The deduction can be claimed across multiple tax years provided the cumulative total does not exceed ₹ 500000.",
+        "The deduction is allowable even if relief under section 157 has been granted in respect of such amount.",
+        "The deduction is determined as the minimum of the amount received and ₹ 50000."
+      ],
+      "answer": 0,
+      "explanation": "Sl. No. 12 of the Table in section 19(1) caps the deduction at ₹ 500000. Under section 19(2)(e)(ii), where a deduction has been allowed for any tax year, no deduction is permissible for any other tax year. Clause (e)(iii) also bars deduction if relief under section 157 has been allowed."
+    },
+    {
+      "question": "For computing deductions under serial numbers 6 (other gratuity) and 14 (non-government leave encashment) of the Table in section 19(1), how is 'Salary' defined in section 19(2)(b)?",
+      "options": [
+        "Salary includes all allowances and perquisites, but excludes dearness allowance.",
+        "Salary includes basic pay and all perquisites, but excludes dearness allowance.",
+        "Salary includes dearness allowance, if the terms of employment so provide, but excludes all other allowances and perquisites.",
+        "Salary includes basic salary only, excluding dearness allowance and all other perquisites."
+      ],
+      "answer": 2,
+      "explanation": "Section 19(2)(b) provides that in respect of the entries against serial numbers 6 and 14, 'Salary' includes dearness allowance, if the terms of employment so provide, but excludes all other allowances and perquisites."
+    },
+    {
+      "question": "Under section 19(2)(c), which of the following amounts is deemed to be compensation received at the time of retrenchment for the purposes of serial numbers 10 and 11?",
+      "options": [
+        "Compensation received on voluntary retirement under an approved corporate scheme.",
+        "Gratuity received by an employee upon termination of service after five years.",
+        "Cash equivalent of leave salary received on superannuation.",
+        "Compensation received by a workman at the time of the closing down of the undertaking in which he is employed."
+      ],
+      "answer": 3,
+      "explanation": "Section 19(2)(c)(i) explicitly deems compensation received by a workman at the time of the closing down of the undertaking in which he is employed to be compensation received at the time of retrenchment."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "RIT",
+      "stands_for": [
+        {
+          "letter": "R",
+          "meaning": "Retirement"
+        },
+        {
+          "letter": "I",
+          "meaning": "Incapacitated before such retirement"
+        },
+        {
+          "letter": "T",
+          "meaning": "Termination of his employment"
+        }
+      ],
+      "tip": "Use 'RIT' to remember the three qualifying separation events under Sl. No. 6 of the Table in Section 19(1)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
