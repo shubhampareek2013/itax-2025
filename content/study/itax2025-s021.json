@@ -1,0 +1,89 @@
+{
+  "id": "itax2025-s021",
+  "section": "21",
+  "title": "Section 21",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-24",
+  "commentary": "Section 21 establishes how the annual value of house property is computed for the purposes of section 20. Under sub-section (1), the annual value is deemed to be the higher of the sum for which the property might reasonably be expected to let from year to year or the actual rent received or receivable. Under sub-section (2), where a let-out property is vacant for all or part of the tax year and the actual rent is lower than the reasonable letting value owing to such vacancy, the actual rent received or receivable is deemed to be the annual value. Sub-section (4) excludes unrealised rent from the actual rent computation.\n\nUnder sub-section (3), the annual value is reduced by taxes levied by a local authority (including service taxes) actually paid by the owner during the tax year, irrespective of when they became payable. For properties held as stock-in-trade and not let, sub-section (5) provides a nil annual value for up to two years from the end of the financial year in which the completion certificate is obtained. Sub-sections (6) and (7) provide a nil annual value for up to two self-occupied or unoccupied houses, provided they are not let or used to derive any other benefit.\n\nInterpretation: The deduction for local authority taxes under sub-section (3) applies against the annual value determined under preceding sub-sections, strictly on a cash payment basis by the owner.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Property X has a reasonable letting value of Rs. 1,20,000; monthly rent receivable is Rs. 10,000; the property was vacant for 3 months during the tax year; actual rent received is Rs. 90,000; municipal taxes of Rs. 10,000 (including Rs. 3,000 arrears from earlier years) were paid by the owner during the tax year.",
+    "scenario": "An assessee owns a residential house that was let out during the tax year but suffered a 3-month vacancy, resulting in actual rent received dropping below the property's reasonable letting value.",
+    "walkthrough": "Step 1: Under sub-section (1)(a), the sum for which the property might reasonably be expected to let is Rs. 1,20,000. Step 2: Under sub-section (2), because the property was let and vacant for part of the year, causing the actual rent received (Rs. 90,000) to be less than the sum under sub-section (1)(a) owing to such vacancy, the annual value is deemed to be the actual rent received of Rs. 90,000. Step 3: Under sub-section (3), the annual value is reduced by the local authority taxes actually paid by the owner during the tax year (Rs. 10,000), irrespective of when they became payable. Step 4: The final annual value is Rs. 80,000 (Rs. 90,000 minus Rs. 10,000).",
+    "takeaway": "Where vacancy causes the actual rent to fall below the reasonable letting value, the actual rent becomes the deemed annual value, which is then reduced by local taxes actually paid by the owner during the year."
+  },
+  "mcqs": [
+    {
+      "question": "Under sub-section (3), which condition must be satisfied to reduce the annual value by taxes levied by a local authority?",
+      "options": [
+        "The taxes must have accrued and become payable in that tax year",
+        "The taxes must be paid by the tenant on behalf of the owner",
+        "The taxes must be actually paid during the tax year by the owner, irrespective of when they became payable",
+        "The taxes must be paid in advance before the end of the financial year"
+      ],
+      "answer": 2,
+      "explanation": "Sub-section (3) specifically provides that local authority taxes must be 'actually paid during the tax year by the owner, irrespective of when such taxes became payable'. It does not allow deductions on an accrual basis, nor for taxes paid by tenants."
+    },
+    {
+      "question": "For a property held as stock-in-trade that is not let at any time during the tax year, for what duration is the annual value taken as nil under sub-section (5)?",
+      "options": [
+        "Up to one year from the date of the completion certificate",
+        "Up to two years from the end of the financial year in which the completion certificate is obtained from the competent authority",
+        "Up to two years from the beginning of the tax year in which construction commences",
+        "Indefinitely until the stock-in-trade is sold"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (5) provides that the annual value shall be nil up to two years from the end of the financial year in which the certificate for completion of construction is obtained from the competent authority."
+    },
+    {
+      "question": "Under sub-section (7)(a), an assessee can specify a maximum of how many houses to claim nil annual value under sub-section (6)?",
+      "options": [
+        "One house",
+        "Two houses",
+        "Three houses",
+        "Any number of houses occupied by the assessee"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (7)(a) specifies that the provisions of sub-section (6) (nil annual value for self-occupied or unoccupied properties) shall apply only in respect of two of such houses as specified by the assessee."
+    },
+    {
+      "question": "What is the annual value deemed to be under sub-section (2) when a let-out property is vacant for part of the tax year and the actual rent received or receivable is less than the reasonable letting value owing to such vacancy?",
+      "options": [
+        "The sum for which it might reasonably be expected to let from year to year",
+        "Nil",
+        "The amount of actual rent so received or receivable",
+        "The difference between the reasonable letting value and the vacancy loss"
+      ],
+      "answer": 2,
+      "explanation": "Under sub-section (2), if owing to vacancy the actual rent received or receivable is less than the reasonable letting value referred to in sub-section (1)(a), the annual value of such property shall be deemed to be the amount so received or receivable."
+    },
+    {
+      "question": "Under sub-section (7)(b), when is an owner disentitled from claiming nil annual value under sub-section (6) for a house?",
+      "options": [
+        "If the property was purchased through borrowed capital",
+        "If the house or any part thereof is actually let during any time of the tax year, or if the owner derives any other benefit from it",
+        "If local authority taxes in respect of the house remain unpaid",
+        "If the house is situated outside India"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (7)(b) provides that the nil annual value benefit under sub-section (6) shall not apply if the house or any part thereof is actually let during any time of the tax year, or if the owner derives any other benefit from it."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "SA",
+      "stands_for": [
+        {
+          "letter": "S",
+          "meaning": "Sum for which it might reasonably be expected to let from year to year"
+        },
+        {
+          "letter": "A",
+          "meaning": "Actual rent received or receivable by the owner, if let"
+        }
+      ],
+      "tip": "Use 'SA' to remember the two amounts compared under sub-section (1) to determine the baseline annual value (whichever is higher)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
