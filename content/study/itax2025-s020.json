@@ -1,0 +1,52 @@
+{
+  "id": "itax2025-s020",
+  "section": "20",
+  "title": "Section 20",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-25",
+  "commentary": "Section 20 establishes the charge to income-tax under the head \"Income from house property\". Under sub-section (1), tax is levied on the annual value of property consisting of any buildings or lands appurtenant thereto, provided the property is owned by the assessee. Hence, the charge applies to structures and land directly connected to buildings, rather than independent, vacant land.\n\nSub-section (2) carves out an express exception to this charge. It provides that sub-section (1) shall not apply to any portions of the property occupied by the assessee for their own business or profession, provided the profits of that business or profession are chargeable to income-tax. Consequently, portions of owned premises utilized for one's own taxable trade or vocation are removed from the purview of house property income.\n\nInterpretation: The statutory basis of assessment is the annual value tied to ownership. The exclusion under sub-section (2) ensures that property space absorbed into the assessee's own profit-generating business or profession is not subjected to a separate charge on its annual value.",
+  "example": {
+    "assumptions": "All figures and proportions are illustrative assumptions: Assessee X owns a two-storey commercial-cum-residential building. The ground floor represents 50% of the property and the first floor represents the remaining 50%.",
+    "scenario": "Assessee X runs an audit practice (a profession with profits chargeable to income-tax) from the ground floor of the building. The first floor is kept as residential quarters and not used for the profession.",
+    "walkthrough": "Step 1: Identify ownership and character of the property under sub-section (1). Because X owns the building, the property prima facie falls within the charge under the head 'Income from house property'.\nStep 2: Examine the ground floor under sub-section (2). Because X occupies the ground floor for a profession whose profits are chargeable to income-tax, sub-section (1) does not apply to this portion.\nStep 3: Determine the taxability of the remaining portion under sub-section (1). The first floor remains within the scope of sub-section (1), and its annual value is chargeable under 'Income from house property'.",
+    "takeaway": "Portions of an owned building occupied by the owner for their own taxable business or profession are excluded from chargeability under the head 'Income from house property'."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 20(2), which portion of a property is excluded from the application of Section 20(1)?",
+      "options": [
+        "Any portion occupied by the assessee for a business or profession whose profits are chargeable to income-tax",
+        "Any portion that is let out to tenants for residential purposes",
+        "Any portion remaining vacant throughout the entire financial year",
+        "Any portion occupied by relatives of the assessee without charging rent"
+      ],
+      "answer": 0,
+      "explanation": "Section 20(2) explicitly provides that sub-section (1) does not apply to portions of the property occupied by the assessee for their business or profession, the profits of which are chargeable to income-tax. Options B, C, and D are not exclusions provided in the text."
+    },
+    {
+      "question": "Under Section 20(1), what is chargeable to income-tax under the head 'Income from house property'?",
+      "options": [
+        "The total sale proceeds of any building or land",
+        "The annual value of property consisting of any buildings or lands appurtenant thereto, owned by the assessee",
+        "The actual net rental receipt after deducting municipal taxes and repairs",
+        "The fair market value of vacant land owned by the assessee"
+      ],
+      "answer": 1,
+      "explanation": "Section 20(1) states that the annual value of property consisting of any buildings or lands appurtenant thereto, owned by the assessee, is chargeable to income-tax under this head. Options A, C, and D misstate the subject matter of the charge."
+    },
+    {
+      "question": "An assessee owns a vacant plot of land that has no building erected on it or appurtenant to it. Under Section 20(1), is the annual value of this plot chargeable under 'Income from house property'?",
+      "options": [
+        "Yes, because all immovable properties owned by an assessee are covered",
+        "Yes, provided the land yields an annual ground rent",
+        "No, because the charge under Section 20(1) applies only to property consisting of buildings or lands appurtenant thereto",
+        "No, but only if the land is held as a capital asset"
+      ],
+      "answer": 2,
+      "explanation": "Section 20(1) specifies that the property must consist of 'any buildings or lands appurtenant thereto'. Purely vacant land without any building does not satisfy this statutory requirement."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}

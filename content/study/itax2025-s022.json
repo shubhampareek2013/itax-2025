@@ -1,0 +1,101 @@
+{
+  "id": "itax2025-s022",
+  "section": "22",
+  "title": "Section 22",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-25",
+  "commentary": "Section 22 governs the deductions allowable while computing income under the head “Income from house property”. First, a statutory standard deduction of 30% of the annual value determined under section 21 is allowed under sub-section (1)(a). Second, sub-section (1)(b) allows deduction for interest payable on capital borrowed for acquiring, constructing, repairing, renewing, or reconstructing the property. When interest relates to the pre-acquisition or pre-construction period, sub-section (1)(c) permits it to be deducted in five equal instalments beginning from the tax year of acquisition or construction, subject to reduction under sub-section (3) for any amount already deducted under the Act.\n\nFor properties referred to in section 21(6), interest deductions face statutory ceilings under sub-sections (2) and (5). A maximum deduction of ₹2,00,000 is allowed if the borrowed capital was for acquisition or construction completed within five years from the end of the borrowing tax year, evidenced by a certificate specifying details under sub-section (4). In any other case (such as repairs or exceeding the time limit), the cap is ₹30,000. Under sub-section (6), interest payable outside India is disallowed unless tax is paid or deducted, or an agent exists in India.\n\nInterpretation: The ₹2,00,000 threshold under sub-section (5) operates as an aggregate ceiling across all properties governed by section 21(6), rather than an individual limit per property.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Let-out house property with annual value under section 21 of ₹6,00,000; current year interest payable on borrowed construction capital of ₹1,40,000; total prior-period interest accumulated prior to the tax year of construction completion of ₹1,00,000 (with no prior deductions claimed).",
+    "scenario": "An assessee computes taxable income from a let-out residential house property constructed using borrowed capital, claiming statutory deductions and loan interest for the current tax year.",
+    "walkthrough": "Step 1: Compute the statutory deduction under section 22(1)(a) at 30% of the annual value (30% of ₹6,00,000 = ₹1,80,000). Step 2: Determine current year interest payable under section 22(1)(b), which equals ₹1,40,000. Step 3: Compute the pre-construction interest instalment under section 22(1)(c) and section 22(3) in five equal parts (₹1,00,000 / 5 = ₹20,000). Step 4: Total deductions under section 22 equal ₹3,40,000 (₹1,80,000 + ₹1,40,000 + ₹20,000), resulting in net income under this head of ₹2,60,000.",
+    "takeaway": "Income from house property is computed by reducing 30% of the annual value, current interest on borrowed capital, and one-fifth of allowable pre-construction interest."
+  },
+  "mcqs": [
+    {
+      "question": "What is the standard deduction rate applicable on the annual value under section 22(1)(a)?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "40%"
+      ],
+      "answer": 2,
+      "explanation": "Section 22(1)(a) specifically provides a deduction equal to 30% of the annual value as determined under section 21. The other percentages are not mentioned in the text."
+    },
+    {
+      "question": "Interest payable for the period prior to the tax year of acquisition or construction is deductible in how many equal instalments under section 22(1)(c)?",
+      "options": [
+        "Three equal instalments",
+        "Four equal instalments",
+        "Ten equal instalments",
+        "Five equal instalments"
+      ],
+      "answer": 3,
+      "explanation": "Section 22(1)(c) provides that such prior-period interest is deductible in five equal instalments starting from the tax year of acquisition or construction and the four immediately succeeding tax years."
+    },
+    {
+      "question": "What is the maximum interest deduction allowable under section 22(2)(b) for a property referred to in section 21(6) where borrowed capital was utilized for repair or renewal?",
+      "options": [
+        "₹30000",
+        "₹50000",
+        "₹150000",
+        "₹200000"
+      ],
+      "answer": 0,
+      "explanation": "Under section 22(2)(b), the deduction shall not exceed ₹30,000 in any other case (which includes repairs or renewals). The ₹2,00,000 limit in section 22(2)(a) applies strictly to acquisition or construction."
+    },
+    {
+      "question": "To qualify for the enhanced interest deduction limit of ₹2,00,000 under section 22(2)(a), within what timeframe must the acquisition or construction be completed?",
+      "options": [
+        "Within 3 years from the date of borrowing capital",
+        "Within 5 years from the end of the tax year in which capital was borrowed",
+        "Within 5 years from the end of the calendar year of borrowing",
+        "Within 7 years from the date the construction commences"
+      ],
+      "answer": 1,
+      "explanation": "Section 22(2)(a)(i) requires that acquisition or construction must be completed within five years from the end of the tax year in which capital was borrowed."
+    },
+    {
+      "question": "Under section 22(6), interest payable outside India is disallowed as a deduction if which of the following conditions is satisfied?",
+      "options": [
+        "Tax has not been paid or deducted under Chapter XIX-B and there is no agent in India as per section 306",
+        "The loan has been sanctioned by a foreign entity without prior approval",
+        "The loan is not repaid within five years from the date of borrowing",
+        "The interest payable exceeds the aggregate cap of ₹2,00,000"
+      ],
+      "answer": 0,
+      "explanation": "Section 22(6) disallows deduction for interest payable outside India if tax has not been paid or deducted on such interest under Chapter XIX-B and there is no agent in India as per section 306."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "ACRRR",
+      "stands_for": [
+        {
+          "letter": "A",
+          "meaning": "Acquired"
+        },
+        {
+          "letter": "C",
+          "meaning": "Constructed"
+        },
+        {
+          "letter": "R",
+          "meaning": "Repaired"
+        },
+        {
+          "letter": "R",
+          "meaning": "Renewed"
+        },
+        {
+          "letter": "R",
+          "meaning": "Reconstructed"
+        }
+      ],
+      "tip": "Use 'ACRRR' to remember the five permissible purposes for borrowing capital under section 22(1)(b) that qualify for interest deduction."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

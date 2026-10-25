@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s018",
+  "section": "18",
+  "title": "Section 18",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-25",
+  "commentary": "Section 18 provides an inclusive definition of \"profits in lieu of salary\" for the computation of income under salaries. The section captures payments that arise from or relate to an employment relationship, even if they are not traditional periodic wages. \n\nUnder sub-section (1), profits in lieu of salary encompass three primary categories: first, compensation due to or received from an employer or former employer connected with the termination of employment or modification of its terms and conditions; second, amounts due or received from any person either before joining employment with that person or after cessation of employment; and third, any payment due or received from an employer or former employer, from a provident or other fund (excluding the assessee's own contributions and interest on those contributions), or under a Keyman insurance policy (including allocated bonus).\n\nSub-section (2) carves out specific statutory exceptions from the scope of payments mentioned in clause (c) of sub-section (1). It explicitly excludes payments specified in Schedule II (Sl. Nos. 3, 4, and 8) and Schedule III (Sl. No. 11).\n\nInterpretation: The scope covers receipts whether they are due or actually received, and whether paid as a lump sum or in installments, effectively preventing taxpayers from treating receipts connected with past, future, or altered employment as non-taxable capital receipts.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Mr. X receives ₹2,00,000 as compensation for modification of service terms, ₹1,00,000 before joining an employer, and ₹50,000 from a provident fund representing the employer's accumulated contribution and interest.",
+    "scenario": "Mr. X enters into a new employment contract. Before joining, the prospective employer pays him a signing amount. During his tenure, his terms are altered with a compensatory payment. Upon withdrawal from a recognized fund, he receives a balance comprising employer and employee contributions.",
+    "walkthrough": "Under section 18(1)(b)(i), the ₹1,00,000 received before joining employment qualifies as profits in lieu of salary. Under section 18(1)(a)(ii), the ₹2,00,000 received for modification of employment terms is treated as profits in lieu of salary. Under section 18(1)(c)(ii), the ₹50,000 received from the fund (excluding Mr. X's own contributions and interest thereon) constitutes profits in lieu of salary, assuming it is not excluded under section 18(2).",
+    "takeaway": "Payments linked to employment transitions, contract modifications, or non-employee fund balances are brought within the tax net as profits in lieu of salary."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 18(1)(a), compensation received by an assessee from a former employer qualifies as profits in lieu of salary if it is in connection with:",
+      "options": [
+        "A routine annual performance appraisal",
+        "Termination of employment or modification of terms and conditions relating thereto",
+        "Reimbursement of business entertainment expenses incurred during employment",
+        "Standard monthly retirement pension payments only"
+      ],
+      "answer": 1,
+      "explanation": "Section 18(1)(a) specifically covers compensation due to or received from an employer or former employer at or in connection with the termination of employment or modification of terms and conditions relating thereto. Appraisals, reimbursements, and standard pensions are not specified under clause (a)."
+    },
+    {
+      "question": "According to section 18(1)(b), an amount received by an assessee from any person is included in profits in lieu of salary if received:",
+      "options": [
+        "Before joining or after cessation of employment with that person",
+        "Only during the exact active tenure of employment",
+        "Solely as an inheritance upon the death of an employer",
+        "Exclusively in monthly non-lump sum instalments"
+      ],
+      "answer": 0,
+      "explanation": "Section 18(1)(b) states that any amount due to or received, whether in lump sum or otherwise, from any person before joining employment or after cessation of employment with that person is included. The other options contradict this explicit rule."
+    },
+    {
+      "question": "Under section 18(1)(c)(ii), which portion of a payment from a provident fund is considered profits in lieu of salary?",
+      "options": [
+        "The entire accumulated balance received by the assessee",
+        "Only the interest earned on the employee's own contribution",
+        "The extent to which it does not consist of contributions by the assessee or interest on such contributions",
+        "Exclusively the employee's own personal contributions"
+      ],
+      "answer": 2,
+      "explanation": "Section 18(1)(c)(ii) provides that payments from a provident or other fund are included 'to the extent to which it does not consist of contributions by the assessee or interest on such contributions'. Thus, employee contributions and their interest are excluded from this definition."
+    },
+    {
+      "question": "Regarding a Keyman insurance policy, what does section 18(1)(c)(iii) explicitly include within profits in lieu of salary?",
+      "options": [
+        "Only the premium paid by the employee during the term",
+        "The loan value taken against the policy by the employer",
+        "Any sum received under the policy, including the sum allocated by way of bonus",
+        "Only the basic sum assured, excluding any allocated bonus"
+      ],
+      "answer": 2,
+      "explanation": "Section 18(1)(c)(iii) specifies that any sum received under a Keyman insurance policy includes the sum allocated by way of bonus on such policy."
+    },
+    {
+      "question": "Which of the following references is NOT an exclusion from section 18(1)(c) payments pursuant to section 18(2)?",
+      "options": [
+        "Schedule II (Table: Sl. No. 3)",
+        "Schedule II (Table: Sl. No. 4)",
+        "Schedule III (Table: Sl. No. 5)",
+        "Schedule III (Table: Sl. No. 11)"
+      ],
+      "answer": 2,
+      "explanation": "Section 18(2) explicitly excludes payments referred to in Schedule II (Table: Sl. Nos. 3, 4, and 8) and Schedule III (Table: Sl. No. 11). Schedule III (Table: Sl. No. 5) is not listed in section 18(2)."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CAP",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Compensation for termination or modification of employment terms [section 18(1)(a)]"
+        },
+        {
+          "letter": "A",
+          "meaning": "Amounts received before joining or after cessation of employment [section 18(1)(b)]"
+        },
+        {
+          "letter": "P",
+          "meaning": "Payments from employers, funds (excluding own contributions/interest), or Keyman insurance policies [section 18(1)(c)]"
+        }
+      ],
+      "tip": "Use CAP to recall the three core heads that make up 'profits in lieu of salary' under section 18(1) in statutory order."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

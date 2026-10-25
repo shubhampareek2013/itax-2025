@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s014",
+  "section": "14",
+  "title": "Section 14",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-25",
+  "commentary": "Section 14 mandates the disallowance of expenditure incurred in relation to income that does not form part of the total income under the Act. Operating with a non-obstante clause, sub-section (1) provides that no deduction shall be granted for any expenditure incurred by an assessee to earn or support such non-includible income when computing total income under Chapter IV.\n\nSub-section (2) establishes the mechanism of determination when the Assessing Officer is not satisfied with the assessee's accounts. Specifically, if the officer questions the correctness of the claimed expenditure or doubts the assessee's assertion that zero expenditure was incurred, the officer is empowered to compute the disallowable amount following the prescribed method.\n\nSub-section (3) clarifies the temporal scope of the disallowance. It explicitly states that the section applies even if no such exempt or non-includible income has accrued, arisen, or been received during the relevant tax year, as long as expenditure was incurred in relation to it.\n\nInterpretation: The provision prevents assessees from setting off expenses incurred for generating tax-exempt income against other taxable income streams, ensuring a strict matching principle between taxable receipts and allowable outlays irrespective of the timing of income realization.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Taxpayer incurred Rs. 50,000 as administrative and portfolio expenses during the tax year in relation to an investment portfolio that yields only non-taxable income. No non-taxable income was received or accrued during the tax year. In its return, the taxpayer claimed that zero expenditure was incurred in relation to non-taxable income.",
+    "scenario": "During the assessment proceedings, the Assessing Officer examines the taxpayer's financial statements and notes that the taxpayer claimed administrative expenses against its regular taxable business profits, while claiming zero expenditure against the non-taxable investment portfolio.",
+    "walkthrough": "Step 1: Under Section 14(1), any expenditure incurred in relation to income not forming part of total income cannot be deducted against taxable income.\nStep 2: Under Section 14(2)(b), because the Assessing Officer, having regard to the accounts, is not satisfied with the taxpayer's claim that no expenditure was incurred, the officer must determine the expenditure in accordance with the prescribed method.\nStep 3: Under Section 14(3), the taxpayer's argument that no non-taxable income actually accrued, arose, or was received during the tax year is rejected, as the section applies regardless of whether income was realized in that tax year.",
+    "takeaway": "Expenditure incurred in relation to non-taxable income cannot be deducted, and the Assessing Officer can compute the disallowance using the prescribed method even if no such income was received during the tax year."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 14(1), which expenditure is barred from being allowed as a deduction when computing total income?",
+      "options": [
+        "Expenditure incurred exclusively for generating export income",
+        "Expenditure incurred by the assessee in relation to income which does not form part of the total income",
+        "Expenditure incurred in cash exceeding limits specified under the Act",
+        "Expenditure incurred on capital assets used for business purposes"
+      ],
+      "answer": 1,
+      "explanation": "Section 14(1) explicitly states that no deduction shall be allowed in respect of expenditure incurred by the assessee in relation to income which does not form part of the total income. The other choices refer to conditions not contained in this section."
+    },
+    {
+      "question": "What must the Assessing Officer examine before rejecting the assessee's claim regarding expenditure under Section 14(2)?",
+      "options": [
+        "The past three years' assessment records of the assessee",
+        "The prior approval of the Joint Commissioner",
+        "The accounts of the assessee",
+        "The market value of the underlying investments"
+      ],
+      "answer": 2,
+      "explanation": "Under Section 14(2), the Assessing Officer's dissatisfaction must arise 'having regard to the accounts of the assessee'. The other items are not mentioned in the text."
+    },
+    {
+      "question": "Under Section 14(2), on which two grounds can the Assessing Officer proceed to determine the expenditure by the prescribed method?",
+      "options": [
+        "Unreasonable delay in filing the return or failure to produce bank statements",
+        "Incorrectness of the claim of expenditure incurred, or a claim that no expenditure has been incurred",
+        "Failure to audit accounts, or maintaining books in an electronic format",
+        "Evasion of advance tax, or non-disclosure of foreign assets"
+      ],
+      "answer": 1,
+      "explanation": "Section 14(2)(a) and (b) specify the grounds as dissatisfaction with the correctness of the claim of expenditure incurred, or the claim that no expenditure has been incurred. The other choices are unrelated to Section 14."
+    },
+    {
+      "question": "How does Section 14(3) treat a situation where no non-taxable income was received or accrued during the tax year?",
+      "options": [
+        "The section does not apply until the income is actually received",
+        "The disallowance is deferred and added back in the year the income arises",
+        "The provisions of Section 14 still apply if expenditure was incurred in relation to such income during that tax year",
+        "The expenditure is allowed in full as a business deduction for that tax year"
+      ],
+      "answer": 2,
+      "explanation": "Section 14(3) states that irrespective of anything to the contrary, the section applies where expenditure was incurred during the tax year in relation to non-includible income even if such income has not accrued or arisen or has not been received during that tax year."
+    },
+    {
+      "question": "When the Assessing Officer is not satisfied with the assessee's claim under Section 14(2), how is the disallowable expenditure determined?",
+      "options": [
+        "At the sole discretion of the Assessing Officer without any statutory constraint",
+        "By applying a flat statutory disallowance of twenty percent of gross receipts",
+        "In accordance with any method, as may be prescribed",
+        "By matching the total expenditure with the preceding year's assessment"
+      ],
+      "answer": 2,
+      "explanation": "Section 14(2) concludes by mandating that the Assessing Officer 'shall determine such amount of expenditure in accordance with any method, as may be prescribed'."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "AAR",
+      "stands_for": [
+        {
+          "letter": "A",
+          "meaning": "Accrued"
+        },
+        {
+          "letter": "A",
+          "meaning": "Arisen"
+        },
+        {
+          "letter": "R",
+          "meaning": "Received"
+        }
+      ],
+      "tip": "Use to remember the three events of non-taxable income under Section 14(3) whose absence in a tax year does not prevent the disallowance of related expenditure."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
