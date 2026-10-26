@@ -1,0 +1,52 @@
+{
+  "id": "itax2025-s024",
+  "section": "24",
+  "title": "“Income from house property”, whether the assessee is the owner of the property",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-26",
+  "commentary": "Section 24 prescribes the specific tax treatment for house property owned by two or more individuals (co-owners). Under sub-section (1), when a property is co-owned and the shares of the co-owners are definite and ascertainable, the tax authorities cannot assess the co-owners collectively as an association of persons. Instead, the property income must be computed separately under this Part based on each co-owner's respective share, and such computed share is included directly in the respective co-owner's total income.\n\nSub-section (2) addresses the application of relief available under section 21(6). It mandates that any such relief must be granted on an individual basis, meaning each co-owner is treated as being independently entitled to the full relief under section 21(6) rather than sharing a single consolidated benefit at the property level.\n\nInterpretation: The exclusion from being assessed as an association of persons strictly hinges on whether the ownership shares are definite and ascertainable. Where the respective shares are indefinite or disputed, the provision for separate individual inclusion would not apply in the manner set out in sub-section (1).",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Co-owner A and Co-owner B co-own a residential property with definite and ascertainable shares of 60% and 40%, respectively. Total net annual income from the property under this Part prior to apportionment is 5,00,000 rupees. Both co-owners are eligible for relief under section 21(6).",
+    "scenario": "Co-owner A and Co-owner B jointly own a rental property. The tax authority proposes to assess both co-owners jointly as an association of persons (AOP) on the total property income of 5,00,000 rupees and apply a single joint relief under section 21(6).",
+    "walkthrough": "Step 1: Check co-ownership conditions under section 24(1). Since the shares of A (60%) and B (40%) are definite and ascertainable, they cannot be assessed as an association of persons.\nStep 2: Compute income separately under section 24(1). The income is divided based on their respective shares: 3,00,000 rupees (60%) is included in A's total income, and 2,00,000 rupees (40%) is included in B's total income.\nStep 3: Apply relief under section 24(2). The relief under section 21(6) is granted to A and B individually as if each is independently entitled to it, rejecting the authority's joint assessment approach.",
+    "takeaway": "Where co-owners hold definite and ascertainable shares, they cannot be taxed as an association of persons, their income shares are computed and included individually, and each co-owner separately receives the relief under section 21(6)."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 24(1), which condition prevents co-owners from being assessed as an association of persons?",
+      "options": [
+        "The co-owners must hold definite and ascertainable shares in the property",
+        "The property must be exclusively used for residential self-occupation",
+        "The number of co-owners must not exceed two individuals",
+        "The property must be situated in an urban area"
+      ],
+      "answer": 0,
+      "explanation": "Section 24(1) explicitly states that co-owners shall not be assessed as an association of persons when the property is co-owned with 'definite and ascertainable share'. Residential use, urban location, or a cap on the number of co-owners are not conditions in the text."
+    },
+    {
+      "question": "How is the relief under section 21(6) administered to co-owners of a property under Section 24(2)?",
+      "options": [
+        "It is divided strictly according to the ownership ratio among the co-owners",
+        "It is provided as if each co-owner is individually entitled to the said relief",
+        "It is restricted to the primary owner named first in the title deed",
+        "It is disallowed completely whenever property is co-owned"
+      ],
+      "answer": 1,
+      "explanation": "Section 24(2) provides that the relief available under section 21(6) shall be provided as if each co-owner is individually entitled to the said relief, rather than apportioned or restricted to a single co-owner."
+    },
+    {
+      "question": "How is income from a co-owned property with ascertainable shares treated under Section 24(1)?",
+      "options": [
+        "It is assessed in the hands of the co-owner having the highest income",
+        "It is taxed jointly as income of an association of persons",
+        "It is computed separately as per each co-owner's respective share and included in their total income",
+        "It is exempt from income tax in the hands of all co-owners"
+      ],
+      "answer": 2,
+      "explanation": "Section 24(1) requires that the co-owners' income be 'computed separately under this Part as per their respective share' and 'included in their total income'. It expressly bars assessment as an association of persons and does not exempt the income or tax it solely under one owner."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}
