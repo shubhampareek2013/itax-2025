@@ -1,0 +1,101 @@
+{
+  "id": "itax2025-s025",
+  "section": "25",
+  "title": "“Income from house property”, whether the assessee is the owner of the property",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-27",
+  "commentary": "Section 25 defines the scope of an \"owner\" for computing income from house property under sections 20 to 24, deeming certain persons to be owners even if legal title has not formally passed. \n\nFirst, an individual who transfers house property without adequate consideration to a spouse (unless pursuant to an agreement to live apart) or to a minor child (other than a married daughter) is deemed the owner. Second, the holder of an impartible estate is deemed the individual owner of all properties in that estate. Third, members of co-operative societies, companies, or other associations of persons who are allotted or leased buildings under house building schemes are deemed owners. Fourth, persons taking or retaining possession in part performance of a contract under section 53A of the Transfer of Property Act, 1882, are treated as owners. Finally, persons acquiring rights in a property through long-term leases of not less than twelve years, or through transactions enabling enjoyment of the property, are deemed owners, while short-term leases for up to one year or month-to-month leases are specifically excluded.\n\nInterpretation: The section prevents tax avoidance through informal arrangements, unexecuted title deeds, or nominal intra-family transfers by attributing ownership to the person enjoying economic rights over the property.",
+  "example": {
+    "assumptions": "All figures and names are illustrative assumptions. Mr. A owns residential Property X and transfers it to his spouse, Mrs. A, without receiving any monetary or adequate consideration. They are living together and there is no agreement to live apart.",
+    "scenario": "Mr. A executes a gift of Property X to Mrs. A without consideration. Property X earns rental income. The tax authorities must determine who is assessed as the owner of Property X for the purpose of computing house property income under sections 20 to 24.",
+    "walkthrough": "Under Section 25(a), an individual who transfers any property to their spouse without adequate consideration is included as the 'owner' for the purposes of sections 20 to 24. Since the transfer was without adequate consideration and not under an agreement to live apart, the exception does not apply. Consequently, Mr. A remains the deemed owner of Property X, and the rental income will be assessed in his hands rather than Mrs. A's.",
+    "takeaway": "An individual who transfers property to a spouse without adequate consideration remains the deemed owner unless the transfer is made under an agreement to live apart."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 25(a), an individual who transfers property without adequate consideration is NOT deemed to be the owner if the transfer is made to:",
+      "options": [
+        "A spouse under an agreement to live apart",
+        "A spouse living together with the individual",
+        "A minor son",
+        "An unmarried minor daughter"
+      ],
+      "answer": 0,
+      "explanation": "Section 25(a) explicitly excludes transfers made to a spouse 'under an agreement to live apart' and transfers to a 'married daughter' from the deemed ownership rule. Transfers to a spouse living together, a minor son, or an unmarried minor daughter make the transferor the deemed owner."
+    },
+    {
+      "question": "Under Section 25(e)(i), a person who acquires rights in a building by way of an original or extendible lease is treated as an owner if the lease term is:",
+      "options": [
+        "Not less than five years",
+        "Not less than ten years",
+        "Not less than twelve years",
+        "Not less than twenty years"
+      ],
+      "answer": 2,
+      "explanation": "Section 25(e)(i) specifies that the lease (original or extendible) must be for a term of 'not less than twelve years' to qualify for deemed ownership. Other durations are incorrect."
+    },
+    {
+      "question": "Which provision governs deemed ownership for a person allowed to take or retain possession of a building in part performance of a contract under Section 25(d)?",
+      "options": [
+        "Section 54 of the Transfer of Property Act, 1882",
+        "Section 53A of the Transfer of Property Act, 1882",
+        "Section 17 of the Registration Act, 1908",
+        "Section 9 of the Transfer of Property Act, 1882"
+      ],
+      "answer": 1,
+      "explanation": "Section 25(d) refers directly to contracts 'of the nature referred to in section 53A of the Transfer of Property Act, 1882'."
+    },
+    {
+      "question": "Under Section 25(c), a member is deemed the owner of a building or part thereof if it is allotted or leased under a house building scheme of:",
+      "options": [
+        "A public trust, government entity, or partnership",
+        "A sole proprietorship or joint venture",
+        "A co-operative society, company or other association of persons",
+        "A municipal corporation or local panchayat"
+      ],
+      "answer": 2,
+      "explanation": "Section 25(c) strictly applies to a member of 'a co-operative society, company or other association of persons' to whom a building or part is allotted or leased under its house building scheme."
+    },
+    {
+      "question": "How does Section 25(b) treat the holder of an impartible estate for the purposes of sections 20 to 24?",
+      "options": [
+        "As a joint owner along with all legal heirs",
+        "As a deemed individual owner of all properties comprised in the estate",
+        "As a trustee holding the property on behalf of the family",
+        "As a non-owner exempt from house property assessment"
+      ],
+      "answer": 1,
+      "explanation": "Section 25(b) states that the holder of an impartible estate 'shall be deemed to be an individual owner in respect of all the properties comprised in the estate'."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "THMPA",
+      "stands_for": [
+        {
+          "letter": "T",
+          "meaning": "Transfers without adequate consideration to spouse or minor child (clause (a))"
+        },
+        {
+          "letter": "H",
+          "meaning": "Holder of an impartible estate (clause (b))"
+        },
+        {
+          "letter": "M",
+          "meaning": "Member allotted/leased under a house building scheme (clause (c))"
+        },
+        {
+          "letter": "P",
+          "meaning": "Possession taken or retained in part performance under s. 53A (clause (d))"
+        },
+        {
+          "letter": "A",
+          "meaning": "Acquires rights via 12+ year lease or enjoyment arrangements (clause (e))"
+        }
+      ],
+      "tip": "Use the acronym THMPA to recall the 5 categories of deemed owners listed sequentially from clause (a) to clause (e) of Section 25."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

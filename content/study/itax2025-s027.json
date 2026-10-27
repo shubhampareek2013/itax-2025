@@ -1,0 +1,52 @@
+{
+  "id": "itax2025-s027",
+  "section": "27",
+  "title": "Section 27",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-27",
+  "commentary": "Section 27 specifies the computational machinery applicable to the category of income covered under section 26. Under this provision, any income referred to in section 26 must be computed in accordance with the rules and principles contained within sections 28 to 60 of the Act. However, the section carves out an explicit exception: the provisions of section 58 are excluded from this computational process.\n\nBy cross-referencing sections 28 through 60, Section 27 integrates the substantive computation framework directly into the assessment of income originating from section 26. Taxpayers calculating such income must evaluate their claims, allowances, deductions, and adjustments strictly within this statutory range, while omitting any application of section 58.\n\nInterpretation: The section serves as an operational bridge between the charging provision in section 26 and the detailed computational framework found in sections 28 to 60. The statutory exclusion of section 58 indicates a clear legislative intent that the specific subject matter or conditions addressed in section 58 do not govern the computation of income covered by section 26.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. Assessee Alpha reports gross receipts of ₹10,00,000 falling under section 26. Deductions allowable under sections 28 to 60 (excluding section 58) amount to ₹3,00,000. Potential adjustments under section 58 amount to ₹50,000.",
+    "scenario": "Assessee Alpha is preparing its total income computation for income categorized under section 26 and needs to determine which statutory computation rules apply and whether section 58 applies.",
+    "walkthrough": "Step 1: Identify that the gross receipts of ₹10,00,000 fall under section 26.\nStep 2: Apply the computational provisions of sections 28 to 60 as mandated by Section 27, deducting the allowable expenses of ₹3,00,000.\nStep 3: Apply the express exception in Section 27, which states 'except section 58'. Disregard the ₹50,000 adjustments under section 58 entirely.\nStep 4: Compute the resulting taxable income under this head as ₹7,00,000 (₹10,00,000 minus ₹3,00,000).",
+    "takeaway": "Income under section 26 is computed strictly under sections 28 to 60, with section 58 entirely excluded from consideration."
+  },
+  "mcqs": [
+    {
+      "question": "According to Section 27, income referred to in section 26 shall be computed in accordance with which sections?",
+      "options": [
+        "Sections 28 to 60, except section 58",
+        "Sections 28 to 58 in their entirety",
+        "Sections 26 to 60 without any exceptions",
+        "Sections 27 to 57 only"
+      ],
+      "answer": 0,
+      "explanation": "Section 27 explicitly states that income referred to in section 26 shall be computed as per the provisions of sections 28 to 60, except section 58. The other options either include section 58, truncate the range, or omit the exception."
+    },
+    {
+      "question": "Which specific section is explicitly excluded from the computation of income referred to in section 26 under Section 27?",
+      "options": [
+        "Section 28",
+        "Section 60",
+        "Section 58",
+        "Section 26"
+      ],
+      "answer": 2,
+      "explanation": "Section 27 states that computation shall be as per sections 28 to 60, 'except section 58'. Sections 28 and 60 are within the applicable range, and section 26 is the source income section."
+    },
+    {
+      "question": "When computing income referred to in section 26, how should an assessing authority treat section 58 based on Section 27?",
+      "options": [
+        "Section 58 must be mandatorily applied along with sections 28 to 60.",
+        "Section 58 is excluded from the computational provisions.",
+        "Section 58 overrides sections 28 through 57.",
+        "Section 58 applies only at the option of the assessee."
+      ],
+      "answer": 1,
+      "explanation": "Section 27 expressly excludes section 58 ('except section 58') from the computational provisions governing income under section 26. Therefore, treating it as mandatory, overriding, or optional contradicts the text."
+    }
+  ],
+  "mnemonics": [],
+  "model": "gemini-3.8-flash"
+}

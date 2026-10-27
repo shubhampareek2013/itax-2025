@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s026",
+  "section": "26",
+  "title": "“Income from house property”, whether the assessee is the owner of the property",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-27",
+  "commentary": "Section 26 is the charging section for income under the head \"Profits and gains of business or profession\". Sub-section (1) charges to income-tax the categories of income listed in sub-section (2). These inclusions comprise normal profits and gains of any business or profession carried on at any time during the tax year; compensation for termination or modification of management, agencies, or business contracts; payments for vesting management in the Government; fees derived by trade or professional associations for specific member services; export incentives like duty drawback and cash assistance; benefits or perquisites arising from business or profession; partner remuneration and interest deductible under section 35(e); non-compete and non-sharing payments; Keyman insurance policy receipts; the fair market value of inventory converted into capital assets; and recoveries from demolished, destroyed, discarded, or transferred capital assets whose full expenditure was deducted under specified provisions. Under sub-section (3), speculative transactions constituting a business are deemed distinct and separate from any other business. Finally, sub-section (4) explicitly mandates that owner-letting of a residential house cannot be assessed as business income and is chargeable only under \"Income from house property\".\n\nInterpretation: Sub-section (4) functions as an overriding classification rule, ensuring that residential rental income earned by an owner remains exclusively within the house property head regardless of whether the letting constitutes commercial or organised activity.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Assessee T earns ₹15,00,000 from retail trading, receives ₹2,50,000 as Keyman insurance policy proceeds, and receives ₹1,80,000 from renting out an owned residential apartment.",
+    "scenario": "During the tax year, Assessee T operates a retail business, receives maturity proceeds from a Keyman insurance policy, and rents out a residential flat owned by T to a tenant.",
+    "walkthrough": "Step 1: Under section 26(2)(a), the retail trading profits of ₹15,00,000 are chargeable under the head 'Profits and gains of business or profession'. Step 2: Under section 26(2)(i), the sum of ₹2,50,000 received under the Keyman insurance policy is also included under 'Profits and gains of business or profession'. Step 3: Under section 26(4), the rental income of ₹1,80,000 from letting out the owned residential apartment is excluded from business income and chargeable only under the head 'Income from house property'. Step 4: Consequently, total income chargeable under section 26(1) under 'Profits and gains of business or profession' is ₹17,50,000.",
+    "takeaway": "Operational business profits and Keyman insurance proceeds fall under business income, whereas letting of an owned residential house is statutorily restricted to the house property head."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 26(4), how is income from letting out of a residential house or a part of it by the owner chargeable to tax?",
+      "options": [
+        "As business income if the owner's main object in the charter documents is leasing.",
+        "As income from other sources if let out for less than twelve months.",
+        "As profits and gains of business or profession under section 26(1).",
+        "Exclusively under the head \"Income from house property\" and excluded from business income."
+      ],
+      "answer": 3,
+      "explanation": "Section 26(4) specifically mandates that any income from letting out of a residential house or a part of it by the owner shall not be included in business income under sub-section (1) and shall be chargeable only under the head 'Income from house property'. The other options contradict this explicit statutory carve-out."
+    },
+    {
+      "question": "According to section 26(2)(g), partner's salary, bonus, commission, or interest due to or received from a firm is chargeable under \"Profits and gains of business or profession\" to what extent?",
+      "options": [
+        "To the extent allowed under section 35(e) as a deduction in computing the income of the firm.",
+        "Only to the extent it exceeds the basic exemption limit of the partner.",
+        "Up to the total book profits of the firm before partner remuneration.",
+        "To the full extent received without regard to deductions allowed to the firm."
+      ],
+      "answer": 0,
+      "explanation": "Section 26(2)(g) provides that any interest, salary, bonus, commission or remuneration due to or received by a partner from a firm is included in business income to the extent allowed under section 35(e) as a deduction in computing the income of the firm."
+    },
+    {
+      "question": "Which of the following is deemed by section 26(3) regarding speculative transactions constituting a business?",
+      "options": [
+        "The business shall be chargeable only under the head \"Capital gains\".",
+        "The business shall be deemed to be distinct and separate from any other business.",
+        "The business shall be deemed to be merged with any general trading business.",
+        "The business shall not be regarded as carrying on any business activity."
+      ],
+      "answer": 1,
+      "explanation": "Section 26(3) explicitly dictates that where speculative transactions carried on by an assessee constitute a business, such speculation business shall be deemed to be distinct and separate from any other business."
+    },
+    {
+      "question": "Under section 26(2)(j), what measure is chargeable under the head \"Profits and gains of business or profession\" when inventory is converted into, or treated as, a capital asset?",
+      "options": [
+        "The historical cost of the inventory.",
+        "The lower of cost and net realizable value.",
+        "The book value appearing in the audited financial statements.",
+        "The fair market value of the inventory as on the date on which it is converted into, or treated as, a capital asset."
+      ],
+      "answer": 3,
+      "explanation": "Section 26(2)(j) expressly includes the fair market value of inventory as on the date on which it is converted into, or treated as, a capital asset determined in the prescribed manner."
+    },
+    {
+      "question": "Under section 26(2)(k), when a capital asset is demolished, destroyed, discarded, or transferred, any sum received or receivable is included in business income, provided the asset is not land, goodwill, or a financial instrument, and:",
+      "options": [
+        "The asset was acquired within the preceding three tax years.",
+        "The capital asset had been revalued upwards in the preceding year.",
+        "The whole of the expenditure on it has been allowed as a deduction under section 35AD of the Income-tax Act, 1961 or section 46 of this Act.",
+        "The fair market value of the asset exceeds its original cost of acquisition."
+      ],
+      "answer": 2,
+      "explanation": "Section 26(2)(k)(ii) establishes the condition that the whole of the expenditure on the capital asset must have been allowed as a deduction under section 35AD of the Income-tax Act, 1961 or section 46 of this Act for the recovery to be taxed under this clause."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "LGF",
+      "stands_for": [
+        {
+          "letter": "L",
+          "meaning": "Land"
+        },
+        {
+          "letter": "G",
+          "meaning": "Goodwill"
+        },
+        {
+          "letter": "F",
+          "meaning": "Financial instrument"
+        }
+      ],
+      "tip": "Use this mnemonic to recall the three specific capital assets excluded from the clawback charge under section 26(2)(k)(i) upon demolition, destruction, discarding, or transfer."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
