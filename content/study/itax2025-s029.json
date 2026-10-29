@@ -1,0 +1,109 @@
+{
+  "id": "itax2025-s029",
+  "section": "29",
+  "title": "Section 29",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-29",
+  "commentary": "Section 29 governs deductions allowable to an employer when computing business income under section 26 for contributions made to employee welfare and retirement funds. \n\nUnder sub-section (1), permissible deductions include contributions to recognised provident funds or approved superannuation funds subject to prescribed limits and Board conditions; contributions to a pension scheme under section 124 capped at 14% of the employee's salary (defined to include dearness allowance if terms specify, but excluding other allowances and perquisites); and contributions to an approved gratuity fund established under an irrevocable trust exclusively for employees. While sub-section (2) generally bars deductions for gratuity provisions upon retirement or termination, sub-section (1)(d) specifically permits provisions made for contributions to an approved gratuity fund or for gratuity that has become payable during the tax year. However, no subsequent deduction is permitted when actual payment is made from such an allowed provision. Sub-section (1)(e) permits deduction of employee contributions under section 2(49)(o) only if credited to the relevant fund by the return filing due date under section 263(1). Under sub-section (3), employer contributions to unrecognised funds, trusts, or institutions are strictly disallowed unless covered under clauses (a), (b), (c) of sub-section (1) or mandated by another law.\n\nInterpretation: The section ensures that tax deductions for employee retirement benefits are restricted to recognized, secure channels and prevents employers from claiming double deductions when funding gratuities through provisions.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Basic salary is ₹10,00,000; Dearness Allowance (DA) forming part of terms of employment is ₹2,00,000; Other allowances are ₹3,00,000. Actual employer contribution to the section 124 pension scheme is ₹1,80,000. Gratuity payable during the year for a retired employee is ₹50,000, for which a provision is made.",
+    "scenario": "An employer is computing business income under section 26 and claims deductions under section 29 for contributions made to a pension scheme under section 124 and a provision made for gratuity.",
+    "walkthrough": "Step 1: Compute salary eligible for pension scheme contribution under section 29(1)(b). Salary equals basic salary (₹10,00,000) plus qualifying DA (₹2,00,000), which totals ₹12,00,000 (other allowances are excluded). Step 2: Calculate the maximum deduction under section 29(1)(b), which is 14% of ₹12,00,000 = ₹1,68,000. The excess contribution of ₹12,000 (₹1,80,000 - ₹1,68,000) is not deductible under this clause. Step 3: Under section 29(1)(d), the provision of ₹50,000 for gratuity that became payable during the tax year is deductible. Step 4: Under section 29(2)(b), when the ₹50,000 gratuity is actually disbursed from this provision, no further deduction will be permitted.",
+    "takeaway": "Deductions for pension scheme contributions are strictly capped at 14% of basic salary plus eligible dearness allowance, and allowed gratuity provisions cannot be deducted again upon actual payment."
+  },
+  "mcqs": [
+    {
+      "question": "What is the ceiling on the deduction allowable under section 29(1)(b) for an employer's contribution to a pension scheme referred to in section 124?",
+      "options": [
+        "10% of the employee's salary including all allowances and perquisites",
+        "14% of the employee's salary including dearness allowance (if terms provide) but excluding other allowances and perquisites",
+        "14% of the employee's salary including all allowances but excluding perquisites",
+        "12% of the employee's basic salary only"
+      ],
+      "answer": 1,
+      "explanation": "Section 29(1)(b) specifies that the deduction is up to 14% of the salary, where salary includes dearness allowance if terms of employment so provide, but excludes all other allowances and perquisites."
+    },
+    {
+      "question": "Under section 29(1)(e), by what date must an employee's contribution received under section 2(49)(o) be credited to the employee's account in the fund to be allowed as a deduction?",
+      "options": [
+        "Within 15 days from the close of the month in which it was received",
+        "On or before the end of the relevant tax year",
+        "On or before the due date of filing of return of income under section 263(1) for the tax year",
+        "Within 30 days from the end of the financial year"
+      ],
+      "answer": 2,
+      "explanation": "Section 29(1)(e) explicitly requires the amount to be credited to the account of the employee in the relevant fund on or before the due date of filing of return of income under section 263(1) for the tax year."
+    },
+    {
+      "question": "Which of the following provisions for gratuity is permitted as a deduction pursuant to section 29(1)(d)?",
+      "options": [
+        "Any general actuarial provision made for future liability of existing employees",
+        "A provision made for payment of gratuity that has become payable during the tax year",
+        "A provision made for employees who will retire within the next three tax years",
+        "Any contingency provision made towards unapproved gratuity schemes"
+      ],
+      "answer": 1,
+      "explanation": "Section 29(1)(d) allows a deduction for any provision made for contributing to an approved gratuity fund or for the purpose of payment of any gratuity that has become payable during the tax year. Section 29(2)(a) disallows general provisions for future retirement or termination."
+    },
+    {
+      "question": "What happens under section 29(2)(b) when an actual payment of gratuity is made out of a provision that was already allowed as a deduction under section 29(1)(d)?",
+      "options": [
+        "No deduction shall be allowed on the actual payment made from such provision",
+        "A second deduction equal to 50% of the payment is allowed",
+        "The full payment is deducted again in the year of disbursement",
+        "The earlier provision is reversed and treated as income of the current year"
+      ],
+      "answer": 0,
+      "explanation": "Section 29(2)(b) provides that where a deduction has been allowed for any provision under section 29(1)(d), no deduction shall be allowed on actual payment made from such provision."
+    },
+    {
+      "question": "Under section 29(3), employer contributions towards setting up or contributing to any fund, trust, company, or institution are disallowed EXCEPT when:",
+      "options": [
+        "The Board grants a special discretionary exemption in writing",
+        "The contribution is made to any registered charitable trust under an irrevocable agreement",
+        "Paid for the purposes and extent under section 29(1)(a), (b), or (c), or as required by or under any other law in force",
+        "Approved by a special resolution passed by the shareholders of the employer company"
+      ],
+      "answer": 2,
+      "explanation": "Section 29(3) specifically creates an exception only where such sum is paid for the purposes and to the extent provided by or under sub-section (1)(a), (b), or (c), or as required by or under any other law in force."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "FTCABSO",
+      "stands_for": [
+        {
+          "letter": "F",
+          "meaning": "Fund"
+        },
+        {
+          "letter": "T",
+          "meaning": "Trust"
+        },
+        {
+          "letter": "C",
+          "meaning": "Company"
+        },
+        {
+          "letter": "A",
+          "meaning": "Association of persons"
+        },
+        {
+          "letter": "B",
+          "meaning": "Body of individuals"
+        },
+        {
+          "letter": "S",
+          "meaning": "Society registered under the Societies Registration Act, 1860"
+        },
+        {
+          "letter": "O",
+          "meaning": "Other institution"
+        }
+      ],
+      "tip": "Use FTCABSO to recall the full sequence of entities listed in section 29(3) to which non-statutory or unapproved employer contributions are disallowed."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
