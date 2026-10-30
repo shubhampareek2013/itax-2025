@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s031",
+  "section": "31",
+  "title": "Section 31",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-30",
+  "commentary": "Section 31 provides deductions for provisions for bad and doubtful debts and actual bad debt write-offs. Under sub-section (1), specified lenders may deduct provisions against business income: domestic scheduled banks, non-scheduled banks, and eligible co-operative banks can deduct up to 8.5% of total income (computed before this deduction and Chapter VIII) plus up to 10% of aggregate average rural advances, with an optional addition for income from Central Government security redemption schemes. For foreign banks, public financial institutions, and non-banking financial companies (NBFCs), the provision deduction is capped at 5% of such income.\n\nSub-section (2) governs actual bad debts written off. The debt must have been included in income previously or represent money lent in the ordinary course of banking or money-lending business. For lenders maintaining a provision under sub-section (1), write-offs are allowed only if debited to that account and only to the extent they exceed the credit balance of that single consolidated account. Sub-section (3) clarifies that mere provisions do not qualify as write-offs, though debts recognized via notified income standards without book entries are deemed written off when irrecoverable.\n\nInterpretation: Requiring bad debts to first absorb the existing credit balance of the provision account prevents assessees from claiming a double tax deduction for the same credit loss.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Assessee is an Indian scheduled commercial bank; Credit balance in its provision for bad and doubtful debts account before write-off is ₹20,00,000; Bad debts written off during the tax year total ₹25,00,000 and represent money lent in the ordinary course of banking; The bank debits this write-off to its single provision account.",
+    "scenario": "A scheduled domestic bank writes off irrecoverable loans of ₹25,00,000 during the tax year. It maintains a provision account under Section 31(1) which has a credit balance of ₹20,00,000. It seeks to claim a deduction for the write-off under Section 31(2).",
+    "walkthrough": "First, the debt meets Section 31(2)(a) as it represents money lent in the ordinary course of banking. Second, per Section 31(2)(c)(ii) and (iii), the bank has debited the written-off amount to its single consolidated provision for bad and doubtful debts account. Third, applying Section 31(2)(c)(i), the deduction under sub-section (2) is restricted to the amount exceeding the credit balance in that provision account: ₹25,00,000 minus ₹20,00,000, resulting in an allowable deduction of ₹5,00,000.",
+    "takeaway": "An assessee subject to Section 31(1) can only deduct actual bad debt write-offs under Section 31(2) to the extent the written-off amount exceeds the credit balance in its provision account."
+  },
+  "mcqs": [
+    {
+      "question": "What is the maximum deduction allowed for a provision for bad and doubtful debts under Section 31(1) for a non-banking financial company (NBFC)?",
+      "options": [
+        "Not more than 8.5% of total income computed before this deduction and Chapter VIII",
+        "Not more than 5% of total income computed before this deduction and Chapter VIII",
+        "Not more than 10% of aggregate average advances",
+        "Not more than 7.5% of gross total income"
+      ],
+      "answer": 1,
+      "explanation": "According to row 2 of the Table in Section 31(1), an NBFC is allowed a deduction of not more than 5% of total income computed before making any deduction under this clause and Chapter VIII. The 8.5% limit applies to domestic scheduled, non-scheduled, and certain co-operative banks under row 1."
+    },
+    {
+      "question": "Which of the following co-operative banks is excluded from claiming deduction for provision for bad and doubtful debts under Row 1 of the Table in Section 31(1)?",
+      "options": [
+        "Urban co-operative banks",
+        "District central co-operative banks",
+        "A primary agricultural credit society",
+        "State co-operative banks"
+      ],
+      "answer": 2,
+      "explanation": "Row 1(c) of the Table in Section 31(1) explicitly excludes a primary agricultural credit society and a primary co-operative agricultural and rural development bank. The other co-operative banks listed are not specifically excluded."
+    },
+    {
+      "question": "Under Section 31(2)(c), how is a bad debt write-off treated for an assessee that maintains a provision account under Section 31(1)?",
+      "options": [
+        "It is fully deductible as an additional allowance over and above the provision",
+        "It is deductible only to the extent it exceeds the credit balance in the provision account, provided it was debited to that account",
+        "It is disallowed entirely because the assessee already claimed a provision under sub-section (1)",
+        "It is deductible only up to 10% of rural advances"
+      ],
+      "answer": 1,
+      "explanation": "Section 31(2)(c)(i) and (ii) mandate that only the amount exceeding the credit balance in the provision account is allowed, and only if the assessee debited the bad debt to that provision account in the tax year."
+    },
+    {
+      "question": "Under Section 31(3)(b), when is a bad debt deemed to be written off as irrecoverable even if not recorded in the accounts?",
+      "options": [
+        "When a board resolution approves the debt write-off",
+        "When insolvency proceedings are initiated against the debtor",
+        "When it was taken into account in computing income as per notified income computation and disclosure standards under section 276(2), in the tax year it becomes irrecoverable",
+        "When a period of three years has elapsed from the due date of repayment"
+      ],
+      "answer": 2,
+      "explanation": "Section 31(3)(b) provides that an amount taken into account in computing income as per standards notified under section 276(2) without recording it in accounts shall be deemed written off in the tax year in which it becomes irrecoverable."
+    },
+    {
+      "question": "In addition to the limit based on total income, what additional provision amount can a domestic scheduled bank claim under Row 1, Column C, clause (a) of the Table in Section 31(1)?",
+      "options": [
+        "Up to 5% of aggregate average advances made by urban branches",
+        "Up to 10% of aggregate average advances made by rural branches",
+        "Up to 8.5% of total advances made across all branches",
+        "Up to 15% of bad debts written off in the preceding tax year"
+      ],
+      "answer": 1,
+      "explanation": "Row 1, Column C, clause (a) specifies an additional amount up to 10% of the aggregate average advances made by rural branches computed in the prescribed manner."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "EDO",
+      "stands_for": [
+        {
+          "letter": "E",
+          "meaning": "Exceeds credit balance in the provision account"
+        },
+        {
+          "letter": "D",
+          "meaning": "Debited to the provision account in that tax year"
+        },
+        {
+          "letter": "O",
+          "meaning": "Only one such consolidated provision account maintained"
+        }
+      ],
+      "tip": "Use EDO to remember the three cumulative statutory conditions under Section 31(2)(c) for a lender to claim a bad debt write-off."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

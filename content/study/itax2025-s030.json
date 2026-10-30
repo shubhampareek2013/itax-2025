@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s030",
+  "section": "30",
+  "title": "Section 30",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-30",
+  "commentary": "Section 30 specifies three distinct categories of insurance premiums allowable as deductions when computing business or professional income under section 26. \n\nFirst, under clause (a), any assessee can deduct insurance premiums paid against the risk of damage or destruction of stocks or stores utilized for business or professional purposes.\n\nSecond, under clause (b), a federal milk co-operative society can deduct premiums paid to effect or maintain life insurance on cattle owned by members of a primary co-operative society, provided that primary society supplies milk raised by its members to the federal entity.\n\nThird, under clause (c), an assessee acting as an employer can deduct health insurance premiums paid for its employees. This deduction is conditional: the payment must be made through any mode other than cash, and the underlying scheme must be framed either by the General Insurance Corporation of India (GIC) with Central Government approval, or by another insurer with the approval of the Insurance Regulatory and Development Authority (IRDA).\n\nInterpretation: The explicit requirement of 'any mode of payment other than cash' applies exclusively to employee health insurance under clause (c), indicating that cash payments for such health policies are strictly non-deductible.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Co-op Alpha is a federal milk co-operative society; Firm Beta incurs business expenses including INR 40,000 for stock insurance, INR 50,000 via cheque for employee health insurance under an IRDA-approved scheme, and INR 10,000 in cash for additional employee health coverage.",
+    "scenario": "Firm Beta computes its deductible insurance expenses under Section 30 while assessing its income under section 26.",
+    "walkthrough": "Step 1: The premium of INR 40,000 for insurance against damage to trading stock is fully deductible under clause (a). Step 2: The premium of INR 50,000 paid by cheque for employee health insurance meets the non-cash condition and is deductible under clause (c)(ii). Step 3: The premium of INR 10,000 paid in cash for employee health insurance fails the non-cash payment requirement under clause (c) and is disallowed. Step 4: Total deduction allowable to Firm Beta under Section 30 is INR 90,000.",
+    "takeaway": "Deductions under Section 30 cover stock, cattle, and employee health insurance, but health insurance premiums paid in cash are entirely inadmissible."
+  },
+  "mcqs": [
+    {
+      "question": "Under clause (c) of Section 30, which condition must be satisfied for an employer to claim a deduction for employee health insurance premium?",
+      "options": [
+        "The payment must be made in cash only",
+        "The payment must be made through any mode other than cash",
+        "The policy must be approved by the Reserve Bank of India",
+        "The premium must be paid directly by the employee"
+      ],
+      "answer": 1,
+      "explanation": "Clause (c) of Section 30 explicitly mandates that the premium must be paid by the assessee as an employer 'through any mode of payment other than cash'. Cash payments are disallowed, and approval is required from the Central Government (for GIC) or IRDA (for other insurers), not the RBI."
+    },
+    {
+      "question": "Under Section 30(a), an assessee may claim a deduction for insurance premiums covering which of the following?",
+      "options": [
+        "Keyman insurance policies only",
+        "Personal residential property of the assessee",
+        "Stocks or stores used for the purposes of business or profession",
+        "Loss of anticipated future profits"
+      ],
+      "answer": 2,
+      "explanation": "Clause (a) allows deduction for premium paid in respect of insurance against risk of damage or destruction of stocks or stores used for the purposes of business or profession."
+    },
+    {
+      "question": "Who is eligible to claim a deduction under Section 30(b) for insurance on the life of cattle?",
+      "options": [
+        "Any individual dairy farmer",
+        "A primary milk co-operative society",
+        "The Insurance Regulatory and Development Authority",
+        "A federal milk co-operative society"
+      ],
+      "answer": 3,
+      "explanation": "Section 30(b) specifically grants this deduction to a 'federal milk co-operative society' insuring cattle owned by members of a primary society engaged in supplying milk to it."
+    },
+    {
+      "question": "If an employer insures the health of its employees with an insurer other than the General Insurance Corporation of India, whose approval is required under Section 30(c)(ii)?",
+      "options": [
+        "The Central Government",
+        "The Insurance Regulatory and Development Authority",
+        "The State Government",
+        "The Chief Commissioner of Income-tax"
+      ],
+      "answer": 1,
+      "explanation": "Section 30(c)(ii) states that for any insurer other than GIC, the health insurance scheme must be approved by the Insurance Regulatory and Development Authority (IRDA)."
+    },
+    {
+      "question": "A business firm pays the following premiums: INR 25,000 by cheque for stock insurance, INR 15,000 in cash for employee health insurance under an approved scheme, and INR 30,000 by bank transfer for employee health insurance under an approved scheme. What is the allowable deduction under Section 30?",
+      "options": [
+        "INR 70,000",
+        "INR 55,000",
+        "INR 40,000",
+        "INR 25,000"
+      ],
+      "answer": 1,
+      "explanation": "Stock insurance of INR 25,000 is deductible under clause (a). Non-cash employee health insurance of INR 30,000 is deductible under clause (c). The cash payment of INR 15,000 for health insurance is disallowed under clause (c), resulting in a total allowable deduction of INR 55,000."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "SCE",
+      "stands_for": [
+        {
+          "letter": "S",
+          "meaning": "Stocks or stores risk insurance"
+        },
+        {
+          "letter": "C",
+          "meaning": "Cattle life insurance by federal milk co-operatives"
+        },
+        {
+          "letter": "E",
+          "meaning": "Employee health insurance by employers (non-cash)"
+        }
+      ],
+      "tip": "Use SCE to remember the three insurance deduction categories covered sequentially in clauses (a), (b), and (c) of Section 30."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

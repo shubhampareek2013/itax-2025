@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s032",
+  "section": "32",
+  "title": "Section 32",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-30",
+  "commentary": "Section 32 enumerates specific deductions permissible when computing income chargeable under the head of business or profession under section 26. Key allowances include: bonus or commission paid to employees, provided it is not disguised dividend or profit distribution; interest on capital borrowed for business, expressly disallowing interest on asset-acquisition loans incurred prior to the asset's first use; and pro rata amortization of discounts on zero coupon bonds across their life.\n\nFinancial institutions and specified lending bodies benefit from deductions of up to 20% of eligible profits transferred to a special reserve, subject to a cap equal to twice their paid-up capital and general reserves. The section also covers non-capital expenditure by statutory corporations, sugarcane purchases by co-operative societies at government-approved rates, marked-to-market losses computed under notified standards, and write-offs for dead or permanently useless working animals. For corporate entities, capital expenditure on employee family planning is amortized in five equal annual instalments. Securities and commodities transaction taxes are also deductible where transaction income forms part of business profits.\n\nInterpretation: The exclusion in clause (b)(i) ensures that borrowing costs prior to an asset being put to use are treated as capital additions rather than immediate revenue deductions, regardless of accounting treatment.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. Z Ltd. is an Indian company. During the tax year, Z Ltd. incurs ₹10,00,000 on capital expenditure for promoting family planning amongst its employees.",
+    "scenario": "Z Ltd. seeks to claim a deduction for the capital expenditure incurred on promoting family planning amongst its staff under Section 32.",
+    "walkthrough": "Step 1: Refer to Section 32(i), which provides a deduction for bona fide expenditure incurred by a company to promote employee family planning. Step 2: Under Section 32(i)(A), where the expenditure is of a capital nature, one-fifth is deductible in the tax year of incurrence. Z Ltd. deducts ₹2,00,000 (one-fifth of ₹10,00,000) for this tax year. Step 3: Under the same sub-clause, the remaining balance of ₹8,00,000 will be deductible in equal instalments of ₹2,00,000 across each of the four immediately succeeding tax years.",
+    "takeaway": "Capital expenditure on family planning incurred by a company is deductible in five equal instalments commencing from the tax year of incurrence."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 32(b)(i), interest on capital borrowed for the acquisition of an asset is NOT deductible for which period?",
+      "options": [
+        "From the date of borrowing till the date the asset is first put to use",
+        "From the date the asset is first put to use till the loan is fully repaid",
+        "For the first three tax years following the acquisition of the asset",
+        "From the date of invoice issuance till the date payment is remitted"
+      ],
+      "answer": 0,
+      "explanation": "Section 32(b)(i) explicitly states that interest on capital borrowed for acquisition of an asset is not deductible for any period beginning from the date the capital was borrowed till the date that asset was first put to use. The other choices do not reflect the statutory period specified."
+    },
+    {
+      "question": "What is the maximum deduction allowed for an amount carried to a special reserve by a specified entity under Section 32(e)(i)?",
+      "options": [
+        "10% of the profits derived from an eligible business",
+        "20% of the profits derived from an eligible business",
+        "25% of the total revenue of the entity",
+        "50% of the paid-up share capital and general reserves"
+      ],
+      "answer": 1,
+      "explanation": "Section 32(e)(i) restricts the deduction to an amount not exceeding 20% of the profits derived from an eligible business computed under the head 'Profits and gains of business or profession' before deductions under this clause. The other options provide incorrect percentages or bases."
+    },
+    {
+      "question": "According to Section 32(i)(A), how is capital expenditure incurred by a company for promoting family planning amongst employees deducted?",
+      "options": [
+        "Deducted entirely in full in the tax year in which it is incurred",
+        "Deducted in three equal annual instalments beginning from the tax year of incurrence",
+        "One-fifth in the tax year incurred and the balance in equal instalments over the next four tax years",
+        "Deducted over ten tax years in equal proportions"
+      ],
+      "answer": 2,
+      "explanation": "Section 32(i)(A) states that one-fifth of capital expenditure for family planning is deducted in the tax year incurred and the balance in equal instalments for each of the four immediately succeeding tax years. The remaining options cite periods not found in the text."
+    },
+    {
+      "question": "Under Section 32(a), bonus or commission paid to an employee is deductible only if which condition is met?",
+      "options": [
+        "It is paid within thirty days of the close of the financial year",
+        "The employee does not hold any shares in the employer's company",
+        "It would not have been payable to the employee as profits or dividend if not paid as bonus or commission",
+        "It does not exceed twenty percent of the employee's basic salary"
+      ],
+      "answer": 2,
+      "explanation": "Section 32(a) requires that the amount paid as bonus or commission would not have been payable to the employee as profits or dividend if it had not been paid as bonus or commission. Other options introduce non-statutory conditions."
+    },
+    {
+      "question": "What amount is allowable as a deduction under Section 32(j) when animals used for business (otherwise than as stock-in-trade) die or become permanently useless?",
+      "options": [
+        "The entire original purchase price of the animals",
+        "The difference between the actual cost of the animals and the amount realised from carcasses or animals",
+        "The fair market value of the animals immediately prior to death or uselessness",
+        "A standard write-off rate of 20% of the written-down value of the animals"
+      ],
+      "answer": 1,
+      "explanation": "Section 32(j) specifies that the allowable deduction is the difference between the actual cost of the animals and the amount realised from the carcasses or animals. The other options propose non-existent valuation metrics."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CNO",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Constituted or established by a Central Act, State Act, or Provincial Act"
+        },
+        {
+          "letter": "N",
+          "meaning": "Notified by the Central Government having regard to the objects and purposes"
+        },
+        {
+          "letter": "O",
+          "meaning": "Objects and purposes authorised by the Act under which it is constituted"
+        }
+      ],
+      "tip": "Use CNO to remember the three cumulative statutory conditions in Section 32(f) for deductible non-capital expenditure incurred by a corporation or body corporate."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
