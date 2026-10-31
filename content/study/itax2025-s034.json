@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s034",
+  "section": "34",
+  "title": "Section 34",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-31",
+  "commentary": "Section 34 serves as the residuary deduction provision for computing business or professional income under the head \"Profits and gains of business or profession\". Under sub-section (1), any expenditure is deductible if it is laid out or expended wholly and exclusively for the purposes of the business or profession, provided it is not personal, not of a capital nature, and not an expenditure specifically covered in sections 28 to 33, 44 to 49, 51, and 52.\n\nSub-section (2) explicitly restricts the scope of what is considered wholly and exclusively expended. It disallows expenditure incurred for any purpose that constitutes an offence or is prohibited by law, corporate social responsibility (CSR) spending referred to in section 135 of the Companies Act, 2013, and advertisements placed in souvenirs, brochures, tracts, pamphlets, or similar publications brought out by a political party.\n\nSub-section (3) elaborates on prohibited outlays under sub-section (2)(a). It bars expenses incurred for offences under laws in or outside India, perquisites or benefits given to individuals whose acceptance violates applicable conduct rules or regulations, compounding fees for offences under domestic or foreign law, and amounts paid to settle proceedings for contraventions under laws notified by the Central Government.\n\nInterpretation: This section acts as a general deduction gatekeeper, ensuring that ordinary commercial revenue costs qualify for relief while strictly denying tax deductions for illicit payments, ethical breaches, and political or CSR contributions.",
+  "example": {
+    "assumptions": "All monetary amounts are illustrative assumptions: Gross business turnover is ₹10,000,000; General administrative expenses are ₹400,000; CSR contribution under section 135 of the Companies Act, 2013 is ₹150,000; Advertisement expense in a political party souvenir is ₹50,000; Compounding fee paid for a foreign regulatory infraction is ₹100,000.",
+    "scenario": "A company assesses its taxable business income and considers whether general office administration, CSR outlays, political souvenir advertisements, and compounding payments are deductible under Section 34.",
+    "walkthrough": "Step 1: The administrative expense of ₹400,000 is revenue in nature, non-personal, wholly for business, and not covered under the specified sections; it is fully deductible under sub-section (1).\nStep 2: The CSR expenditure of ₹150,000 is statutorily excluded from business expenditure and cannot be deducted pursuant to sub-section (2)(b).\nStep 3: The advertisement cost of ₹50,000 in the political party souvenir is specifically disallowed under sub-section (2)(c).\nStep 4: The compounding fee of ₹100,000 falls within expenditure incurred for an offence under sub-section (2)(a) as defined by sub-section (3)(c), and is therefore not deductible.",
+    "takeaway": "An expense is deductible under Section 34 only if it is revenue, non-personal, and wholly for business, without falling into any statutory exclusion such as CSR, political souvenir advertisements, or unlawful payments."
+  },
+  "mcqs": [
+    {
+      "question": "Which of the following expenditures may be allowed as a deduction under Section 34(1)?",
+      "options": [
+        "A capital expenditure incurred for expanding factory capacity",
+        "Personal expenses incurred by the assessee during vacation",
+        "Revenue expenditure laid out wholly and exclusively for the business and not covered under sections 28 to 33",
+        "Expenditure specifically of the nature covered under section 51"
+      ],
+      "answer": 2,
+      "explanation": "Section 34(1) allows expenditure laid out wholly and exclusively for the purpose of the business or profession, provided it is not personal, not capital, and not covered in sections 28 to 33, 44 to 49, 51, and 52."
+    },
+    {
+      "question": "Under Section 34(2)(b), which of the following is excluded from expenditure laid out wholly and exclusively for business or profession?",
+      "options": [
+        "Salaries paid to technical employees",
+        "Expenditure incurred on activities relating to corporate social responsibility referred to in section 135 of the Companies Act, 2013",
+        "Routine repairs to existing machinery",
+        "Freight and carriage charges for delivering finished goods"
+      ],
+      "answer": 1,
+      "explanation": "Section 34(2)(b) specifically provides that expenditure incurred on corporate social responsibility activities referred to in section 135 of the Companies Act, 2013 is not expenditure laid out wholly and exclusively for business or profession."
+    },
+    {
+      "question": "Section 34(2)(c) prohibits deduction for expenditure incurred on advertisement in which medium?",
+      "options": [
+        "A commercial trade directory published by an industry association",
+        "A national daily newspaper",
+        "An academic research journal",
+        "A souvenir, brochure, tract, or pamphlet published by a political party"
+      ],
+      "answer": 3,
+      "explanation": "Section 34(2)(c) explicitly disallows any expenditure incurred on advertisement in any souvenir, brochure, tract, pamphlet or the like, published by a political party."
+    },
+    {
+      "question": "According to Section 34(3)(b), expenditure incurred for providing a benefit or perquisite to a person is treated as prohibited by law if:",
+      "options": [
+        "Its acceptance by the person is in violation of any law, rule, regulation, or guideline governing that person's conduct",
+        "The person receiving it does not issue an official invoice",
+        "The recipient is related to the assessee",
+        "The perquisite value exceeds the standard market rate"
+      ],
+      "answer": 0,
+      "explanation": "Section 34(3)(b) covers expenditure for providing a benefit or perquisite to a person when its acceptance by the person violates any law, rule, regulation, or guideline governing the conduct of that person."
+    },
+    {
+      "question": "Under Section 34(3)(d), expenditure incurred for settling proceedings is treated as prohibited by law when it relates to contraventions under:",
+      "options": [
+        "Any international treaty not yet ratified",
+        "Any law notified by the Central Government in this behalf",
+        "Unregistered municipal guidelines",
+        "Any voluntary code of corporate governance"
+      ],
+      "answer": 1,
+      "explanation": "Section 34(3)(d) applies to expenditure incurred for settling proceedings initiated in relation to contravention under any law notified by the Central Government in this behalf."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "OCA",
+      "stands_for": [
+        {
+          "letter": "O",
+          "meaning": "Offence or prohibited by law purpose"
+        },
+        {
+          "letter": "C",
+          "meaning": "Corporate social responsibility activities"
+        },
+        {
+          "letter": "A",
+          "meaning": "Advertisement in political party publications"
+        }
+      ],
+      "tip": "Use OCA to remember the three specific exclusions from 'wholly and exclusively' for business laid down in Section 34(2)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "itax2025-s033",
+  "section": "33",
+  "title": "Section 33",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-10-31",
+  "commentary": "Section 33 sets out the statutory framework for claiming depreciation on business assets. It covers tangible assets (buildings, machinery, plant, and furniture) and specified intangible assets acquired on or after 1st April, 1998, while explicitly excluding goodwill. For undertakings engaged in power generation or distribution, depreciation is calculated as a prescribed percentage of actual cost, whereas other businesses compute it on the written down value of a block of assets.\n\nKey restrictions apply: if an asset is acquired and put to use for fewer than 180 days in the tax year, normal depreciation is restricted to 50% of the prescribed rate. Qualifying manufacturing and power-sector assessees can claim an additional depreciation of 20% on new machinery and plant; if put to use for less than 180 days, this is split into 10% in the year of acquisition and 10% in the immediately succeeding tax year. The section also governs capital works on leased premises, pro rata allocation based on usage days during corporate restructurings, terminal depreciation for power units, and continuous carry-forward of unabsorbed depreciation.\n\nInterpretation: Under sub-section (7), depreciation is mandatory even if an assessee does not explicitly claim it in their return, ensuring uniform reduction in asset base and accurate tracking of written down value.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions. An assessee in manufacturing acquires new qualifying factory machinery for ₹1,00,000 on November 1 of the tax year. The prescribed normal depreciation rate is 15%. The machinery is put to use for 150 days during the tax year.",
+    "scenario": "A manufacturer purchases and installs brand new machinery midway through the tax year, operating it for less than 180 days before the tax year ends, and seeks to claim allowable depreciation and additional depreciation.",
+    "walkthrough": "Step 1: Under sub-section (1) and (3)(a), normal depreciation applies to the plant. Because it is put to use for less than 180 days, sub-section (4) restricts the normal deduction to 50% of the prescribed rate (50% of 15% = 7.5% on ₹1,00,000 = ₹7,500). Step 2: Under sub-section (8), the assessee qualifies for additional depreciation on new machinery. Step 3: Because the machinery is put to use for less than 180 days, sub-section (9)(b) allows 10% of the actual cost (₹10,000) in the current tax year, deferring the remaining 10% (₹10,000) to the immediately succeeding tax year. Total deduction in the tax year is ₹17,500.",
+    "takeaway": "Where eligible new machinery is used for less than 180 days in the year of acquisition, normal depreciation is halved and additional depreciation is split equally across two tax years."
+  },
+  "mcqs": [
+    {
+      "question": "Which of the following intangible assets is specifically excluded from claiming depreciation under Section 33?",
+      "options": [
+        "Goodwill of a business or profession",
+        "Licences and franchises",
+        "Patents and copyrights",
+        "Know-how"
+      ],
+      "answer": 0,
+      "explanation": "Sub-sections (1)(b) and (12)(a)(ii) explicitly exclude 'goodwill of a business or profession' from the definition of eligible intangible assets. All other options are specifically included."
+    },
+    {
+      "question": "If an asset is acquired during the tax year and put to use for business purposes for less than 180 days, what is the limitation imposed under Section 33(4)?",
+      "options": [
+        "The deduction is deferred entirely to the next year",
+        "The deduction is restricted to 50% of the prescribed rate",
+        "The deduction is capped at 25% of the actual cost",
+        "The deduction is allowed in full if approved by the Assessing Officer"
+      ],
+      "answer": 1,
+      "explanation": "Section 33(4) specifies that the deduction shall be restricted to 50% of the prescribed rate if the asset is acquired during the tax year and put to use for less than 180 days in that tax year."
+    },
+    {
+      "question": "What happens if an assessee does not make a claim for depreciation when computing total income?",
+      "options": [
+        "Depreciation is forfeited for that tax year",
+        "The deduction is kept in abeyance until claimed in a subsequent return",
+        "Depreciation applies whether or not the assessee has claimed the deduction",
+        "Depreciation is reduced by 50% as a penalty"
+      ],
+      "answer": 2,
+      "explanation": "Section 33(7) provides that the provisions of this section shall apply whether or not the assessee has claimed deduction for depreciation in computing his total income."
+    },
+    {
+      "question": "Under Section 33(8)(d), which of the following new assets is ineligible for additional depreciation?",
+      "options": [
+        "Machinery installed inside a factory production unit",
+        "Office appliances or road transport vehicles",
+        "Pollution control equipment installed at a manufacturing plant",
+        "Power generation equipment installed by a power generating firm"
+      ],
+      "answer": 1,
+      "explanation": "Section 33(8)(d)(iii) explicitly states that additional depreciation shall not be allowed on new machinery or plant that is in the nature of any office appliances or road transport vehicle."
+    },
+    {
+      "question": "In the case of an amalgamation, how is the aggregate depreciation divided between the amalgamating company and the amalgamated company under Section 33(5)?",
+      "options": [
+        "Equally in a 50:50 ratio",
+        "In proportion to the paid-up share capital of each company",
+        "On a pro rata basis based on the number of days for which assets were used by each",
+        "Entirely to the amalgamated company"
+      ],
+      "answer": 2,
+      "explanation": "Section 33(5) provides that aggregate deduction shall not exceed the deduction calculated as if amalgamation had not taken place, and shall be allowed on a pro rata basis based on the number of days for which assets were used by the amalgamating and amalgamated company."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "BMPF",
+      "stands_for": [
+        {
+          "letter": "B",
+          "meaning": "Buildings"
+        },
+        {
+          "letter": "M",
+          "meaning": "Machinery"
+        },
+        {
+          "letter": "P",
+          "meaning": "Plant"
+        },
+        {
+          "letter": "F",
+          "meaning": "Furniture"
+        }
+      ],
+      "tip": "Recall the four tangible asset classes eligible for depreciation under Section 33(1)(a) in statutory order."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
