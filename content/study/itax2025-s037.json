@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s037",
+  "section": "37",
+  "title": "“Profits and gains of business or profession” in such subsequent tax year",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-11-08",
+  "commentary": "Section 37 governs the deductibility of certain business expenses on an actual payment basis, overriding the mercantile method of accounting and the year in which the liability arose. Under sub-section (1), specified sums are allowable only in the tax year they are actually paid, subject to a relaxation in sub-section (3). This relaxation permits deductions in the tax year of liability if the payment is made on or before the return filing due date under section 263(1), but this grace period specifically excludes payments to micro or small enterprises beyond the time limit under the MSMED Act, 2006.\n\nSub-section (2) enumerates the covered sums: taxes, duties, cesses, or fees; employer contributions to employee welfare funds; leave encashment; sums under section 32(a); interest owed to specified financial entities; railway asset dues; and delayed payments to micro or small enterprises. Sub-section (4) clarifies that converting unpaid interest into a loan or debt instrument does not constitute actual payment. Sub-section (5) bars double deduction, while sub-section (6) excludes employee contributions to funds from this section's scope.\n\nInterpretation: By carving out micro and small enterprise payments from the grace period up to the return filing date, the statute ensures that delayed payments to MSMEs cannot be claimed in the year of accrual even if settled before filing the tax return.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Assessee X incurred a municipal tax liability of ₹50,000, interest payable to a scheduled bank of ₹1,00,000, and an amount payable to a micro enterprise beyond the MSMED Act time limit of ₹30,000 during the tax year. Due date under section 263(1) is 31st July of the subsequent year.",
+    "scenario": "During the tax year, Assessee X incurs the liabilities. Before 31st July of the subsequent year, X pays the municipal tax of ₹50,000 and the micro enterprise dues of ₹30,000. For the bank interest of ₹1,00,000, the bank agrees to convert it into a term loan.",
+    "walkthrough": "Under sub-section (2)(a) and sub-section (3), the municipal tax of ₹50,000 is deductible in the year the liability was incurred because it was paid on or before the return due date under section 263(1). Under sub-section (4), converting the bank interest of ₹1,00,000 into a loan is not deemed actual payment, so no deduction is allowable. Under sub-section (2)(g) read with sub-section (3), the micro enterprise dues are expressly excluded from the benefit of payment before the section 263(1) due date; thus, under sub-section (1), the ₹30,000 is deductible only in the subsequent tax year when actually paid.",
+    "takeaway": "Deductions for statutory liabilities and bank interest can relate back to the year of accrual if paid before the return filing due date, but conversion into loans is not payment, and MSME delayed payments are strictly allowed only in the year of actual disbursement."
+  },
+  "mcqs": [
+    {
+      "question": "Which of the following sums specified under sub-section (2) is expressly excluded from the benefit of deduction in the year of accrual under sub-section (3) if paid on or before the due date under section 263(1)?",
+      "options": [
+        "Amount payable to the Indian Railways for use of railway assets",
+        "Amount payable by the assessee to a micro or small enterprise beyond the time limit specified in section 15 of the MSMED Act, 2006",
+        "Contribution of the employer to an approved gratuity fund",
+        "Interest on loans from a State Financial Corporation"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (3) explicitly states that the concession allowing deduction in the year liability was incurred applies to amounts in sub-section (2) 'except the sum referred to in clause (g) thereof', which is the amount payable to a micro or small enterprise beyond the specified time limit. The other options are covered by the concession under sub-section (3)."
+    },
+    {
+      "question": "According to sub-section (4), what is the tax treatment if interest payable to a specified financial entity is converted into a loan or debenture?",
+      "options": [
+        "It is deemed to be paid in full in the tax year of conversion",
+        "It is deemed to be paid only if converted into a debenture, but not into a loan",
+        "It shall not be deemed to have been actually paid",
+        "It is permanently disallowed as a business expenditure under the Act"
+      ],
+      "answer": 2,
+      "explanation": "Under sub-section (4), if interest specified in sub-section (2)(e) is converted into a loan, advance, debenture, or any other instrument deferring the liability to pay to a future date, it shall not be deemed to have been actually paid. The other options incorrectly state that it is deemed paid or permanently disallowed."
+    },
+    {
+      "question": "Which of the following is specifically excluded from the definition of 'specified financial entities' under sub-section (7)?",
+      "options": [
+        "A State Industrial Investment Corporation",
+        "A primary agricultural credit society",
+        "A scheduled bank",
+        "A public financial institution"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (7) includes co-operative banks in the definition of specified financial entities '(other than a primary agricultural credit society or a primary co-operative agricultural and rural development bank)'. The entities in the other options are specifically included."
+    },
+    {
+      "question": "Under sub-section (6), the provisions of Section 37 do not apply to which of the following?",
+      "options": [
+        "Sums received by the assessee from any employee as contribution towards funds referred to in section 2(49)(o)",
+        "Interest payable to any non-banking financial company not notified by the Central Government",
+        "Sums payable to Indian Railways for freight charges",
+        "Employer contributions to an employee welfare fund paid after the tax year"
+      ],
+      "answer": 0,
+      "explanation": "Sub-section (6) explicitly provides that the provisions of this section shall not apply to a sum received by the assessee from any employee as contribution towards any of the funds referred to in section 2(49)(o). The other options are subject to Section 37."
+    },
+    {
+      "question": "Under sub-section (8), what does 'the sum payable' mean for the purposes of tax, duty, cess, surcharge or fee under sub-section (2)(a)?",
+      "options": [
+        "A sum that has been assessed and paid in the relevant tax year",
+        "A sum for which the assessee has incurred liability in the tax year even though it might not have been payable within that year under the relevant law",
+        "A sum that is disputed in appeal before an appellate authority",
+        "A sum due under any law that must be paid strictly within the same calendar month of accrual"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (8) defines 'the sum payable' for sub-section (2)(a) as a sum for which the assessee has incurred liability in the tax year even though such sum might not have been payable within that year under the relevant law. The other options introduce conditions not present in the text."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "AMT",
+      "stands_for": [
+        {
+          "letter": "A",
+          "meaning": "Any provision to the contrary in this Act"
+        },
+        {
+          "letter": "M",
+          "meaning": "Method of accounting regularly followed"
+        },
+        {
+          "letter": "T",
+          "meaning": "Tax year in which the liability was incurred"
+        }
+      ],
+      "tip": "Use AMT to recall the three factors that Section 37(1) overrides when restricting deductions strictly to the year of actual payment."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
