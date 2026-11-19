@@ -1,0 +1,97 @@
+{
+  "id": "itax2025-s039",
+  "section": "39",
+  "title": "Section 39",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-11-19",
+  "commentary": "Section 39 defines the \"actual cost\" of an asset used for business or profession, which serves as the foundational value for capital allowances. The actual cost to the assessee is reduced under sub-section (1) by any portion of cost met directly or indirectly by third parties, input tax credit allowed for goods and services tax, allowed excise or additional customs duty credits, and relatable subsidies or grants received from governments or other persons. Sub-section (2) disallows cash transactions by excluding payments exceeding ₹10,000 made to a person in a single day otherwise than by specified banking or online modes. Where a subsidy is general rather than asset-specific, sub-section (3) applies an apportionment formula based on relative asset costs.\n\nSub-section (4) provides a detailed table determining actual cost across thirteen specific circumstances, including corporate reorganisations, inventory conversions, gifts, re-acquisitions, lease-back transactions, and imported assets. Significantly, interest relatable to any period after the asset is first put to use is excluded from actual cost. To counter tax avoidance, sub-sections (5) and (6) empower the Assessing Officer, with prior approval from the Joint Commissioner, to redetermine actual cost where previously used assets are transferred primarily to claim inflated depreciation.\n\nInterpretation: The section ensures that depreciation is strictly confined to the taxpayer's genuine, unreimbursed capital outlay while preventing artificial cost inflation through related-party transactions or cash leakages.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: Machinery purchase price is ₹10,00,000; cash payment made to the vendor on a single day is ₹25,000; balance ₹9,75,000 is paid via account payee cheque; government subsidy directly relatable to the machine is ₹1,50,000; input tax credit of ₹50,000 under GST was claimed and allowed.",
+    "scenario": "Beta Ltd. purchases a manufacturing machine for its business. It makes a partial payment of ₹25,000 in cash in one day to the supplier, receives a specific State Government acquisition grant of ₹1,50,000, and takes an allowed GST input tax credit of ₹50,000.",
+    "walkthrough": "Step 1: Start with the baseline cost of ₹10,00,000. Under sub-section (2), the cash payment of ₹25,000 exceeds ₹10,000 in a day to a person in a non-specified mode, so it is excluded from the actual cost, leaving ₹9,75,000. Step 2: Under sub-section (1)(b), reduce the input tax credit of ₹50,000 claimed and allowed under GST law. Step 3: Under sub-section (1)(d)(ii), reduce the acquisition subsidy of ₹1,50,000 received from the State Government. Step 4: Final actual cost equals ₹10,00,000 - ₹25,000 - ₹50,000 - ₹1,50,000 = ₹7,75,000.",
+    "takeaway": "Actual cost must exclude non-banking payments exceeding ₹10,000 per day as well as allowed tax credits and relatable government grants."
+  },
+  "mcqs": [
+    {
+      "question": "Under Section 39(2), what is the threshold for payments made in a day to a person in a mode other than specified banking or online mode that must be excluded from the actual cost of an asset?",
+      "options": [
+        "Exceeding ₹10,000",
+        "Exceeding ₹20,000",
+        "Exceeding ₹50,000",
+        "Exceeding ₹1,00,000"
+      ],
+      "answer": 0,
+      "explanation": "Sub-section (2) explicitly provides that payment or aggregate of payments exceeding ₹10,000 in a day to a person in a mode other than specified banking or online mode shall be excluded from actual cost. The other amounts do not appear in the sub-section."
+    },
+    {
+      "question": "Whose prior approval is statutorily required under Section 39(6) before the Assessing Officer can determine actual cost under Section 39(5)?",
+      "options": [
+        "Principal Commissioner of Income-tax",
+        "Joint Commissioner",
+        "Chief Commissioner of Income-tax",
+        "Board"
+      ],
+      "answer": 1,
+      "explanation": "Sub-section (6) specifies that the determination of actual cost under sub-section (5) shall be made with the prior approval of the Joint Commissioner. The other authorities are not mentioned in this sub-section."
+    },
+    {
+      "question": "Under Serial Number 13 of the Table in Section 39(4), how is interest paid or payable in connection with the acquisition of an asset treated in determining actual cost?",
+      "options": [
+        "It is fully included in actual cost up to the date of assessment",
+        "It is entirely excluded from actual cost regardless of timing",
+        "Actual cost shall not include so much of such amount as is relatable to any period after such asset is first put to use",
+        "It is capitalized only if the borrowing was from a public financial institution"
+      ],
+      "answer": 2,
+      "explanation": "Column C of Serial Number 13 specifies that actual cost shall not include so much of such amount as is relatable to any period after such asset is first put to use. The other choices contradict or introduce conditions not present in the text."
+    },
+    {
+      "question": "Where a subsidy received is not directly relatable to the asset acquired, how is the reduction calculated under Section 39(3)?",
+      "options": [
+        "A × (C / B)",
+        "A × (B / (B + C))",
+        "A × (B / C)",
+        "(A + B) / C"
+      ],
+      "answer": 2,
+      "explanation": "Sub-section (3) provides the formula A × (B / C), where A is total non-directly relatable subsidy, B is cost of the asset acquired, and C is cost of all assets in respect of which the subsidy is received. The other formulas are incorrect permutations."
+    },
+    {
+      "question": "In a demerger where a capital asset is transferred by a demerged company to an Indian resulting company, what ceiling applies to the actual cost under Serial Number 2 of the Table in Section 39(4)?",
+      "options": [
+        "It shall not exceed the fair market value on the date of demerger",
+        "It shall not exceed the written down value of such capital asset in the hands of demerged company",
+        "It shall not exceed the historical cost to the demerged company",
+        "It shall not exceed the replacement value of the asset"
+      ],
+      "answer": 1,
+      "explanation": "Serial Number 2 of the Table provides that actual cost to the resulting company shall be the same as it would have been if the demerged company had continued to hold it, which shall not exceed the written down value in the hands of the demerged company. The other options are not mentioned in the provision."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "MGDS",
+      "stands_for": [
+        {
+          "letter": "M",
+          "meaning": "Met by any other person or authority (part of cost)"
+        },
+        {
+          "letter": "G",
+          "meaning": "Goods and services tax credit claimed and allowed"
+        },
+        {
+          "letter": "D",
+          "meaning": "Duty of excise or additional customs duty credit claimed and allowed"
+        },
+        {
+          "letter": "S",
+          "meaning": "Subsidy, grant or reimbursement relatable to acquisition"
+        }
+      ],
+      "tip": "Use MGDS to recall the four statutory deductions subtracted from cost under Section 39(1) to arrive at actual cost."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "itax2025-s038",
+  "section": "38",
+  "title": "Section 38",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-11-19",
+  "commentary": "Section 38 provides for deemed profits and gains of business or profession, bringing specific recoveries, remissions, and balancing charges into the charge of income-tax. Under sub-section (1)(a), any benefit obtained from the remission or cessation of a trading liability (including unilateral write-offs) or recovery of an expenditure or loss previously allowed as a deduction is deemed business income. Sub-section (1)(b) taxes balancing charges on tangible assets when proceeds and scrap value [A] exceed written down value [C], computed as [A] – [C] if [A] is less than actual cost [B], or [B] – [C] in any other case.\n\nAdditionally, deemed profits arise upon selling capital scientific research assets without prior alternate use under clause (c), recovering bad debts exceeding the unallowed amount under clause (d), or withdrawing sums from a special reserve under clause (e).\n\nSub-section (2) conditions these charges on prior allowances or deductions in assessment, and business use with depreciation allowed for tangible assets. Under sub-section (3), unabsorbed non-speculative losses from the year the business ceased may be set off against deemed income under clauses (a), (c), (d), and (e). Sub-section (4) taxes liability remissions in the hands of a successor in business.\n\nInterpretation: The section serves as a statutory recoupment mechanism, ensuring deductions previously granted are restored to the tax base when recovered, even after business discontinuance.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions and do not represent statutory thresholds: Actual cost of asset [B] = ₹5,00,000; Written down value of asset [C] = ₹2,80,000; Moneys payable together with scrap value [A] = ₹4,20,000; Depreciation was claimed and allowed under section 33(2).",
+    "scenario": "An assessee owns and uses a tangible business asset which is sold during the tax year for ₹4,20,000.",
+    "walkthrough": "Step 1: Verify conditions under sub-section (2)(b) — the asset was owned by the assessee, used for the purpose of business or profession, and depreciation was claimed and allowed under section 33(2).\nStep 2: Compare proceeds [A] (₹4,20,000) with actual cost [B] (₹5,00,000) under sub-section (1)(b). Since [A] is less than [B], sub-clause (i) applies.\nStep 3: Compute the chargeable sum under sub-section (1)(b)(i) as [A] – [C], which equals ₹4,20,000 – ₹2,80,000 = ₹1,40,000.\nStep 4: Under sub-section (1), ₹1,40,000 is deemed to be profits and gains of business or profession chargeable to tax in the tax year in which the moneys payable become due.",
+    "takeaway": "Where scrap value and moneys payable for a depreciable tangible asset exceed written down value but fall below actual cost, the excess over written down value is deemed business profit."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 38(1)(a)(i), the value of any benefit accruing by way of cessation or remission of a trading liability explicitly includes which of the following?",
+      "options": [
+        "A court order declaring the assessee insolvent",
+        "A unilateral act of write-off of such liability in his accounts",
+        "An oral waiver agreed upon in an informal settlement",
+        "A compounding fee paid to statutory authorities"
+      ],
+      "answer": 1,
+      "explanation": "Section 38(1)(a)(i) explicitly includes 'a unilateral act of write-off of such liability in his accounts' within the benefit accruing by way of cessation or remission of a trading liability. The other options are not mentioned in the text."
+    },
+    {
+      "question": "Under section 38(1)(b), where the moneys payable for an asset together with scrap value [A] is not less than the actual cost of such asset [B], and [C] is the written down value, what sum is deemed to be profits and gains?",
+      "options": [
+        "[B] – [C]",
+        "[A] – [C]",
+        "[A] – [B]",
+        "[A] + [B] – [C]"
+      ],
+      "answer": 0,
+      "explanation": "Section 38(1)(b)(ii) specifies that 'in any other case' (where [A] is not less than [B]), the sum is [B] – [C]. Option B ([A] – [C]) applies under sub-clause (i) only when [A] is less than [B]. Options C and D are not specified by the section."
+    },
+    {
+      "question": "Under section 38(3), which loss can be set off against income chargeable under sub-section (1)(a), (c), (d), or (e) when the business is no longer in existence?",
+      "options": [
+        "Any loss sustained in speculation business during the tax year of cessation",
+        "Any capital loss arising from the transfer of business assets",
+        "Any loss, not being a loss sustained in speculation business, which arose in that business or profession during the tax year in which it ceased to exist and which could not be set off against any other income of that tax year",
+        "Any unabsorbed depreciation carried forward without any time limit"
+      ],
+      "answer": 2,
+      "explanation": "Section 38(3) allows set-off of 'any loss, not being a loss sustained in speculation business, which arose in that business or profession during the tax year in which it ceased to exist and which could not be set off against any other income of that tax year'. Speculation losses are expressly excluded."
+    },
+    {
+      "question": "According to section 38(6)(a), the term 'sold' does NOT include which of the following transfers?",
+      "options": [
+        "A compulsory acquisition under any law for the time being in force",
+        "A transfer by way of exchange",
+        "A sale of an asset where moneys payable become due in a subsequent tax year",
+        "A transfer in a scheme of amalgamation of an asset by the amalgamating company to the amalgamated company where the amalgamated company is an Indian company"
+      ],
+      "answer": 3,
+      "explanation": "Section 38(6)(a) states that 'sold' includes an exchange or compulsory acquisition, 'but does not include a transfer, in a scheme of amalgamation, of any asset by the amalgamating company to the amalgamated company where the amalgamated company is an Indian company'."
+    },
+    {
+      "question": "Under section 38(4), if a benefit in respect of a trading liability referred to in sub-section (1)(a) accrues to a successor in business, how is it treated?",
+      "options": [
+        "It is exempt from income-tax since the original business has ceased to exist",
+        "It is chargeable to income-tax as income in the hands of the successor in business",
+        "It is chargeable to income-tax as income in the hands of the predecessor",
+        "It is deductible from the written down value of the successor's block of assets"
+      ],
+      "answer": 1,
+      "explanation": "Section 38(4) provides that if the benefit accrues to, or amount is obtained by, the successor in business, the value of the benefit or the amount shall be chargeable to income-tax as income in the hands of successor in business."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "BASBS",
+      "stands_for": [
+        {
+          "letter": "B",
+          "meaning": "Benefit or amount obtained from previously allowed loss, expenditure, or trading liability [clause (a)]"
+        },
+        {
+          "letter": "A",
+          "meaning": "Asset of tangible nature sold, discarded, demolished or destroyed [clause (b)]"
+        },
+        {
+          "letter": "S",
+          "meaning": "Scientific research capital asset sold without other use [clause (c)]"
+        },
+        {
+          "letter": "B",
+          "meaning": "Bad debt recovery exceeding the difference between debt and allowance [clause (d)]"
+        },
+        {
+          "letter": "S",
+          "meaning": "Special reserve withdrawal [clause (e)]"
+        }
+      ],
+      "tip": "Use BASBS to recall the five categories of deemed business profits in the exact order of sub-section (1)(a) through (1)(e)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}

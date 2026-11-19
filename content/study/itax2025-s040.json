@@ -1,0 +1,93 @@
+{
+  "id": "itax2025-s040",
+  "section": "40",
+  "title": "Section 40",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-11-19",
+  "commentary": "Section 40 provides the rules for determining the cost of acquisition of an asset sold as stock-in-trade when computing income under the head \"Profits and gains of business or profession\". It applies to assets acquired through specified non-commercial or restructuring modes: by an amalgamated company under a scheme of amalgamation, or by an assessee by way of gift, will, an irrevocable trust, or upon a total or partial partition of a Hindu undivided family (HUF).\n\nWhen such an asset is subsequently sold as stock-in-trade, its cost of acquisition is computed as the sum of three components: (i) the cost of acquisition to the previous owner (the amalgamating company, transferor, or donor), (ii) any cost of improvement made to the asset, and (iii) any expenditure incurred wholly and exclusively in connection with the transfer by the amalgamating company, transferor, or donor.\n\nSub-section (2) explicitly carves out an exception, providing that this section does not apply to any asset referred to in section 67(6).\n\nInterpretation: The provision ensures continuity of basis when calculating business profits for inherited or amalgamated assets converted to or sold as trading inventory, preventing both artificial inflation of profits and untaxed step-ups in cost basis.",
+  "example": {
+    "assumptions": "All monetary values are illustrative assumptions: Asset cost to original donor = ₹5,00,000; Cost of improvement made = ₹1,00,000; Transfer expenses incurred wholly and exclusively by the donor = ₹50,000; Sale consideration as stock-in-trade = ₹9,00,000.",
+    "scenario": "An assessee receives a plot of land under a gift from a donor. The assessee holds and subsequently sells this plot as stock-in-trade in their real estate business. Before the gift, the donor had purchased the land for ₹5,00,000 and incurred ₹50,000 exclusively on the transfer deed. Additionally, ₹1,00,000 was incurred on improvements.",
+    "walkthrough": "Under section 40(1)(b), since the asset became the property of the assessee under a gift and is sold as stock-in-trade, the cost of acquisition is calculated by aggregating the specified elements. Step 1: Identify the donor's cost of acquisition under sub-clause (i), which is ₹5,00,000. Step 2: Add the cost of improvement made under sub-clause (ii), which is ₹1,00,000. Step 3: Add the expenditure incurred by the donor wholly and exclusively in connection with the transfer under sub-clause (iii), which is ₹50,000. Step 4: The total cost of acquisition is ₹6,50,000 (₹5,00,000 + ₹1,00,000 + ₹50,000), leaving a taxable business profit of ₹2,50,000 (₹9,00,000 - ₹6,50,000).",
+    "takeaway": "When an asset acquired via gift or specified restructuring is sold as stock-in-trade, its cost of acquisition includes the previous owner's cost, improvement expenses, and transfer-related costs incurred by the transferor."
+  },
+  "mcqs": [
+    {
+      "question": "Under section 40, to which head of income does the determination of cost of acquisition apply?",
+      "options": [
+        "Capital gains",
+        "Profits and gains of business or profession",
+        "Income from other sources",
+        "Income from house property"
+      ],
+      "answer": 1,
+      "explanation": "Section 40(1) explicitly states that the determination of cost of acquisition applies 'For the purposes of computation of income under the head \"Profits and gains of business or profession\"'. The other heads are incorrect as they are not specified in the section."
+    },
+    {
+      "question": "Which of the following acquisition modes is NOT listed under section 40(1)?",
+      "options": [
+        "Under a scheme of amalgamation by an amalgamated company",
+        "Under a revocable trust",
+        "On total or partial partition of a Hindu undivided family",
+        "Under a will"
+      ],
+      "answer": 1,
+      "explanation": "Section 40(1)(b) specifies an 'irrevocable trust'. Assets acquired under a revocable trust are not included. Amalgamation, total or partial partition of an HUF, and a will are all specifically enumerated."
+    },
+    {
+      "question": "When an asset covered by section 40(1) is sold as stock-in-trade, which of the following is included in its cost of acquisition?",
+      "options": [
+        "Fair market value on the date of acquisition by the assessee",
+        "Cost of acquisition to the amalgamating company, transferor, or donor",
+        "Expenditure incurred by the assessee in connection with the transfer to the assessee",
+        "Replacement cost of the asset on the date of sale"
+      ],
+      "answer": 1,
+      "explanation": "Section 40(1)(i) mandates the inclusion of the cost of acquisition of the asset in the hands of the amalgamating company, transferor, or donor. Fair market value and replacement cost are not mentioned, and transfer expenditure under sub-clause (iii) must be incurred by the amalgamating company, transferor, or donor, not the acquiring assessee."
+    },
+    {
+      "question": "According to section 40(2), the provisions of section 40 do not apply to which category of assets?",
+      "options": [
+        "An asset referred to in section 67(6)",
+        "Any intangible asset",
+        "Agricultural land situated in a rural area",
+        "Any asset held for more than thirty-six months"
+      ],
+      "answer": 0,
+      "explanation": "Section 40(2) explicitly provides that 'This section shall not apply to an asset referred to in section 67(6)'. The other options are not mentioned in the official text."
+    },
+    {
+      "question": "Under section 40(1)(iii), which expenditure can be aggregated into the cost of acquisition of an asset sold as stock-in-trade?",
+      "options": [
+        "Any expenditure incurred by the buyer wholly and exclusively for the purchase",
+        "Any expenditure incurred by the amalgamating company, transferor, or donor wholly and exclusively in connection with such transfer",
+        "All routine maintenance and repair costs incurred by the assessee prior to sale",
+        "Administrative overheads allocated during the period the asset was held as capital asset"
+      ],
+      "answer": 1,
+      "explanation": "Section 40(1)(iii) includes 'any expenditure incurred by the amalgamating company or transferor or donor, as the case may be, wholly and exclusively in connection with such transfer'. The other options describe expenses not authorized by the text."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "CIE",
+      "stands_for": [
+        {
+          "letter": "C",
+          "meaning": "Cost of acquisition in the hands of the predecessor"
+        },
+        {
+          "letter": "I",
+          "meaning": "Improvement cost made"
+        },
+        {
+          "letter": "E",
+          "meaning": "Expenditure incurred wholly and exclusively in connection with transfer"
+        }
+      ],
+      "tip": "Use CIE to recall the three components that are summed to determine the cost of acquisition under section 40(1)(i)-(iii)."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
