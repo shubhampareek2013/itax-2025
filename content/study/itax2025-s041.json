@@ -1,0 +1,101 @@
+{
+  "id": "itax2025-s041",
+  "section": "41",
+  "title": "Section 41",
+  "status": "ok",
+  "stale": false,
+  "generated": "2026-11-28",
+  "commentary": "Section 41 defines \"written down value\" (WDV) for computing income under the head \"Profits and gains of business or profession\". For an individual asset acquired in the tax year, WDV is its actual cost; for an asset acquired previously, it equals actual cost less depreciation actually allowed. For a block of assets, WDV is calculated via the statutory formula [(A - D) + B - C] - E. Here, (A - D) represents opening WDV (preceding year's WDV minus depreciation actually allowed for that year), B is the actual cost of additions during the tax year, C is moneys payable plus scrap value from transfers, sales, demolitions, destruction, or discards (capped at (A - D) + B), and E is the reduction for slump sales.\n\nThe section also prescribes rules for reorganisations. Transfers between qualifying holding and subsidiary companies, amalgamations, demergers, and conversions of companies into limited liability partnerships preserve tax basis by adopting predecessor WDV. Similar continuity applies to stock exchange corporatisations and successions under section 313. Unabsorbed depreciation carried forward under section 33(11) is deemed actually allowed, and specific adjustments apply to composite agricultural businesses and entities transitioning into taxable status.\n\nInterpretation: The statutory cap ensuring C does not exceed (A - D) + B prevents the written down value of the block from turning negative within the computation formula.",
+  "example": {
+    "assumptions": "All figures are illustrative assumptions: WDV of the block in immediately preceding tax year (A) = ₹10,00,000; Depreciation actually allowed in relation to that preceding tax year (D) = ₹1,50,000; Actual cost of additions acquired during the tax year (B) = ₹3,00,000; Moneys payable on disposal of an asset (C) = ₹2,00,000; Slump sale reduction (E) = ₹0.",
+    "scenario": "Beta Manufacturing holds an existing block of machinery and undertakes both an acquisition and a disposal of machinery during the tax year. It must determine the written down value of the block for the current tax year.",
+    "walkthrough": "Step 1: Compute opening WDV reduced by preceding year's depreciation under section 41(1)(c): (A - D) = ₹10,00,000 - ₹1,50,000 = ₹8,50,000.\nStep 2: Add the actual cost of additions during the year (B) under section 41(1)(c): ₹8,50,000 + ₹3,00,000 = ₹11,50,000.\nStep 3: Deduct moneys payable for the asset sold (C) under section 41(1)(c): ₹11,50,000 - ₹2,00,000 = ₹9,50,000 (observing that ₹2,00,000 does not exceed ₹11,50,000).\nStep 4: Deduct the slump sale adjustment (E) under section 41(1)(c): ₹9,50,000 - ₹0 = ₹9,50,000.",
+    "takeaway": "Under section 41(1)(c), the written down value of the block of assets for the tax year is ₹9,50,000."
+  },
+  "mcqs": [
+    {
+      "question": "In the block of assets WDV formula [(A - D) + B - C] - E under section 41(1)(c), what does component 'C' represent?",
+      "options": [
+        "The market value of assets sold or discarded during the tax year, not exceeding A + B",
+        "Moneys payable together with scrap value, if any, for assets sold, transferred, demolished, destroyed or discarded, where C shall not exceed (A - D) + B",
+        "Depreciation actually allowed on discarded assets in the current tax year",
+        "The actual cost of assets transferred pursuant to a slump sale"
+      ],
+      "answer": 1,
+      "explanation": "Section 41(1)(c) defines 'C' as moneys payable together with scrap value, if any, in respect of any asset falling within the block which is sold, transferred, demolished, destroyed or discarded during the tax year, capped at (A - D) + B. Other options incorrectly describe market value, depreciation, or slump sale amounts."
+    },
+    {
+      "question": "Under section 41(2), when an amalgamating company transfers a block of assets to an amalgamated Indian company, what is the actual cost of the block to the amalgamated company?",
+      "options": [
+        "The written down value of the block of assets of the amalgamating company in the immediately preceding tax year as reduced by depreciation actually allowed in respect of that block in relation to that tax year",
+        "The fair market value of the block of assets determined on the date of amalgamation",
+        "The original actual cost to the amalgamating company without any deduction for past depreciation",
+        "The net book value recorded in the books of account of the amalgamating company"
+      ],
+      "answer": 0,
+      "explanation": "Section 41(2) explicitly provides that the actual cost to the amalgamated Indian company shall be the same as the written down value of the block in the case of the amalgamating company in the immediately preceding tax year reduced by depreciation actually allowed for that tax year. Fair market value and net book value are not provided in the section."
+    },
+    {
+      "question": "According to section 41(5), where a block of assets is transferred by a private company to a limited liability partnership under section 70(1)(ze), what is the actual cost in the hands of the LLP?",
+      "options": [
+        "The fair market value of the assets as on the date of conversion",
+        "The actual cost of the block to the company reduced by book depreciation",
+        "The written down value in the hands of the company as on the date of conversion of the company into limited liability partnership",
+        "The written down value in the hands of the company at the close of the immediately preceding tax year"
+      ],
+      "answer": 2,
+      "explanation": "Section 41(5) provides that the actual cost of the block of assets in the hands of the limited liability partnership shall be the written down value in the hands of the said company as on the date of conversion of the company into limited liability partnership."
+    },
+    {
+      "question": "Under section 41(10), how is depreciation computed for written down value purposes when an assessee derives composite income partly from agriculture and partly from business?",
+      "options": [
+        "Depreciation is apportioned between agriculture and business in proportion to their respective gross receipts",
+        "No depreciation is deemed to be allowed on assets used in agricultural operations",
+        "Depreciation is computed solely on assets used exclusively for business operations",
+        "The total amount of depreciation is computed as if the entire income is derived from the business under 'Profits and gains of business or profession'"
+      ],
+      "answer": 3,
+      "explanation": "Section 41(10) specifies that the total amount of depreciation shall be computed as if the entire income is derived from the business of the assessee under the head 'Profits and gains of business or profession', and this is deemed actually allowed."
+    },
+    {
+      "question": "Under section 41(8), which amount is deemed to be depreciation actually allowed for the purposes of section 41?",
+      "options": [
+        "Any allowance in respect of any depreciation carried forward under section 33(11)",
+        "Depreciation provided in the books of account exceeding tax limits",
+        "Unclaimed depreciation from previous assessment years",
+        "Additional depreciation claimed during a business succession"
+      ],
+      "answer": 0,
+      "explanation": "Section 41(8) explicitly provides that any allowance in respect of any depreciation carried forward under section 33(11) shall be deemed to be the depreciation actually allowed."
+    }
+  ],
+  "mnemonics": [
+    {
+      "device": "STDDD",
+      "stands_for": [
+        {
+          "letter": "S",
+          "meaning": "Sold"
+        },
+        {
+          "letter": "T",
+          "meaning": "Transferred"
+        },
+        {
+          "letter": "D",
+          "meaning": "Demolished"
+        },
+        {
+          "letter": "D",
+          "meaning": "Destroyed"
+        },
+        {
+          "letter": "D",
+          "meaning": "Discarded"
+        }
+      ],
+      "tip": "Use STDDD to recall all five statutory asset events under section 41(1)(c) whose proceeds and scrap value reduce the block under component C."
+    }
+  ],
+  "model": "gemini-3.8-flash"
+}
